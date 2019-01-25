@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f50a0d10-7d5a-4bf2-bce2-56285ee14d2c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The Path Less Travelled/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The Path Less Travelled/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The Path Less Travelled/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The Path Less Travelled/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The Path Less Travelled/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The Path Less Travelled/riderModule.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/SpriteMan3D/Scripts/PersonPlayerController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#84#0" expanded="true" />
+                <marker date="1546617500397" expanded="true" signature="106:5828" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="113:209" ph="/// A simple Input controller for detecting player actions. ... " />
+                <marker date="1546617500397" expanded="true" signature="351:5826" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="366:443" ph="/// A character's walking speed. ... " />
+                <marker date="1546617500397" expanded="true" signature="489:566" ph="/// A character's running speed. ... " />
+                <marker date="1546617500397" expanded="true" signature="611:843" ph="/// A character's jump velocity. ... " />
+                <marker date="1546617500397" expanded="true" signature="888:980" ph="/// How far to look for the distance to ground. ... " />
+                <marker date="1546617500397" expanded="true" signature="1040:1127" ph="/// The collider used for a mellee attack. ... " />
+                <marker date="1546617500397" expanded="true" signature="1177:1264" ph="/// Determines if this character can move. ... " />
+                <marker date="1546617500397" expanded="true" signature="1309:1396" ph="/// Determines if this character can jump. ... " />
+                <marker date="1546617500397" expanded="true" signature="1441:1530" ph="/// Determines if this character can attack. ... " />
+                <marker date="1546617500397" expanded="true" signature="1951:2232" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="2280:2469" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="2497:2543" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="2570:3991" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="2605:3981" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="2994:3068" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="3307:3510" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="3597:3708" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="3875:3967" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="4026:4458" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="4061:4448" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="4259:4434" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="4497:4747" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="4532:4737" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="4633:4723" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="4784:5413" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="4821:5403" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="4873:5152" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="5036:5134" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="5173:5389" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="5229:5320" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="5423:5520" ph="/// called as animation event from Attack animation. ... " />
+                <marker date="1546617500397" expanded="true" signature="5554:5617" ph="{...}" />
+                <marker date="1546617500397" expanded="true" signature="5627:5724" ph="/// called as animation event from Attack animation. ... " />
+                <marker date="1546617500397" expanded="true" signature="5756:5820" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/SpriteMan3D/Scripts/SpriteManagerState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlwaysFaceMainCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpriteMan3D/Scripts/SpriteManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SimpleSpriteAnimator/SimpleSpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlterSpriteBasedOnMainCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpriteMan3D/Scripts/PersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpriteMan3D/Scripts/PersonPlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpriteMan3D/Editor/Viewers/SpriteManStateViewer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SimpleSpriteAnimator/Scenes_Demo/Demo_SimpleSpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlwaysFaceMainCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleSpriteAnimator/SimpleSpriteAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlterSpriteBasedOnMainCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpriteMan3D/Editor/Viewers/SpriteManStateViewer.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpriteMan3D/Scripts/PersonPlayerController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="riderModule/invalid/Default Android Facet" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1910" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f50a0d10-7d5a-4bf2-bce2-56285ee14d2c" name="Default" comment="" />
+      <created>1539987770097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539987770097</updated>
+      <workItem from="1539987772687" duration="1265000" />
+      <workItem from="1540220888135" duration="49000" />
+      <workItem from="1540221206288" duration="3744000" />
+      <workItem from="1541170448530" duration="11089000" />
+      <workItem from="1542750651498" duration="989000" />
+      <workItem from="1546614035855" duration="330000" />
+      <workItem from="1546615048770" duration="3049000" />
+      <workItem from="1548433956022" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20525000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26644295" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Captures" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Unity" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Android Profiler" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="16" />
+      <window_info anchor="bottom" id="Logcat" order="17" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Device File Explorer" order="7" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AlwaysFaceMainCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <marker date="1539988430238" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539988430238" expanded="true" signature="130:570" ph="{...}" />
+            <marker date="1539988430238" expanded="true" signature="204:283" ph="{...}" />
+            <marker date="1539988430238" expanded="true" signature="338:568" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SimpleSpriteAnimator/Scenes_Demo/Demo_SimpleSpriteAnimator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1508709258000" expanded="false" signature="6:104" ph="..." />
+            <marker date="1508709258000" expanded="true" signature="164:2005" ph="{...}" />
+            <marker date="1508709258000" expanded="false" signature="227:1998" ph="BUTTONS" />
+            <marker date="1508709258000" expanded="true" signature="282:589" ph="{...}" />
+            <marker date="1508709258000" expanded="true" signature="385:434" ph="{...}" />
+            <marker date="1508709258000" expanded="true" signature="630:934" ph="{...}" />
+            <marker date="1508709258000" expanded="true" signature="732:780" ph="{...}" />
+            <marker date="1508709258000" expanded="true" signature="976:1283" ph="{...}" />
+            <marker date="1508709258000" expanded="true" signature="1079:1128" ph="{...}" />
+            <marker date="1508709258000" expanded="true" signature="1326:1637" ph="{...}" />
+            <marker date="1508709258000" expanded="true" signature="1431:1482" ph="{...}" />
+            <marker date="1508709258000" expanded="true" signature="1678:1985" ph="{...}" />
+            <marker date="1508709258000" expanded="true" signature="1781:1830" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AlterSpriteBasedOnMainCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <marker date="1541176916597" expanded="false" signature="6:157" ph="..." />
+            <marker date="1541176916597" expanded="true" signature="217:1506" ph="{...}" />
+            <marker date="1541176916597" expanded="true" signature="516:659" ph="{...}" />
+            <marker date="1541176916597" expanded="true" signature="713:1221" ph="{...}" />
+            <marker date="1541176916597" expanded="true" signature="910:981" ph="{...}" />
+            <marker date="1541176916597" expanded="true" signature="989:1023" ph="{...}" />
+            <marker date="1541176916597" expanded="true" signature="1068:1121" ph="{...}" />
+            <marker date="1541176916597" expanded="true" signature="1170:1218" ph="{...}" />
+            <marker date="1541176916597" expanded="true" signature="1253:1504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraZone.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1541208807428" expanded="false" signature="6:78" ph="..." />
+            <marker date="1541208807428" expanded="true" signature="119:410" ph="{...}" />
+            <marker date="1541208807428" expanded="true" signature="190:408" ph="{...}" />
+            <marker date="1541208807428" expanded="true" signature="238:405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteMan3D/Scripts/SpriteManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1515969338000" expanded="false" signature="6:71" ph="..." />
+            <marker date="1515969338000" expanded="true" signature="94:389" ph="{...}" />
+            <marker date="1515969338000" expanded="true" signature="101:252" ph="/// A sprite manager controls all aspects of animating a multi-directional 2D sprite character in 3D environments ... " />
+            <marker date="1515969338000" expanded="true" signature="375:387" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteMan3D/Scripts/SpriteManagerState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1515969202000" expanded="false" signature="6:90" ph="..." />
+            <marker date="1515969202000" expanded="true" signature="123:2549" ph="{...}" />
+            <marker date="1515969202000" expanded="true" signature="130:251" ph="/// SpriteManagerState scriptable object can be saved to disk and loaded at runtime. ... " />
+            <marker date="1515969202000" expanded="true" signature="339:2547" ph="{...}" />
+            <marker date="1515969202000" expanded="true" signature="354:433" ph="/// Whether to billboard a sprite. ... " />
+            <marker date="1515969202000" expanded="true" signature="473:560" ph="/// The direction mode of a SpriteManager. ... " />
+            <marker date="1515969202000" expanded="true" signature="613:700" ph="/// Reflect east to west, or west to east. ... " />
+            <marker date="1515969202000" expanded="true" signature="755:842" ph="/// All state mappings of a SpriteManager. ... " />
+            <marker date="1515969202000" expanded="true" signature="905:983" ph="/// ISpriteManagerState.Billboard ... " />
+            <marker date="1515969202000" expanded="true" signature="1013:1110" ph="{...}" />
+            <marker date="1515969202000" expanded="true" signature="1120:1202" ph="/// ISpriteManagerState.DirectionMode ... " />
+            <marker date="1515969202000" expanded="true" signature="1245:1350" ph="{...}" />
+            <marker date="1515969202000" expanded="true" signature="1360:1443" ph="/// ISpriteManagerState.ReflectionMode ... " />
+            <marker date="1515969202000" expanded="true" signature="1488:1595" ph="{...}" />
+            <marker date="1515969202000" expanded="true" signature="1605:1686" ph="/// ISpriteManagerState.StateMapping ... " />
+            <marker date="1515969202000" expanded="true" signature="1738:1841" ph="{...}" />
+            <marker date="1515969202000" expanded="true" signature="1851:1967" ph="/// Deep clones this SpriteManagerState ... " />
+            <marker date="1515969202000" expanded="true" signature="1997:2541" ph="{...}" />
+            <marker date="1515969202000" expanded="true" signature="2356:2450" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SimpleSpriteAnimator/SimpleSpriteAnimator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="132" column="70" selection-start-line="132" selection-start-column="70" selection-end-line="132" selection-end-column="70" />
+          <folding>
+            <marker date="1540224764430" expanded="false" signature="6:111" ph="..." />
+            <marker date="1540224764430" expanded="true" signature="133:3267" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="187:3264" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="746:1081" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="849:1077" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="886:1021" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="1129:1907" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="1178:1645" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="1184:1288" ph="/* if (m_CurrentPlaing == m_AllAnimations [_name]) { ... */" />
+            <marker date="1540224764430" expanded="true" signature="1496:1590" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="1958:2668" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="2064:2324" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="2070:2145" ph="/* child is your child transform ... */" />
+            <marker date="1540224764430" expanded="true" signature="2275:2317" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="2465:2611" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="2712:2826" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="2777:2822" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="2848:3159" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="2856:2992" ph="/* if (m_isNowPlaying == true) { ... */" />
+            <marker date="1540224764430" expanded="true" signature="3026:3155" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="3028:3109" ph="/* m_CurrentPlaing.gameObject.SetActive (true); ... */" />
+            <marker date="1540224764430" expanded="true" signature="3177:3189" ph="{...}" />
+            <marker date="1540224764430" expanded="true" signature="3207:3254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteMan3D/Scripts/PersonController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <folding>
+            <marker date="1515969218000" expanded="true" signature="41:2471" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="48:141" ph="/// The character controller used to update an Animator. ... " />
+            <marker date="1515969218000" expanded="true" signature="191:2469" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="206:298" ph="/// The sprite manager this controller updates. ... " />
+            <marker date="1515969218000" expanded="true" signature="347:456" ph="/// Gets or sets whether an attack started in the current frame. ... " />
+            <marker date="1515969218000" expanded="true" signature="526:774" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="552:618" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="634:764" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="783:901" ph="/// Gets or sets whether this character is grounded in the current frame. ... " />
+            <marker date="1515969218000" expanded="true" signature="965:1204" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="991:1054" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="1070:1194" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="1213:1326" ph="/// Gets or sets whether a character is moving in the current frame. ... " />
+            <marker date="1515969218000" expanded="true" signature="1386:1619" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="1412:1473" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="1489:1609" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="1628:1742" ph="/// Gets or sets whether a character is running in the current frame. ... " />
+            <marker date="1515969218000" expanded="true" signature="1804:2040" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="1830:1892" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="1908:2030" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="2049:2155" ph="/// Gets or sets whether a jump started in the current frame. ... " />
+            <marker date="1515969218000" expanded="true" signature="2221:2463" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="2247:2311" ph="{...}" />
+            <marker date="1515969218000" expanded="true" signature="2327:2453" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteMan3D/Editor/Viewers/SpriteManStateViewer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <marker date="1546615243345" expanded="false" signature="6:107" ph="..." />
+            <marker date="1546615243345" expanded="true" signature="150:1649" ph="{...}" />
+            <marker date="1546615243345" expanded="true" signature="406:1647" ph="{...}" />
+            <marker date="1546615243345" expanded="true" signature="539:1641" ph="{...}" />
+            <marker date="1546615243345" expanded="true" signature="580:1631" ph="{...}" />
+            <marker date="1546615243345" expanded="true" signature="840:1519" ph="{...}" />
+            <marker date="1546615243345" expanded="true" signature="974:1501" ph="{...}" />
+            <marker date="1546615243345" expanded="true" signature="1232:1479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ORK Framework/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Movinarc/PackageUninstaller/Editor/PUSelection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteMan3D/Scripts/PersonPlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+            <marker date="1546617500397" expanded="true" signature="106:5828" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="113:209" ph="/// A simple Input controller for detecting player actions. ... " />
+            <marker date="1546617500397" expanded="true" signature="351:5826" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="366:443" ph="/// A character's walking speed. ... " />
+            <marker date="1546617500397" expanded="true" signature="489:566" ph="/// A character's running speed. ... " />
+            <marker date="1546617500397" expanded="true" signature="611:843" ph="/// A character's jump velocity. ... " />
+            <marker date="1546617500397" expanded="true" signature="888:980" ph="/// How far to look for the distance to ground. ... " />
+            <marker date="1546617500397" expanded="true" signature="1040:1127" ph="/// The collider used for a mellee attack. ... " />
+            <marker date="1546617500397" expanded="true" signature="1177:1264" ph="/// Determines if this character can move. ... " />
+            <marker date="1546617500397" expanded="true" signature="1309:1396" ph="/// Determines if this character can jump. ... " />
+            <marker date="1546617500397" expanded="true" signature="1441:1530" ph="/// Determines if this character can attack. ... " />
+            <marker date="1546617500397" expanded="true" signature="1951:2232" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="2280:2469" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="2497:2543" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="2570:3991" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="2605:3981" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="2994:3068" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="3307:3510" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="3597:3708" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="3875:3967" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="4026:4458" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="4061:4448" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="4259:4434" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="4497:4747" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="4532:4737" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="4633:4723" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="4784:5413" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="4821:5403" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="4873:5152" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="5036:5134" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="5173:5389" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="5229:5320" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="5423:5520" ph="/// called as animation event from Attack animation. ... " />
+            <marker date="1546617500397" expanded="true" signature="5554:5617" ph="{...}" />
+            <marker date="1546617500397" expanded="true" signature="5627:5724" ph="/// called as animation event from Attack animation. ... " />
+            <marker date="1546617500397" expanded="true" signature="5756:5820" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
