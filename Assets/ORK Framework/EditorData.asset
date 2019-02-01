@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: EditorData
   m_EditorClassIdentifier: 
   lastProject: {fileID: 11400000, guid: 96ecff9188e024f45bb9e5fd87c3610c, type: 2}
-  section: 5
-  subSection: 0
+  section: 8
+  subSection: 10
   tabIndex: 0
   scrollY: 0
   helpDrag: 220
@@ -30,15 +30,31 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   eventAsset:
+  - {fileID: 11400000, guid: 440a49e36d36f2748ad520ebf7c97374, type: 2}
+  - {fileID: 11400000, guid: fd61156117b940848844aa0b11c6d466, type: 2}
+  - {fileID: 11400000, guid: 6deacc055aafca74f961d68c4d151b10, type: 2}
+  - {fileID: 11400000, guid: 3f6762fbb908a59408d343e59c480945, type: 2}
+  - {fileID: 11400000, guid: 8ed7238ddf9842a45b52dfe198299edc, type: 2}
+  - {fileID: 11400000, guid: e8da8ca9b73e5814b90735c28e3697e5, type: 2}
+  - {fileID: 11400000, guid: e0990874eb3aa7d4db2ed5c1f6991de5, type: 2}
+  - {fileID: 11400000, guid: d2ac6076aafa60a43a966178d8f6ae17, type: 2}
   - {fileID: 11400000, guid: a0b81f37fb0500a40926570d56e70212, type: 2}
   - {fileID: 11400000, guid: 835c31eb10aca77439fd50d0f7358705, type: 2}
   gameEventAsset:
   - {fileID: 11400000, guid: a0b81f37fb0500a40926570d56e70212, type: 2}
   - {fileID: 11400000, guid: 835c31eb10aca77439fd50d0f7358705, type: 2}
-  moveEventAsset: []
-  battleEventAsset: []
-  battleStartEventAsset: []
-  battleEndEventAsset: []
+  moveEventAsset:
+  - {fileID: 11400000, guid: d2ac6076aafa60a43a966178d8f6ae17, type: 2}
+  battleEventAsset:
+  - {fileID: 11400000, guid: 8ed7238ddf9842a45b52dfe198299edc, type: 2}
+  - {fileID: 11400000, guid: e8da8ca9b73e5814b90735c28e3697e5, type: 2}
+  - {fileID: 11400000, guid: e0990874eb3aa7d4db2ed5c1f6991de5, type: 2}
+  battleStartEventAsset:
+  - {fileID: 11400000, guid: 3f6762fbb908a59408d343e59c480945, type: 2}
+  battleEndEventAsset:
+  - {fileID: 11400000, guid: 440a49e36d36f2748ad520ebf7c97374, type: 2}
+  - {fileID: 11400000, guid: fd61156117b940848844aa0b11c6d466, type: 2}
+  - {fileID: 11400000, guid: 6deacc055aafca74f961d68c4d151b10, type: 2}
   phaseChangeEventAsset: []
   variablesDefined: []
   variablesEditor: []

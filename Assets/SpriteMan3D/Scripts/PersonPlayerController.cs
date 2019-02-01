@@ -75,13 +75,15 @@ namespace SpriteMan3D
         void Update()
         {
             IsGrounded = Physics.Raycast(transform.position, -Vector3.up, distToGround + groundDistanceOffset);
-
             HandleInteract();
             HandleJump();
+            
         }
 
         void FixedUpdate()
         {
+            canMove = !ORK.Battle.InBattle && !ORK.Control.InMenu && !ORK.Control.InShop && !ORK.Control.InEvent;
+            canJump = !ORK.Battle.InBattle || !ORK.Control.InMenu || !ORK.Control.InShop || !ORK.Control.InEvent;
             HandleMove();
         }
 
