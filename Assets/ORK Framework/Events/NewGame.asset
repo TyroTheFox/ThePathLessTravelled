@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: NewGame
   m_EditorClassIdentifier: 
-  time: 10/19/2018 10:50:30 PM
-  version: 2.18.0
+  time: 2/2/2019 4:16:40 PM
+  version: 2.21.0
   data:
     name: gameEvent
     xmlData: "<gameEvent startIndex=\"0\" >\n\t<_bool blockingEvent=\"False\" blockMoveAI=\"False\"
@@ -35,10 +35,13 @@ MonoBehaviour:
       type=\"0\" minOffset=\"-5\" maxOffset=\"5\" minRandom=\"1\" maxRandom=\"99\"
       formulaID=\"0\" >\n\t\t\t\t\t<_float formulaInitialValue=\"0\" />\n\t\t\t\t\t<_bool
       onlyBattle=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<key><![CDATA[]]></key>\n\t\t\t\t\t</_string>\n\t\t\t\t</classLevel>\n\t\t\t</0>\n\t\t\t<1
-      memberIndex=\"0\" target=\"0\" id=\"0\" next=\"-1\" >\n\t\t\t\t<_float yRotation=\"0\"
+      memberIndex=\"0\" target=\"0\" id=\"0\" next=\"2\" >\n\t\t\t\t<_float yRotation=\"0\"
       />\n\t\t\t\t<_bool useMember=\"False\" onlyBattle=\"False\" setYRotation=\"False\"
       setScale=\"False\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<scale
-      1 1 1 />\n\t\t\t\t\t<nodePosition 38 190 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[SpawnPlayerStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
+      1 1 1 />\n\t\t\t\t\t<nodePosition 38 190 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[SpawnPlayerStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t\t<2
+      id=\"0\" id2=\"0\" next=\"-1\" >\n\t\t\t\t<_bool completeLog=\"False\" showConsole=\"True\"
+      active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      266 190 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[LearnLogTextStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
     lookUp:
       textures: []
       audioClips: []
