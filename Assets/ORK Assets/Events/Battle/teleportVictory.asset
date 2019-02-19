@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1453291137, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: teleportVictory
   m_EditorClassIdentifier: 
-  time: 2/3/2019 9:14:27 PM
+  time: 2/19/2019 9:32:15 PM
   version: 2.21.0
   data:
     name: battleEndEvent
@@ -20,14 +20,14 @@ MonoBehaviour:
       blockControlMaps=\"False\" blockPlayer=\"True\" blockCamera=\"True\" clearBlocks=\"False\"
       mainCamera=\"True\" cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\"
       />\n\t<_floatarrays>\n\t\t<nodePosition 38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
-      next=\"1\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      next=\"1\" >\n\t\t\t\t<_bool active=\"False\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       266 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeMusicStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<music
       channel=\"0\" type=\"0\" storedID=\"0\" id=\"3\" interpolation=\"0\" >\n\t\t\t\t\t<_float
       targetVolume=\"1\" fade=\"1\" />\n\t\t\t\t\t<_bool stored=\"False\" fromCurrentTime=\"False\"
       />\n\t\t\t\t</music>\n\t\t\t</0>\n\t\t\t<1 next=\"2\" >\n\t\t\t\t<_bool wait=\"True\"
       active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       494 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CollectBattleGainsStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<collectGains>\n\t\t\t\t\t<_float
-      closeTime=\"3\" />\n\t\t\t\t\t<_bool display=\"True\" autoClose=\"False\" blockAccept=\"False\"
+      closeTime=\"3\" />\n\t\t\t\t\t<_bool display=\"False\" autoClose=\"False\" blockAccept=\"False\"
       collectLoot=\"True\" collectExp=\"True\" useItemBox=\"False\" useAddType=\"True\"
       />\n\t\t\t\t</collectGains>\n\t\t\t</1>\n\t\t\t<2 next=\"3\" >\n\t\t\t\t<_bool
       active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
@@ -42,7 +42,10 @@ MonoBehaviour:
       0 0 0 0 />\n\t\t\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeOut>\n\t\t\t\t<fadeIn
       interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"0.5\" />\n\t\t\t\t\t<_bool alpha=\"True\"
       red=\"True\" green=\"True\" blue=\"True\" fromCurrent=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor
-      0 0 0 1 />\n\t\t\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeIn>\n\t\t\t</3>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
+      0 0 0 1 />\n\t\t\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeIn>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<target>\n\t\t\t\t\t\t<0
+      loadSceneMode=\"0\" type=\"0\" spawnID=\"0\" >\n\t\t\t\t\t\t\t<_float yRot=\"0\"
+      />\n\t\t\t\t\t\t\t<_bool isVar=\"False\" loadAsync=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<position
+      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<sceneName><![CDATA[]]></sceneName>\n\t\t\t\t\t\t\t\t<variableKey><![CDATA[]]></variableKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</target>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
     lookUp:
       textures: []
       audioClips: []

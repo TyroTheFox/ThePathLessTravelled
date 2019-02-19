@@ -3,6 +3,8 @@
   <component name="ContentModelStore">
     <e p="C:\Users\Tyro\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Tyro\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_ThePathLessTravelled.-1300618434.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Tyro\AppData\local\Android\Sdk\Platforms\android-27\Data\res" t="IncludeRecursive" />
+    <e p="C:\Users\Tyro\AppData\local\Android\Sdk\Sources\android-27" t="IncludeRecursive" />
     <e p="E:\GitHub\ThePathLessTravelled" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
@@ -253,6 +255,9 @@
           <e p="AlterSpriteBasedOnMainCamera.cs" t="Include" />
           <e p="AlwaysFaceMainCamera.cs" t="Include" />
           <e p="CameraZone.cs" t="Include" />
+          <e p="ORK Nodes" t="Include">
+            <e p="DamageCalculation.cs" t="Include" />
+          </e>
         </e>
         <e p="SimpleSpriteAnimator" t="Include">
           <e p="Scenes_Demo" t="Include">

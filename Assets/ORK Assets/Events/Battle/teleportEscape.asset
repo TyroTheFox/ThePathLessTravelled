@@ -34,7 +34,10 @@ MonoBehaviour:
       0 0 0 0 />\n\t\t\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeOut>\n\t\t\t\t<fadeIn
       interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"0.5\" />\n\t\t\t\t\t<_bool alpha=\"True\"
       red=\"True\" green=\"True\" blue=\"True\" fromCurrent=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor
-      0 0 0 1 />\n\t\t\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeIn>\n\t\t\t</2>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
+      0 0 0 1 />\n\t\t\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeIn>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<target>\n\t\t\t\t\t\t<0
+      loadSceneMode=\"0\" type=\"0\" spawnID=\"0\" >\n\t\t\t\t\t\t\t<_float yRot=\"0\"
+      />\n\t\t\t\t\t\t\t<_bool isVar=\"False\" loadAsync=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<position
+      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<sceneName><![CDATA[]]></sceneName>\n\t\t\t\t\t\t\t\t<variableKey><![CDATA[]]></variableKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</target>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
     lookUp:
       textures: []
       audioClips: []

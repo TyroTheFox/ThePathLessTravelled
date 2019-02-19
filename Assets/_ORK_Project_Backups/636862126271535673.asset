@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: ORKProject
+  m_Name: 636862126271535673
   m_EditorClassIdentifier: 
-  time: 2/19/2019 10:39:04 PM
+  time: 2/19/2019 10:37:02 PM
   version: 2.21.0
   keys:
   - editorSettings
@@ -9623,7 +9623,7 @@ MonoBehaviour:
       />\n\t\t\t\t<_bool cursorOver=\"True\" resetUnityInput=\"True\" ownScrollSpeed=\"False\"
       useAutoMinHeight=\"False\" oneline=\"False\" limitToScreen=\"False\" dragable=\"False\"
       atCursor=\"False\" followCursor=\"False\" followAtClose=\"False\" showBox=\"True\"
-      useTextTyping=\"False\" alignInputFields=\"True\" nameRelative=\"True\" showNameBox=\"False\"
+      useTextTyping=\"False\" alignInputFields=\"True\" nameRelative=\"True\" showNameBox=\"True\"
       nameAdjWidth=\"True\" nameAdjHeight=\"True\" choiceNoClickAccept=\"False\" circleUseFixedOffset=\"False\"
       circleInverse=\"False\" circleRotateSelection=\"False\" circleInterpolate=\"False\"
       circleRadialSelection=\"False\" choiceSetTitleWidth=\"False\" loop=\"False\"
@@ -9728,7 +9728,7 @@ MonoBehaviour:
       ownPortraitPosition=\"False\" ownChoiceIcon=\"False\" ownControls=\"False\"
       ownIconSize=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<screenPadding 10
       10 10 1 />\n\t\t\t\t\t<dragBounds 0 0 1920 20 />\n\t\t\t\t\t<boxBounds 10 1000
-      300 400 />\n\t\t\t\t\t<boxPadding 10 10 10 10 />\n\t\t\t\t\t<nameBounds 0 0
+      300 400 />\n\t\t\t\t\t<boxPadding 10 60 10 10 />\n\t\t\t\t\t<nameBounds 0 0
       200 50 />\n\t\t\t\t\t<namePadding 5 1 5 1 />\n\t\t\t\t\t<choiceSpacing 10 10
       />\n\t\t\t\t\t<tabsPadding 10 10 10 10 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
       Menu]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<textFormat colorID=\"0\" shadowColorID=\"1\"
@@ -9891,7 +9891,7 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<startColor 0 0 0 1 />\n\t\t\t\t\t\t\t<endColor
       0 0 0 0 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t</fade>\n\t\t\t\t</closeBoxBehaviour>\n\t\t\t</5>\n\t\t\t<6
       layerID=\"0\" heightAdjustment=\"2\" boxAnchor=\"0\" contentVerticalAlignment=\"0\"
-      alignment=\"0\" vAlignment=\"2\" textColumns=\"1\" typingIncrease=\"1\" nameAnchor=\"0\"
+      alignment=\"0\" vAlignment=\"2\" textColumns=\"1\" typingIncrease=\"1\" nameAnchor=\"6\"
       nameRelativeTo=\"0\" nameVerticalAlignment=\"0\" alignmentName=\"0\" vAlignmentName=\"2\"
       choiceMode=\"0\" choiceColumns=\"1\" columnFill=\"0\" circleChoiceAnchor=\"4\"
       choiceTitleVerticalAlignment=\"0\" alignmentTitle=\"0\" vAlignmentTitle=\"2\"
@@ -9905,7 +9905,7 @@ MonoBehaviour:
       />\n\t\t\t\t<_bool cursorOver=\"True\" resetUnityInput=\"True\" ownScrollSpeed=\"False\"
       useAutoMinHeight=\"False\" oneline=\"False\" limitToScreen=\"False\" dragable=\"False\"
       atCursor=\"False\" followCursor=\"False\" followAtClose=\"False\" showBox=\"True\"
-      useTextTyping=\"False\" alignInputFields=\"True\" nameRelative=\"True\" showNameBox=\"False\"
+      useTextTyping=\"False\" alignInputFields=\"True\" nameRelative=\"True\" showNameBox=\"True\"
       nameAdjWidth=\"True\" nameAdjHeight=\"True\" choiceNoClickAccept=\"False\" circleUseFixedOffset=\"False\"
       circleInverse=\"False\" circleRotateSelection=\"False\" circleInterpolate=\"False\"
       circleRadialSelection=\"False\" choiceSetTitleWidth=\"False\" loop=\"False\"
@@ -9999,7 +9999,7 @@ MonoBehaviour:
       />\n\t\t\t\t<_bool cursorOver=\"True\" resetUnityInput=\"True\" ownScrollSpeed=\"False\"
       useAutoMinHeight=\"False\" oneline=\"False\" limitToScreen=\"False\" dragable=\"False\"
       atCursor=\"False\" followCursor=\"False\" followAtClose=\"False\" showBox=\"True\"
-      useTextTyping=\"False\" alignInputFields=\"True\" nameRelative=\"True\" showNameBox=\"False\"
+      useTextTyping=\"False\" alignInputFields=\"True\" nameRelative=\"True\" showNameBox=\"True\"
       nameAdjWidth=\"True\" nameAdjHeight=\"True\" choiceNoClickAccept=\"False\" circleUseFixedOffset=\"False\"
       circleInverse=\"False\" circleRotateSelection=\"False\" circleInterpolate=\"False\"
       circleRadialSelection=\"False\" choiceSetTitleWidth=\"False\" loop=\"False\"
@@ -10010,7 +10010,7 @@ MonoBehaviour:
       ownPortraitPosition=\"False\" ownChoiceIcon=\"False\" ownControls=\"False\"
       ownIconSize=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<screenPadding 0
       0 0 0 />\n\t\t\t\t\t<dragBounds 0 0 1920 20 />\n\t\t\t\t\t<boxBounds 400 50
-      880 750 />\n\t\t\t\t\t<boxPadding 10 10 10 10 />\n\t\t\t\t\t<nameBounds 0 0
+      880 750 />\n\t\t\t\t\t<boxPadding 10 60 10 10 />\n\t\t\t\t\t<nameBounds 0 0
       200 50 />\n\t\t\t\t\t<namePadding 5 1 5 1 />\n\t\t\t\t\t<choiceSpacing 10 10
       />\n\t\t\t\t\t<tabsPadding 10 10 10 10 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Menu
       Big]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<textFormat colorID=\"0\" shadowColorID=\"1\"
@@ -10093,7 +10093,7 @@ MonoBehaviour:
       />\n\t\t\t\t<_bool cursorOver=\"True\" resetUnityInput=\"True\" ownScrollSpeed=\"False\"
       useAutoMinHeight=\"False\" oneline=\"False\" limitToScreen=\"False\" dragable=\"False\"
       atCursor=\"False\" followCursor=\"False\" followAtClose=\"False\" showBox=\"True\"
-      useTextTyping=\"False\" alignInputFields=\"True\" nameRelative=\"True\" showNameBox=\"False\"
+      useTextTyping=\"False\" alignInputFields=\"True\" nameRelative=\"True\" showNameBox=\"True\"
       nameAdjWidth=\"True\" nameAdjHeight=\"True\" choiceNoClickAccept=\"False\" circleUseFixedOffset=\"False\"
       circleInverse=\"False\" circleRotateSelection=\"False\" circleInterpolate=\"False\"
       circleRadialSelection=\"False\" choiceSetTitleWidth=\"False\" loop=\"False\"
