@@ -28,9 +28,6 @@
         <e p="Plugins" t="Include">
           <e p="GitHub" t="Include">
             <e p="Editor" t="Include">
-              <e p="credits.txt" t="Include" />
-              <e p="eula.txt" t="Include" />
-              <e p="ExtensionLoader.cs" t="Include" />
               <e p="UnityAPIWrapper.cs" t="Include" />
             </e>
           </e>
@@ -256,6 +253,7 @@
           <e p="AlwaysFaceMainCamera.cs" t="Include" />
           <e p="CameraZone.cs" t="Include" />
           <e p="ORK Nodes" t="Include">
+            <e p="Collect Custom Battle Gains.cs" t="Include" />
             <e p="DamageCalculation.cs" t="Include" />
           </e>
         </e>

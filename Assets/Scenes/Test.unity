@@ -550,6 +550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 179999723}
+  audioListener: {fileID: 179999723}
 --- !u!4 &405548645
 Transform:
   m_ObjectHideFlags: 0
@@ -1106,6 +1107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 559576716}
+  audioListener: {fileID: 559576716}
 --- !u!4 &864871402
 Transform:
   m_ObjectHideFlags: 0

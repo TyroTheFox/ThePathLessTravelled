@@ -134,7 +134,7 @@ namespace SpriteMan3D
             if (canJump)
             {
                 // detect jump
-                JumpStarted = playerIn.GetButtonDown("Jump");
+                //JumpStarted = playerIn.GetButtonDown("Jump");
 
                 // make the character jump
                 if (JumpStarted && IsGrounded)
