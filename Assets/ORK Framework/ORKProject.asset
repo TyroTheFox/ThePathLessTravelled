@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 2/27/2019 11:38:35 PM
+  time: 2/28/2019 11:50:37 PM
   version: 2.21.0
   keys:
   - editorSettings
@@ -2688,7 +2688,7 @@ MonoBehaviour:
     encrypted: 0
   - name: abilities
     xmlData: "<abilities>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 abilityType=\"0\"
-      damageTypeID=\"0\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\" expID=\"0\"
+      damageTypeID=\"0\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\" expID=\"11\"
       >\n\t\t\t\t<_bool ownDamageType=\"False\" hidden=\"False\" allowLvlChange=\"False\"
       allowDeadUser=\"False\" ownSelection=\"False\" useScreenCombatant=\"False\"
       ownNotifications=\"False\" ownConsoleAddAction=\"False\" ownConsoleAction=\"False\"
@@ -2882,8 +2882,8 @@ MonoBehaviour:
       attribute=\"1\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool setAttribute=\"True\"
       />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</attackAttribute>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t</attributeChanges>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</targetCriticalChange>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</variableChanges>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Mug
       Attack]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
-      abilityType=\"1\" damageTypeID=\"0\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\"
-      expID=\"0\" >\n\t\t\t\t<_bool ownDamageType=\"False\" hidden=\"False\" allowLvlChange=\"False\"
+      abilityType=\"1\" damageTypeID=\"0\" useableIn=\"1\" selectionID=\"0\" lvlType=\"2\"
+      expID=\"11\" >\n\t\t\t\t<_bool ownDamageType=\"False\" hidden=\"False\" allowLvlChange=\"False\"
       allowDeadUser=\"False\" ownSelection=\"False\" useScreenCombatant=\"False\"
       ownNotifications=\"False\" ownConsoleAddAction=\"False\" ownConsoleAction=\"False\"
       ownConsoleCast=\"False\" ownConsoleCastCancel=\"False\" ownConsoleLearning=\"False\"
@@ -4995,14 +4995,9 @@ MonoBehaviour:
     xmlData: "<abilityTrees>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 parentTreeID=\"0\"
       >\n\t\t\t\t<_bool isSubTree=\"False\" ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
       />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<ability>\n\t\t\t\t\t\t<0 abilityID=\"2\"
-      level=\"5\" finishVariableOrigin=\"0\" >\n\t\t\t\t\t\t\t<_bool isGroupAbility=\"False\"
+      level=\"4\" finishVariableOrigin=\"0\" >\n\t\t\t\t\t\t\t<_bool isGroupAbility=\"False\"
       showNotification=\"True\" showConsole=\"True\" ownName=\"False\" ownDescription=\"False\"
       />\n\t\t\t\t\t\t\t<finishVariables>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</finishVariables>\n\t\t\t\t\t\t\t<learnRequirements
-      needed=\"0\" >\n\t\t\t\t\t\t\t\t<_bool useObjectVariable=\"False\" />\n\t\t\t\t\t\t\t\t<condition
-      needed=\"0\" >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</condition>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</learnRequirements>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<learnCost>\n\t\t\t\t\t\t\t\t</learnCost>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      abilityID=\"2\" level=\"4\" finishVariableOrigin=\"0\" >\n\t\t\t\t\t\t\t<_bool
-      isGroupAbility=\"False\" showNotification=\"True\" showConsole=\"True\" ownName=\"False\"
-      ownDescription=\"False\" />\n\t\t\t\t\t\t\t<finishVariables>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</finishVariables>\n\t\t\t\t\t\t\t<learnRequirements
       needed=\"0\" >\n\t\t\t\t\t\t\t\t<_bool useObjectVariable=\"False\" />\n\t\t\t\t\t\t\t\t<condition
       needed=\"0\" >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</condition>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t\t<0
       requirementType=\"1\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0
@@ -5020,7 +5015,7 @@ MonoBehaviour:
       isCombatantType=\"True\" isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\"
       inInventory=\"True\" isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\"
       isChoosing=\"True\" isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
-      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</learnRequirements>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<learnCost>\n\t\t\t\t\t\t\t\t</learnCost>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</ability>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Shotgun
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</learnRequirements>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<learnCost>\n\t\t\t\t\t\t\t\t</learnCost>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</ability>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Shotgun
       Mage]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</abilityTrees>\n"
     lookUp:
       textures: []
@@ -6731,8 +6726,10 @@ MonoBehaviour:
       0 0 0 50 50 0 0 0 0 0 0 0 0 />\n\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t</atkAttrBonus>\n\t\t\t\t\t\t\t<defAttrBonus>\n\t\t\t\t\t\t\t\t<0
       attributeID=\"1\" >\n\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t<bonus
       0 20 50 -50 -50 0 0 20 0 0 0 20 0 />\n\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t</defAttrBonus>\n\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t</custom>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<bonuses>\n\t\t\t\t\t\t</bonuses>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bonus>\n\t\t\t\t<autoEffects>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t<attackEffect>\n\t\t\t\t\t\t</attackEffect>\n\t\t\t\t\t\t<defenceEffect>\n\t\t\t\t\t\t</defenceEffect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</autoEffects>\n\t\t\t\t<abilityDevelopment>\n\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t<abilityDevelopmentID
-      />\n\t\t\t\t\t</_intarrays>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<atLevel>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t\t<0
-      atLevel=\"20\" abilityTreeID=\"0\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\"
+      />\n\t\t\t\t\t</_intarrays>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<atLevel>\n\t\t\t\t\t\t\t<0
+      atLevel=\"1\" abilityID=\"2\" abilityLevel=\"5\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\"
+      isGroupAbility=\"False\" showNotification=\"True\" showConsole=\"True\" />\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t\t<0
+      atLevel=\"1\" abilityTreeID=\"0\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\"
       showConsole=\"True\" />\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</abilityTree>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</abilityDevelopment>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Shotgun
       Mage]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
       menuID=\"0\" turnBasedMenuID=\"0\" activeTimeMenuID=\"0\" realTimeMenuID=\"0\"
@@ -11059,7 +11056,7 @@ MonoBehaviour:
       closeVolume=\"1\" failVolume=\"1\" />\n\t\t\t\t<_bool rememberSelection=\"False\"
       allClosedResetSelection=\"False\" blockControl=\"True\" blockControlMaps=\"True\"
       pauseNotifications=\"False\" singleScreen=\"True\" closeOn2nd=\"True\" close2ndFocused=\"False\"
-      closeFocusLost=\"False\" pauseGame=\"False\" pauseTime=\"False\" freezePause=\"False\"
+      closeFocusLost=\"False\" pauseGame=\"True\" pauseTime=\"False\" freezePause=\"False\"
       setTimeScale=\"False\" setORKScale=\"False\" useKey=\"True\" useReq=\"True\"
       useCloseKey=\"False\" closeKeyNoReturn=\"False\" closeKeyAll=\"False\" aliveUser=\"False\"
       noHiddenUser=\"False\" battleGroupUser=\"False\" allowNonPlayer=\"False\" allowComChange=\"False\"
@@ -11067,7 +11064,7 @@ MonoBehaviour:
       openWaitForEvent=\"False\" closeWaitForEvent=\"False\" closeEventAfterFading=\"True\"
       eventOnlyWhenClosing=\"False\" ownMusic=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Overview]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<part>\n\t\t\t\t\t\t<0
       guiBoxID=\"6\" >\n\t\t\t\t\t\t\t<_bool close=\"False\" useTitle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[ButtonListMenuPart]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<contentLayout
-      type=\"2\" infoType=\"0\" >\n\t\t\t\t\t\t\t\t<_bool hideEmptyInfo=\"False\"
+      type=\"0\" infoType=\"0\" >\n\t\t\t\t\t\t\t\t<_bool hideEmptyInfo=\"False\"
       />\n\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t<_bool useCustomSkin=\"False\"
       setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t</contentLayout>\n\t\t\t\t\t\t\t<headerTexts>\n\t\t\t\t\t\t\t\t<_bool
       useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t</headerTexts>\n\t\t\t\t\t\t\t<backButton
@@ -11784,18 +11781,18 @@ MonoBehaviour:
       closeOn2nd=\"False\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"True\"
       pauseTime=\"True\" freezePause=\"True\" setTimeScale=\"False\" setORKScale=\"False\"
       useKey=\"False\" useReq=\"False\" useCloseKey=\"False\" closeKeyNoReturn=\"False\"
-      closeKeyAll=\"False\" aliveUser=\"True\" noHiddenUser=\"False\" battleGroupUser=\"False\"
+      closeKeyAll=\"False\" aliveUser=\"False\" noHiddenUser=\"False\" battleGroupUser=\"False\"
       allowNonPlayer=\"False\" allowComChange=\"False\" changeOnlyBattle=\"True\"
       allowPartChange=\"False\" noGeneralBG=\"False\" ownBG=\"False\" openWaitForEvent=\"False\"
       closeWaitForEvent=\"False\" closeEventAfterFading=\"True\" eventOnlyWhenClosing=\"False\"
       ownMusic=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Level Down]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<part>\n\t\t\t\t\t\t<0
       startParentTypeID=\"0\" nextTypeKey=\"0\" prevTypeKey=\"0\" typeKeysAudioType=\"1\"
-      typeDisplay=\"1\" display=\"3\" guiBoxID=\"7\" guiBoxID2=\"0\" abilityPortraitTypeID=\"0\"
+      typeDisplay=\"3\" display=\"2\" guiBoxID=\"7\" guiBoxID2=\"7\" abilityPortraitTypeID=\"0\"
       hudPlacement=\"1\" >\n\t\t\t\t\t\t\t<_bool closeAfter=\"False\" closeAfterNoReturn=\"False\"
       closeAfterAll=\"False\" allTypes=\"True\" enableTypeTooltip=\"False\" setStartParentType=\"False\"
       addAllTypeChoice=\"False\" allTypeChoiceFirst=\"True\" useTypeKeys=\"False\"
-      showEmptyTypes=\"False\" useTypeTitle=\"False\" useNewTypeContentLayout=\"False\"
-      startFocused=\"False\" showAbilityPortraits=\"False\" addLearned=\"True\" addLevelUp=\"True\"
+      showEmptyTypes=\"True\" useTypeTitle=\"False\" useNewTypeContentLayout=\"False\"
+      startFocused=\"True\" showAbilityPortraits=\"False\" addLearned=\"True\" addLevelUp=\"True\"
       addLearnable=\"True\" addNotLearnable=\"True\" useTitle=\"False\" enableTooltip=\"False\"
       useAdvancedLayout=\"False\" displayLevelPoints=\"True\" showLearnQuestion=\"True\"
       showLevelUpQuestion=\"True\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[AbilityTreeMenuPart]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<typeSorter
@@ -11834,86 +11831,7 @@ MonoBehaviour:
       anchor=\"0\" relativeTo=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float width=\"100\"
       height=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool useLastElement=\"True\" isPercentWidth=\"True\"
       adjustWidth=\"True\" isPercentHeight=\"False\" adjustHeight=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<position
-      0 0 />\n\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t</bounds>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</levelPointsElement>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t<_bool
-      showOkButton=\"False\" showCancelButton=\"False\" unfocusedControl=\"False\"
-      />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[CombatantMenuPart]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<infoDisplay
-      guiBoxID=\"6\" scope=\"0\" >\n\t\t\t\t\t\t\t\t<_bool isButton=\"False\" allowDragSort=\"False\"
-      showChoiceIcon=\"False\" />\n\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t<_bool
-      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t<pageKeys
-      nextPageKey=\"0\" prevPageKey=\"0\" pageAudioType=\"2\" >\n\t\t\t\t\t\t\t\t\t<_bool
-      acceptNext=\"False\" usePageKeys=\"False\" />\n\t\t\t\t\t\t\t\t</pageKeys>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<page>\n\t\t\t\t\t\t\t\t\t\t<0
-      hudID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_bool useTitle=\"True\" useHUD=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[%n]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t</title>\n\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<statusElement>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0
-      type=\"2\" combatantOrigin=\"0\" originTargetIndex=\"0\" hasStatusPreview=\"2\"
-      isPreviewBlink=\"2\" isMenuUser=\"2\" isShopUser=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      useRequirements=\"False\" checkGameStates=\"False\" box=\"False\" noFlash=\"False\"
-      outsideBounds=\"False\" showBackground=\"False\" expandBoundsBG=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[HUDStatus]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<status
-      origin=\"0\" listValues=\"3\" statusID=\"0\" listTypeID=\"0\" listType=\"1\"
-      listCheck=\"0\" listValue=\"0\" listValue2=\"0\" limitIn=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
-      barLimitMin=\"0\" barLimitMax=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      enableTooltip=\"False\" usePreviewBlink=\"True\" keepListPosition=\"False\"
-      checkValue=\"False\" useBar=\"False\" limitBarDisplay=\"False\" overrideBar=\"False\"
-      previewUseNoChangeValueText=\"True\" previewUseNoChangeChangeText=\"True\" previewOwnMinMaxCurrentText=\"False\"
-      previewOwnMinMaxChangeText=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<off
-      0 30 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<percentFormat><![CDATA[0.0]]></percentFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<previewPositiveFormat
-      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"True\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
-      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_font
-      font=\"28\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</previewPositiveFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<previewNegativeFormat
-      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"True\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
-      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_font
-      font=\"29\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</previewNegativeFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<text
-      alignment=\"0\" vAlignment=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
-      lineSpacing=\"10\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[%n
-      - % / %m]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<textFormat
-      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"True\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
-      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_font
-      font=\"30\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<bounds
-      anchor=\"0\" relativeTo=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float width=\"100\"
-      height=\"50\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool useLastElement=\"False\"
-      isPercentWidth=\"True\" adjustWidth=\"True\" isPercentHeight=\"False\" adjustHeight=\"True\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<position
-      0 0 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</bounds>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<1
-      type=\"2\" combatantOrigin=\"0\" originTargetIndex=\"0\" hasStatusPreview=\"2\"
-      isPreviewBlink=\"2\" isMenuUser=\"2\" isShopUser=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      useRequirements=\"False\" checkGameStates=\"False\" box=\"False\" noFlash=\"False\"
-      outsideBounds=\"False\" showBackground=\"False\" expandBoundsBG=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[HUDStatus]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<status
-      origin=\"0\" listValues=\"3\" statusID=\"0\" listTypeID=\"0\" listType=\"0\"
-      listCheck=\"0\" listValue=\"0\" listValue2=\"0\" limitIn=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
-      barLimitMin=\"0\" barLimitMax=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      enableTooltip=\"False\" usePreviewBlink=\"True\" keepListPosition=\"False\"
-      checkValue=\"False\" useBar=\"False\" limitBarDisplay=\"False\" overrideBar=\"False\"
-      previewUseNoChangeValueText=\"True\" previewUseNoChangeChangeText=\"True\" previewOwnMinMaxCurrentText=\"False\"
-      previewOwnMinMaxChangeText=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<off
-      0 30 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<percentFormat><![CDATA[0.0]]></percentFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<previewPositiveFormat
-      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"True\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
-      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_font
-      font=\"31\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</previewPositiveFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<previewNegativeFormat
-      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"True\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
-      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_font
-      font=\"32\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</previewNegativeFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<text
-      alignment=\"0\" vAlignment=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
-      lineSpacing=\"10\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[%n
-      - %]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<textFormat
-      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"True\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
-      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_font
-      font=\"33\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<bounds
-      anchor=\"0\" relativeTo=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float width=\"100\"
-      height=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool useLastElement=\"True\"
-      isPercentWidth=\"True\" adjustWidth=\"True\" isPercentHeight=\"False\" adjustHeight=\"True\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<position
-      0 70 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</bounds>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t\t</statusElement>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</page>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</infoDisplay>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</part>\n\t\t\t\t</_subarrays>\n\t\t\t</8>\n\t\t</data>\n\t</_subarrays>\n</menuScreens>\n"
+      0 0 />\n\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t</bounds>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</levelPointsElement>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</part>\n\t\t\t\t</_subarrays>\n\t\t\t</8>\n\t\t</data>\n\t</_subarrays>\n</menuScreens>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -11921,12 +11839,6 @@ MonoBehaviour:
       guiSkins: []
       materials: []
       fonts:
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
-      - {fileID: 0}
       - {fileID: 0}
       - {fileID: 0}
       - {fileID: 0}

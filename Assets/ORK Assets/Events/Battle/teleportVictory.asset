@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1453291137, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: teleportVictory
   m_EditorClassIdentifier: 
-  time: 2/27/2019 5:34:55 PM
+  time: 3/1/2019 12:25:35 AM
   version: 2.21.0
   data:
     name: battleEndEvent
@@ -37,10 +37,7 @@ MonoBehaviour:
       0 0 0 0 />\n\t\t\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeOut>\n\t\t\t\t<fadeIn
       interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"0.5\" />\n\t\t\t\t\t<_bool alpha=\"True\"
       red=\"True\" green=\"True\" blue=\"True\" fromCurrent=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor
-      0 0 0 1 />\n\t\t\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeIn>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<target>\n\t\t\t\t\t\t<0
-      loadSceneMode=\"0\" type=\"0\" spawnID=\"0\" >\n\t\t\t\t\t\t\t<_float yRot=\"0\"
-      />\n\t\t\t\t\t\t\t<_bool isVar=\"False\" loadAsync=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<position
-      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<sceneName><![CDATA[]]></sceneName>\n\t\t\t\t\t\t\t\t<variableKey><![CDATA[]]></variableKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</target>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
+      0 0 0 1 />\n\t\t\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeIn>\n\t\t\t</2>\n\t\t\t<3
       next=\"1\" >\n\t\t\t\t<_bool wait=\"True\" active=\"True\" overrideNodeName=\"False\"
       />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 494 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CollectCustomBattleGains]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<collectGains>\n\t\t\t\t\t<_float
       closeTime=\"3\" />\n\t\t\t\t\t<_bool display=\"True\" autoClose=\"False\" blockAccept=\"False\"

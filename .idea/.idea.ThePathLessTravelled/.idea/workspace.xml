@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ORK Nodes/DamageCalculation.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="57" column="49" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+            <state relative-caret-position="48">
+              <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
               <folding>
                 <marker date="1551310784676" expanded="false" signature="6:128" ph="..." />
                 <marker date="1551310784676" expanded="true" signature="210:10769" ph="{...}" />
@@ -375,12 +375,12 @@
       <workItem from="1551126257611" duration="3487000" />
       <workItem from="1551130468135" duration="68000" />
       <workItem from="1551189187091" duration="6618000" />
-      <workItem from="1551282058522" duration="6528000" />
+      <workItem from="1551282058522" duration="6784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37992000" />
+    <option name="totallyTimeSpent" value="38248000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,7 +393,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="149" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20201342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1324,8 +1323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ORK Nodes/DamageCalculation.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="57" column="49" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        <state relative-caret-position="48">
+          <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
           <folding>
             <marker date="1551310784676" expanded="false" signature="6:128" ph="..." />
             <marker date="1551310784676" expanded="true" signature="210:10769" ph="{...}" />
