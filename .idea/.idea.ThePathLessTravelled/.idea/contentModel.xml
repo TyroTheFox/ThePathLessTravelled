@@ -11,6 +11,32 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Game Jam Template" t="Include">
+          <e p="GameJamTemplateReadMe.txt" t="Include" />
+          <e p="ReadMe.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="FlexibleUI" t="Include">
+              <e p="FlexibleUI.cs" t="Include" />
+              <e p="FlexibleUIButton.cs" t="Include" />
+              <e p="FlexibleUIData.cs" t="Include" />
+              <e p="FlexibleUIImage.cs" t="Include" />
+              <e p="FlexibleUISlider.cs" t="Include" />
+              <e p="FlexibleUIText.cs" t="Include" />
+            </e>
+            <e p="Menu" t="Include">
+              <e p="DontDestroy.cs" t="Include" />
+              <e p="EventSystemChecker.cs" t="Include" />
+              <e p="MenuObject.cs" t="Include" />
+              <e p="MenuSettings.cs" t="Include" />
+              <e p="Pause.cs" t="Include" />
+              <e p="PlayMusic.cs" t="Include" />
+              <e p="QuitApplication.cs" t="Include" />
+              <e p="SetAudioLevels.cs" t="Include" />
+              <e p="ShowPanels.cs" t="Include" />
+              <e p="StartOptions.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Movinarc" t="Include">
           <e p="PackageUninstaller" t="Include">
             <e p="Editor" t="Include">
@@ -249,10 +275,16 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AbilityMenuButton.cs" t="Include" />
           <e p="AlterSpriteBasedOnMainCamera.cs" t="Include" />
           <e p="AlwaysFaceMainCamera.cs" t="Include" />
           <e p="CameraZone.cs" t="Include" />
+          <e p="DontDestroyObject.cs" t="Include" />
+          <e p="GainsDisplayHandler.cs" t="Include" />
+          <e p="MenuButtonsPopulator.cs" t="Include" />
+          <e p="MenuScreenHandler.cs" t="Include" />
           <e p="ORK Nodes" t="Include">
+            <e p="CallCustomMenu.cs" t="Include" />
             <e p="Collect Custom Battle Gains.cs" t="Include" />
             <e p="DamageCalculation.cs" t="Include" />
           </e>

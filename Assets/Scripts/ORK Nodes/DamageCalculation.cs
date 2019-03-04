@@ -53,15 +53,11 @@ namespace ORKFramework.Formulas.Steps
 				if(c != null)
 				{
 					float leveling = (2 * call.user.Status.Level) / 5 + 2;
-					Debug.Log("Level: " + leveling);
 					float power = call.result;
-					Debug.Log("Power: " + power);
 					float attack = call.user.Status.GetValueAtLevel(4, call.target.Status.Level);
 					float defense = call.target.Status.GetValueAtLevel(5, call.target.Status.Level);
 					float AD = attack / defense;
-					Debug.Log("Attack/Defense: " + AD);
 					float value = (leveling * power * AD)/50 + 2;
-					Debug.Log("Damage: " + value);
 					ValueHelper.UseOperator(ref call.result, value, this.formulaOperator);
 				}
 				return this.next;

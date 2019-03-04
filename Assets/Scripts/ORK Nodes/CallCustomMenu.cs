@@ -46,7 +46,7 @@ namespace ORKFramework.Events.Steps
 		public EventObjectSetting userObject;
 
 		// in-game
-		private BaseEvent baseEvent;
+		private BaseEvent bEvent;
 
 		public CallCustomMenuScreenStep()
 		{
@@ -55,6 +55,7 @@ namespace ORKFramework.Events.Steps
 
 		public override void Execute(BaseEvent baseEvent)
 		{
+			ORK.Menu.CloseAllMenus(false);
 			if (this.setUser)
 			{
 				List<Combatant> list = this.userObject.GetCombatant(baseEvent);
@@ -65,43 +66,90 @@ namespace ORKFramework.Events.Steps
 						this.CallMenuScreen(baseEvent, list[i]);
 					break;	
 				}
-			}	
+			}
+			else
+			{
+				if (this.wait)
+					return;
+				baseEvent.StepFinished(this.next);
+			}
 		}
 
 		private void CallMenuScreen(BaseEvent baseEvent, Combatant combatant)
 		{
-			//TODO - too many menus spawning - have to limit down to just one per character leveling down
 			var menusOpen = GameObject.FindGameObjectsWithTag("CustomMenu");
 			if (menusOpen.Length == 0)
 			{
+				Debug.Log("OPEN MENU (NO OTHER MENUS)");
 				MenuScreenHandler menuScreenHandler =
 					UnityWrapper.Instantiate(externalMenuObject).GetComponent<MenuScreenHandler>();
+				MenuScreen screen = ORK.MenuScreens.Get(8);
 				if (this.wait)
 				{
 					baseEvent.SetNextStep(this.next);
-
+					screen.Combatant = combatant;
 					if (menuScreenHandler != null)
 					{
 						menuScreenHandler.SetCombatant(combatant);
-						menuScreenHandler.Open();
+						menuScreenHandler.SetBaseEvent(baseEvent, this.next, screen);
+						menuScreenHandler.order = 0;
+						//menuScreenHandler.Open();
+						
 					}
-					//screen.Show(baseEvent);
 				}
 				else
 				{
-
 					if (menuScreenHandler != null)
 					{
 						menuScreenHandler.SetCombatant(combatant);
-						menuScreenHandler.Open();
-					}
-
-					//screen.Show(null);
+						menuScreenHandler.SetBaseEvent(baseEvent, this.next, screen);
+						menuScreenHandler.order = 0;
+						//menuScreenHandler.Open();
+                    }
 				}
 			}
 			else
 			{
-				
+				MenuScreenHandler menu = menusOpen[0].GetComponent<MenuScreenHandler>();
+				if (menu != null)
+				{
+					Debug.Log("OPEN MENU (OTHER MENUS!!)");
+					MenuScreen screen = ORK.MenuScreens.Get(8);
+					screen.Combatant = combatant;
+					if (menu.GetCombatant().ID == combatant.ID)
+					{
+						menu.addToChoiceNo();
+					}
+					else
+					{
+						MenuScreenHandler menuScreenHandler = 
+							UnityWrapper.Instantiate(externalMenuObject).GetComponent<MenuScreenHandler>();
+						if (this.wait)
+						{
+							baseEvent.SetNextStep(this.next);
+		
+							if (menuScreenHandler != null)
+							{
+								menuScreenHandler.SetCombatant(combatant);
+								menuScreenHandler.SetBaseEvent(baseEvent, this.next, screen);
+								menuScreenHandler.order = menusOpen.Length;
+								//menuScreenHandler.Open();
+							}
+							
+						}
+						else
+						{
+							if (menuScreenHandler != null)
+							{
+								menuScreenHandler.SetCombatant(combatant);
+								menuScreenHandler.SetBaseEvent(baseEvent, this.next, screen);
+								menuScreenHandler.order = menusOpen.Length;
+								//menuScreenHandler.Open();
+							}
+							
+						}
+					}
+				}
 			}
 		}
 
@@ -112,7 +160,7 @@ namespace ORKFramework.Events.Steps
 		*/
 		public override string GetNodeDetails()
 		{
-			return "Custom" +
+			return "Custom Ability" +
 			       (this.wait ? " (wait)" : "");
 		}
 	}

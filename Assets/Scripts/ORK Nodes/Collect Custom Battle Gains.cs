@@ -14,9 +14,12 @@ namespace ORKFramework.Events.Steps
         [ORKEditorHelp("Wait", "Wait for the battle gains dialogue to be closed (if displayed).", "")]
         public bool wait = true;
         
-        public CollectBattleGainsSettings collectGains = new CollectBattleGainsSettings();
+        [ORKEditorHelp("Gains Screen", "Select the menu object that will be called to display gains.", "")]
+        public GameObject externalMenuObject;
         
-        List<Tuple<BattleGainsTextType, Combatant, string>> endTexts = new List<Tuple<BattleGainsTextType, Combatant, string>>();
+        private CollectBattleGainsSettings collectGains = new CollectBattleGainsSettings();
+        
+        List<Tuple<BattleGainsTextType, Combatant, string>> endTexts;
 
         string moneyText = "";
         string itemText = "";
@@ -46,19 +49,21 @@ namespace ORKFramework.Events.Steps
         {
             if(ORK.Battle.HasGains())
             {
-                ORK.Battle.CollectGainsAndNegativeExperience(
+                endTexts = 
+                    ORK.Battle.CollectGainsAndNegativeExperience(
                     collectGains.collectLoot,
-                    collectGains.collectExp, collectGains.display,
+                    collectGains.collectExp, false,
                     collectGains.autoClose ? collectGains.closeTime : -1,
                     collectGains.autoClose ? collectGains.blockAccept : false,
                     collectGains.useItemBox, collectGains.useAddType,
                     collectGains.useItemBox ? collectGains.itemBoxID.GetValue() : "",
                     baseEvent, this.next);
-
-                if(!this.collectGains.display || !this.wait)
-                {
-                    baseEvent.StepFinished(this.next);
-                }
+                
+                GainsDisplayHandler gainsHandler =
+                    UnityWrapper.Instantiate(externalMenuObject).GetComponent<GainsDisplayHandler>(); 
+                
+                gainsHandler.SetUp(endTexts, baseEvent, this.next);
+                gainsHandler.Open();
             }
             else
             {

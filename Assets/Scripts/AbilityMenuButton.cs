@@ -45,6 +45,7 @@ public class AbilityMenuButton : FlexibleUI
         {
             combatant.Abilities.Forget(ability.ID, true, true);
             var parent = transform.parent;
+            Debug.Log("Parent: " + parent.name);
             parent.GetComponent<MenuButtonsPopulator>().ChoiceMade();
             parent.GetComponent<MenuButtonsPopulator>().Clear();
         }

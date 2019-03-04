@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: levelMenu
   m_EditorClassIdentifier: 
-  time: 3/1/2019 12:28:03 AM
+  time: 3/3/2019 11:42:29 PM
   version: 2.21.0
   data:
     name: gameEvent
-    xmlData: "<gameEvent startIndex=\"0\" >\n\t<_bool blockingEvent=\"True\" blockMoveAI=\"False\"
+    xmlData: "<gameEvent startIndex=\"0\" >\n\t<_bool blockingEvent=\"False\" blockMoveAI=\"False\"
       blockActorMoveAI=\"False\" blockControlMaps=\"False\" clearFoundObjects=\"False\"
       blockPlayer=\"True\" blockCamera=\"True\" clearBlocks=\"False\" mainCamera=\"True\"
       cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\" />\n\t<_floatarrays>\n\t\t<nodePosition
