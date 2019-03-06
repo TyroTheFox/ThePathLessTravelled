@@ -135,7 +135,7 @@
     	<div class="main-body">
 	        <div class="logo"><a href="http://guavaman.com/projects/rewired" title="Rewired"><img src="files/images/rewired-logo.png" width="173" height="139" alt="Rewired" /></a></div>
                      
-          <h1>
+            <h1>
             <!-- InstanceBeginEditable name="PageHeader" -->Known Issues
       <!-- InstanceEndEditable -->
             </h1>
@@ -149,7 +149,8 @@
     </ul>
     <h3><a href="#windows">Windows:</a></h3>
     <ul>
-      <li><a href="#windows-standalone-il2cpp">Windows, IL2CPP: Rewired falls back to Unity input</a></li>
+      <li><a href="#windows-standalone-il2cpp">Windows Standalone, IL2CPP: Rewired falls back to Unity input</a></li>
+      <li><a href="#windows-directinput-joysticks-not-detected-net46">Windows Standalone, Direct Input: Joysticks not detected when using .Net 4.6 scripting backend</a></li>
       <li><a href="#windows-editor-oculus-touch-crash">Windows Editor: Crash in Unity 5.6+ with Oculus Touch</a></li>
       <li><a href="#xinput-device-name">Windows Platforms: XInput devices on Windows appear as &quot;XInput Gamepad&quot;</a></li>
       <li><a href="#windows-xinput-devices-use-x360-map">Windows Platforms: All XInput devices use the Xbox 360 Controller map when &quot;Use XInput&quot; is enabled</a></li>
@@ -175,7 +176,7 @@
     <h3><a href="#osx">OSX:</a></h3>
     <ul>
       <li><a href="#osx-standalone-il2cpp">OSX, IL2CPP: Rewired falls back to Unity input</a></li>
-      <li><a href="#osx-net46-initialization-exception">OSX, .NET 4.6 experimental backend: Throws exception on initialization</a><a href="#osx-standalone-il2cpp"> in Unity 2017.1 - Unity 2017.3</a></li>
+      <li><a href="#osx-net46-initialization-exception">OSX, .NET 4.6 experimental backend: Throws exception on initialization in Unity 2017.1 - Unity 2017.3</a></li>
       </ul>
     <h3><a href="#linux">Linux:</a></h3>
     <ul>
@@ -241,10 +242,14 @@
 <p>&nbsp;</p>
 <h2><a name="windows" id="windows"></a>Windows</h2>
 <p>&nbsp;</p>
-<h3><a name="windows-standalone-il2cpp" id="windows-standalone-il2cpp"></a>Windows, IL2CPP: Rewired falls back to Unity input</h3>
-<p>IL2CPP building is a brand new feature added in Unity 2018.</p>
-<p>Rewired is not compatible with the IL2CPP scripting backend on desktop Standalone platforms at this time. If you build to IL2CPP on a Standalone platform, Rewired will fall back to non-native Unity input mode and many features such as support for 20+ buttons per-controller, controller vibration, universal XInput device compatibility (Windows), gyro/accelerometer support certain devices, much more robust device detection and support, and more will be unavailable.</p>
-<p>Support for IL2CPP on Standalone platforms is being worked on, but there is currently no ETA due to technical issues. This documentation will be updated when support is added.</p>
+<h3><a name="windows-standalone-il2cpp" id="windows-standalone-il2cpp"></a>Windows Standalone, IL2CPP: Rewired falls back to Unity input</h3>
+<p>Support for IL2CPP on desktop platforms was added in Rewired 1.1.22.0.</p>
+<p><strong>Solution:</strong> <a href="Updating.html">Update Rewired</a>.</p>
+<p>&nbsp;</p>
+<hr />
+<h3><a name="windows-directinput-joysticks-not-detected-net46" id="windows-directinput-joysticks-not-detected-net46"></a>Windows Standalone, Direct Input: Joysticks not detected when using .Net 4.6 scripting backend</h3>
+<p>Direct Input was moved into a native DLL in Rewired 1.1.22.0 and therefore no longer has this issue which was caused by the lack of support of a particular IL instruction in the .Net 4.6 scripting backend.</p>
+<p><strong>Solution:</strong> <a href="Updating.html">Update Rewired</a>.</p>
 <p>&nbsp;</p>
 <hr />
 <h3><a name="windows-editor-oculus-touch-crash" id="windows-editor-oculus-touch-crash"></a>Windows Editor: Crash in Unity 5.6+ with Oculus Touch</h3>
@@ -371,13 +376,43 @@
 <p>&nbsp;</p>
 <hr />
 <h3><a name="uwp-il2cpp-controller-disconnect-crash" id="uwp-il2cpp-controller-disconnect-crash"></a>Windows 10 Universal IL2CPP: Crash when disconnecting controllers</h3>
-<p>There are two different disconnect crash scenarios, each with its own circumstances:</p>
-<p><strong>Scenario 1: Non-XInput controllers</strong></p>
+<p>There are three different disconnect crash scenarios, each with its own circumstances:</p>
+<p><strong>Scenario 1: XInput controllers on Unity 2018.2.0 - 2018.2.18</strong></p>
+<p><strong>Severity: <span  style="color: #ff0000">Critical</span></strong></p>
+<p><strong style="color: #008800">This issue was fixed by Unity in version 2018.2.19. Update to Unity 2018.2.19+.</strong><strong><span  style="color: #ff0000"><br />
+</span></strong></p>
+<p>Starting with Unity 2018.2.0, XInput-compatible controllers will crash the application when unplugged if the application is started with any XInput-compatible controller connected. This is a bug in Unity, not Rewired, and there is no possible workaround.</p>
+<p>This bug occurs when any script or library makes a call to any part of the Windows.Gaming.Input.Gamepad API. Simply making this call will result in Unity crashing internally the next time a controller is unplugged. Use of Windows.Gaming.Input.Gamepad is absolutely required in order to get input natively from gamepads in Windows UWP.</p>
+<p>You can easily reproduce this by creating a new Unity project and adding this script to a GameObject:</p>
+<pre class="code">using UnityEngine;
+
+public class GamepadTest : MonoBehaviour {
+#if ENABLE_WINMD_SUPPORT
+    void OnGUI() {
+        GUILayout.Label("Gamepad Count: " + Windows.Gaming.Input.Gamepad.Gamepads.Count);
+    }
+#endif
+}</pre>
+<p>Build the application and launch it with a gamepad connected. Unplug it and the application will crash with the following stack trace:</p>
+<pre class="code">UnityPlayer.dll!dynamic_array&lt;class GameControllers::Gamepads::XboxGamepad,0&gt;::erase(class GameControllers::Gamepads::XboxGamepad *,class GameControllers::Gamepads::XboxGamepad *)
+UnityPlayer.dll!GameControllers::Gamepads::XboxGamepads::UpdateCurrentGamepadList(void)
+UnityPlayer.dll!GameControllers::Gamepads::XboxGamepads::GetCurrentGamepads(void)
+UnityPlayer.dll!GameControllers::Gamepads::ProcessGamepadInput(class InputManager &,class std::map&lt;unsigned int,int,struct std::less&lt;unsigned int&gt;,class std::allocator&lt;struct std::pair&lt;unsigned int const ,int&gt; &gt; &gt; &,struct dynamic_array&lt;unsigned int,0&gt; &)
+UnityPlayer.dll!Input::PreProcess(class Vector2f const &)
+UnityPlayer.dll!UnityPlayer::AppCallbacks::DoPerformUpdateAndRender(void)
+UnityPlayer.dll!UnityPlayer::AppCallbacks::PerformUpdateAndRender(void)
+UnityPlayer.dll!UnityPlayer::AppCallbacks::_AppThreadImplementation(void *)
+UnityPlayer.dll!UnityPlayer::AppCallbacks::_AppThread(void *)
+kernel32.dll!BaseThreadInitThunk()
+ntdll.dll!RtlUserThreadStart()</pre>
+<p>This affects the .NET scripting backend and the IL2CPP scripting backend.</p>
+<p>Solution: Update to Unity 2018.2.19+.</p>
+<p><strong>Scenario 2: Non-XInput controllers</strong></p>
 <p>As of Unity 5.3.4f1, after enabling support for standard HID joysticks in the Package.appxmanifest, Unity may crash when disconnecting a non-XInput controller (also happens with XInput controllers in Untiy 2017). This is a bug in Unity, not Rewired and there is no possible workaround if you want to support any controllers besides XInput controllers. (To disable support for non-XInput controllers, remove the <a href="SpecialPlatformSupport.html#uwp-enabling-hid-joystick-support">tags added to the Package.appxmanifest mentioned here</a>.) This bug has been reported to Unity, but so far no fix has been announced.</p>
 <p>This issue does not affect Windows 10 Universal builds when using the .NET scripting backend.</p>
 <p><strong>Update:</strong> This bug has been fixed as of Unity 5.3.5p1.<br />
   <strong>Update 2:</strong> This bug has resurfaced in Unity 2017.1.</p>
-<p><strong>Scenario 2: Xbox One S controller</strong></p>
+<p><strong>Scenario 3: Xbox One S controller</strong></p>
 <p>As of Unity 2017.1, after enabling support for standard HID joysticks in the Package.appxmanifest and disabling Use XInput in the <a href="RewiredEditor.html#Settings">Rewired Editor -&gt; Settings for Windows 10 UWP</a>, the application will always crash when disconnecting an Xbox One S controller. This issue comes from the Windows HID API used to get HID device events. When Use XInput is enabled, the Xbox One S controller will be handled through the Windows.Gaming.Input API instead and no longer cause the crash.</p>
 <p>&nbsp;</p>
 <hr />
@@ -421,9 +456,8 @@ Catastrophic failure while running rrw: Mono.Cecil.AssemblyResolutionException: 
 <h2><a name="osx" id="osx"></a>OSX:</h2>
 <p>&nbsp;</p>
 <h3><a name="osx-standalone-il2cpp" id="osx-standalone-il2cpp2"></a>OSX, IL2CPP: Rewired falls back to Unity input</h3>
-<p>IL2CPP building is a brand new feature added in Unity 2018.</p>
-<p>Rewired is not compatible with the IL2CPP scripting backend on desktop Standalone platforms at this time. If you build to IL2CPP on a Standalone platform, Rewired will fall back to non-native Unity input mode and many features such as support for 20+ buttons per-controller, controller vibration, universal XInput device compatibility (Windows), gyro/accelerometer support certain devices, much more robust device detection and support, and more will be unavailable.</p>
-<p>Support for IL2CPP on Standalone platforms is being worked on, but there is currently no ETA due to technical issues. This documentation will be updated when support is added.</p>
+<p>Support for IL2CPP on desktop platforms was added in Rewired 1.1.22.0.</p>
+<p><strong>Solution:</strong> <a href="Updating.html">Update Rewired</a>.</p>
 <p>&nbsp;</p>
 <hr />
 <h3><a name="osx-net46-initialization-exception" id="osx-net46-initialization-exception"></a>OSX, .NET 4.6 experimental backend: Throws exception on initialization  in Unity 2017.1 - 2017.3</h3>
@@ -447,9 +481,7 @@ Catastrophic failure while running rrw: Mono.Cecil.AssemblyResolutionException: 
 <h2><a name="linux" id="linux"></a>Linux:</h2>
 <p>&nbsp;</p>
 <h3><a name="linux-standalone-il2cpp" id="linux-standalone-il2cpp"></a>Linux, IL2CPP: Rewired falls back to Unity input</h3>
-<p>IL2CPP building is a brand new feature added in Unity 2018.</p>
-<p>Rewired is not compatible with the IL2CPP scripting backend on desktop Standalone platforms at this time. If you build to IL2CPP on a Standalone platform, Rewired will fall back to non-native Unity input mode and many features such as support for 20+ buttons per-controller, controller vibration, universal XInput device compatibility (Windows), gyro/accelerometer support certain devices, much more robust device detection and support, and more will be unavailable.</p>
-<p>Support for IL2CPP on Standalone platforms is being worked on, but there is currently no ETA due to technical issues. This documentation will be updated when support is added.</p>
+<p>As of Unity 2018.3.0, Unity does not support IL2CPP on Linux. If/when IL2CPP support is added to Unity, Rewired versions of 1.1.22.0+ should automatically just work. Obviously this cannot be tested until Unity adds support for the platform.</p>
 <p>&nbsp;</p>
 <hr />
 <h3><a name="keyboard-stuck-linux" id="keyboard-stuck-linux"></a>Keyboard keys stuck on Linux in Unity 5.1.1</h3>
@@ -739,7 +771,7 @@ public class RewiredCustomController_AndroidRemote : MonoBehaviour {
         
     </div>
   <div class="footer clearfix">
-   	<p class="left">Copyright &copy;2014-2016 <a href="http://guavaman.com" title="Guavaman Enterprises">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</p>
+   	<p class="left">Copyright &copy;2014-2018 <a href="http://guavaman.com" title="Guavaman Enterprises">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</p>
   	<p class="right"><a href="http://guavaman.com/projects/rewired" title="Return to Rewired Website">Return to Rewired Website</a></p>
   </div>
   <!-- end .content --></div>

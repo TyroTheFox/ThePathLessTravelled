@@ -428,7 +428,7 @@ namespace Rewired.Integration.UnityUI {
 
         private bool isTouchAllowed {
             get {
-                if (!isTouchSupported) return false;
+                // if (!isTouchSupported) return false; // Removed because Unity Remote will return touches even on platforms that report touch not supported and returning on this will break it.
                 return m_allowTouchInput;
             }
         }
@@ -1104,8 +1104,8 @@ namespace Rewired.Integration.UnityUI {
 
 #if UNITY_EDITOR
 
-        protected override void OnValidate() {
-            base.OnValidate();
+        protected void OnValidate() {
+            //base.OnValidate();
             SetupRewiredVars();
         }
 

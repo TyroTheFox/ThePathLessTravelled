@@ -62,6 +62,10 @@
 #define UNITY_PS4_2018_PLUS
 #endif
 
+#if UNITY_2018_PLUS || UNITY_2017_4_OR_NEWER
+#define PS4INPUT_NEW_PAD_API
+#endif
+
 // Copyright (c) 2015 Augie R. Maddox, Guavaman Enterprises. All rights reserved.
 #pragma warning disable 0219
 #pragma warning disable 0618
@@ -80,10 +84,24 @@ namespace Rewired.Utils {
     public class ExternalTools : IExternalTools {
 
         public object GetPlatformInitializer() {
+#if UNITY_5_PLUS
+#if (!UNITY_EDITOR && UNITY_STANDALONE_WIN) || UNITY_EDITOR_WIN
+            return Rewired.Utils.Platforms.Windows.Main.GetPlatformInitializer();
+#elif (!UNITY_EDITOR && UNITY_STANDALONE_OSX) || UNITY_EDITOR_OSX
+            return Rewired.Utils.Platforms.OSX.Main.GetPlatformInitializer();
+#elif (!UNITY_EDITOR && UNITY_STANDALONE_LINUX) || UNITY_EDITOR_LINUX
+            return Rewired.Utils.Platforms.Linux.Main.GetPlatformInitializer();
+#elif UNITY_WEBGL && !UNITY_EDITOR
+            return Rewired.Utils.Platforms.WebGL.Main.GetPlatformInitializer();
+#else
+            return null;
+#endif
+#else
 #if UNITY_WEBGL && !UNITY_EDITOR
             return Rewired.Utils.Platforms.WebGL.Main.GetPlatformInitializer();
 #else
             return null;
+#endif
 #endif
         }
 
@@ -247,7 +265,7 @@ namespace Rewired.Utils {
 #if UNITY_PS4
 
         public Vector3 PS4Input_GetLastAcceleration(int id) {
-#if UNITY_PS4_2018_PLUS
+#if PS4INPUT_NEW_PAD_API
             return UnityEngine.PS4.PS4Input.PadGetLastAcceleration(id);
 #else
             return UnityEngine.PS4.PS4Input.GetLastAcceleration(id);
@@ -255,7 +273,7 @@ namespace Rewired.Utils {
         }
 
         public Vector3 PS4Input_GetLastGyro(int id) {
-#if UNITY_PS4_2018_PLUS
+#if PS4INPUT_NEW_PAD_API
             return UnityEngine.PS4.PS4Input.PadGetLastGyro(id);
 #else
             return UnityEngine.PS4.PS4Input.GetLastGyro(id);
@@ -263,7 +281,7 @@ namespace Rewired.Utils {
         }
 
         public Vector4 PS4Input_GetLastOrientation(int id) {
-#if UNITY_PS4_2018_PLUS
+#if PS4INPUT_NEW_PAD_API
             return UnityEngine.PS4.PS4Input.PadGetLastOrientation(id);
 #else
             return UnityEngine.PS4.PS4Input.GetLastOrientation(id);
@@ -314,7 +332,7 @@ namespace Rewired.Utils {
 
         public void PS4Input_GetUsersDetails(int slot, object loggedInUser) {
             if(loggedInUser == null) throw new System.ArgumentNullException("loggedInUser");
-#if UNITY_PS4_2018_PLUS
+#if PS4INPUT_NEW_PAD_API
             UnityEngine.PS4.PS4Input.LoggedInUser user = UnityEngine.PS4.PS4Input.GetUsersDetails(slot);
 #else
             UnityEngine.PS4.PS4Input.LoggedInUser user = UnityEngine.PS4.PS4Input.PadGetUsersDetails(slot);

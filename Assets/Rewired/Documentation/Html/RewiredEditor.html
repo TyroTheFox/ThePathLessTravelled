@@ -387,9 +387,17 @@
   </tr>
   <tr>
     <td valign="top">Default Joystick Dead Zone Type</td>
-    <td valign="top"><p>The default calculation type for joystick dead zones.</p>
-      <p>Radial: X and Y are combined and the dead zone is calculated on the length of the vector.<br />
-        Axial: X and Y axes are calculated independently.<br />
+    <td valign="top"><p>The default calculation type for joystick axis dead zones.</p>
+      <p>Radial: X and Y are combined and the dead zone is calculated on the length of the vector. This allows smooth sweeping in a circular motion. This is the best choice for most games.</p>
+      <p>Axial: X and Y axes are calculated independently. Use this if your game requires more precise 4-directional movement (ie: some platformers, chess games, etc.)</p>
+      <p><br />
+        This setting only applies to joysticks on recognized controllers.</p></td>
+  </tr>
+  <tr>
+    <td valign="top">Default Joystick Sensitivity Type</td>
+    <td valign="top"><p>The default calculation type for joystick axis sensitivity.</p>
+      <p>Radial: X and Y are combined and the sensitivity is calculated on the length of the vector.</p>
+      <p>Axial: X and Y axes are calculated independently.<br />
       </p>
       <p>This setting only applies to joysticks on recognized controllers.</p></td>
   </tr>
@@ -1268,7 +1276,7 @@
         
     </div>
   <div class="footer clearfix">
-   	<p class="left">Copyright &copy;2014-2016 <a href="http://guavaman.com" title="Guavaman Enterprises">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</p>
+   	<p class="left">Copyright &copy;2014-2018 <a href="http://guavaman.com" title="Guavaman Enterprises">Guavaman Enterprises</a>. All rights reserved. No materials may be reproduced without permission.</p>
   	<p class="right"><a href="http://guavaman.com/projects/rewired" title="Return to Rewired Website">Return to Rewired Website</a></p>
   </div>
   <!-- end .content --></div>

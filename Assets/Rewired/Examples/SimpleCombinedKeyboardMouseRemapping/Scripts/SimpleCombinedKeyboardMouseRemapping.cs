@@ -19,13 +19,16 @@ namespace Rewired.Demos {
 
     using UnityEngine;
     using UnityEngine.UI;
+    using UnityEngine.EventSystems;
     using System.Collections.Generic;
+    using System.Collections;
 
     [AddComponentMenu("")]
     public class SimpleCombinedKeyboardMouseRemapping : MonoBehaviour {
 
         private const string category = "Default";
         private const string layout = "Default";
+        private const string uiCategory = "UI";
 
         private InputMapper inputMapper_keyboard = new InputMapper();
         private InputMapper inputMapper_mouse = new InputMapper();
@@ -138,7 +141,7 @@ namespace Rewired.Demos {
             }
 
             // Create Action fields and input field buttons
-            foreach(var action in ReInput.mapping.Actions) {
+            foreach(var action in ReInput.mapping.ActionsInCategory(category)) {
                 if(action.type == InputActionType.Axis) {
                     // Create a full range, one positive, and one negative field for Axis-type Actions
                     CreateUIRow(action, AxisRange.Full, action.descriptiveName);
@@ -202,6 +205,17 @@ namespace Rewired.Demos {
                 controllerMap = controllerMapWithReplacement
             };
 
+            // Begin listening for input, but use a coroutine so it starts only after a short delay to prevent
+            // the button bound to UI Submit from binding instantly when the input field is activated.
+            StartCoroutine(StartListeningDelayed(index, keyboardMap, mouseMap, actionElementMapToReplaceId));
+        }
+
+        private IEnumerator StartListeningDelayed(int index, ControllerMap keyboardMap, ControllerMap mouseMap, int actionElementMapToReplaceId) {
+
+            // Don't allow a binding for a short period of time after input field is activated
+            // to prevent button bound to UI Submit from binding instantly when input field is activated.
+            yield return new WaitForSeconds(0.1f);
+
             // Begin listening for input on both keyboard and mouse at the same time
 
             inputMapper_keyboard.Start(
@@ -212,7 +226,7 @@ namespace Rewired.Demos {
                     actionElementMapToReplace = keyboardMap.GetElementMap(actionElementMapToReplaceId)
                 }
             );
-            
+
             inputMapper_mouse.Start(
                 new InputMapper.Context() {
                     actionId = rows[index].action.id,
@@ -222,6 +236,10 @@ namespace Rewired.Demos {
                 }
             );
 
+            // Disable the UI Controller Maps while listening to prevent UI control and submissions.
+            player.controllers.maps.SetMapsEnabled(false, uiCategory);
+
+            // Update the UI text
             statusUIText.text = "Listening...";
         }
 
@@ -245,6 +263,9 @@ namespace Rewired.Demos {
 
         private void OnStopped(InputMapper.StoppedEventData data) {
             statusUIText.text = string.Empty;
+
+            // Re-enable UI Controller Maps after listening is finished.
+            player.controllers.maps.SetMapsEnabled(true, uiCategory);
         }
 
         // A small class to store information about the input field buttons

@@ -1,7 +1,110 @@
+1.1.24.0:
+
+    Changes:
+      - Updated Universal Fighting Engine integration to fix issues caused by EventSystem.current being set back to the UFE Event System instead of the Rewired Event System.
+      - Updated Universal Fighting Engine 2 integration to fix issues caused by EventSystem.current being set back to the UFE Event System instead of the Rewired Event System such as non-functioning touch controls due to recent changes in UFE2.
+      - Updated Rex Engine integration for compatibility with Rex Engine 1.38 made various changes.
+      - Updated PS4 support for Unity 2017 branch, 2017.4+ to replace deprecated API usage.
+      - Rewired Editor: Added Default Joystick Sensitivity Type option.
+      - Calibration.sensitivityCurve with time range of 0 to 1 instead of -1 to 1 will be mirrored for the negative pole of the axis automatically.
+      
+    API Changes:
+      - Made PlayerSaveData constructor internal.
+      - Moved Joystick.hardwareTypeGuid into Controller class.
+      - Added Controller.deviceInstanceGuid.
+      - Added Keyboard.deviceInstanceGuid property.
+      - Added Mouse.deviceInstanceGuid property.
+      - Added CustomController.deviceInstanceGuid property.
+      - Added AxisSensitivity2DType enum.
+      - Added Axis2DCalibration.axisSensitivtyType property;
+      - Added ReInput.ConfigHelper.defaultJoystickAxis2DSensitivityType property.
+      - Deprecated UserDataStore.OnControllerPreDiscconnect method and changed from abstract to virtual. (Spelling error.)
+      - Added UserDataStore.OnControllerPreDisconnect method.
+
+  Bug Fixes:
+      - Fixed bug causing Player.GetAxisTimeActive, Player.GetAxisRawTimeActive to return incorrect values the first time activated.
+      - Windows, Raw Input: Fixed incorrect reading of HID device path introduced in 1.1.22.0. This error caused multiple identical controllers handled by Raw Input to be identified as the same controller causing many issues with controller disconnection and device identification.
+
+1.1.23.0:
+
+    API Changes:
+      - Added ControllerStatusChangedEventArgs.controller property.
+      - Added ControllerAssignmentChangedEventArgs class.
+      - Added Player.ControllerHelper.ControllerAddedEvent event.
+      - Added Player.ControllerHelper.ControllerRemovedEvent event.
+      - Added InputActionEventType.AxisActiveOrJustInactive.
+      - Added InputActionEventType.AxisRawActiveOrJustInactive.
+    
+    Changes:
+      - Windows, Raw Input: Added support for multiple top-level HID controls on a device with identical usage page, usage, and link collection information.
+      - Removed Canvas.renderMode check and warning in Touch Controls due to an impossible to detect scenario involving runtime script compilation and Unity serialized data being cleared in an unpredicable order on objects before script recompilation begins causing Canvas.renderMode to report a value of World even if not set to World triggering the error warning.
+      - Updated Bolt integration with new InputActionEventTypes.
+
+1.1.22.4:
+    
+    Changes:
+      - Action Element Maps in Controller Map instances obtained through ReInput.MappingHelper.GetControllerInstance and related methods now contain element identifier names and element indices.
+      - Changed Gamepad Template mapping for Saitek P880 to map gamepad Left/Right Trigger to Button 7 and Button 8 instead of Left/Right Shoulder.
+
+1.1.22.3:
+    
+    Changes:
+      - Changed editor code to properly handle Unity 2018.3.0+ new prefab system workflow.
+      - Added Open Prefab button to Rewired Editor when editing a prefab instance.
+      - Control Mapper: Added Input Row Padding inspector option.
+      - Control Mapper: Added Input Row Field Spacing inspector option.
+    
+    Bug Fixes:
+      - Fixed incorrect D-Pad mappings in Thrustmaster FireStorm Dual Power mapping in Gamepad Template.
+      - Fixed issue causing buttons to sometimes trigger a "false, true, false" sequence on OSX when using Sony DualShock 4 controller connected via USB, Native input, Fixed Update enabled in Rewired Input Manager update loop settings, and Enhanced Device Support enabled.
+
+1.1.22.2:
+
+    Bug Fixes:
+      - Fixed issue causing compiler errors in OSX and Linux editors when building to Windows build target. This same issue also affected Unity Cloud Build.
+      - Changed meta files on Rewired_DirectInput.dll to get around a bug in Unity 5.x where Windows libraries were attempting to be included in OSX and Linux Standalone build targets causing an exception.
+
+1.1.22.1:
+  
+    Bug Fixes:
+      - Changed importer settings on Rewired platform-specific Standalone libraries to only be included on the correct platform in Unity 2017 and Unity 2018 versions.
+
+1.1.22.0:
+
+    Changes:
+      - Added support for IL2CPP scripting backend on Windows Standalone and OSX Standalone platforms.
+      - Changed editor detection of Rewired installation folder for compatibility with moving Rewired into a Package Manager package. Note: Using Rewired as a Package Manager package is not recommended and support for issues encountered when doing so will not be provided.
+      - Modified Rewired Standalone Input Module and Touch Controls to remove checks for UnityEngine.Input.touchSupported in order to allow Unity Remote touch input to work properly when run on an editor platform that does not support touch input.
+      - Updated SimpleControlRemapping example.
+      - Updated SimpleCombinedKeyboardMouseRemapping example.
+
+    Bug Fixes:
+      - Added D-Pad mappings to Racing Wheel Template for Logitech G29.
+      - Editor: Fixed null reference exception thrown when linking Rewired Input Manager to Rewired Standalone Input Module inspector for the first time.
+      - Editor: Fixed null reference exception thrown when linking Rewired Input Manager to Player Controller inspector for the first time.
+
+1.1.21.3:
+
+    Changes:
+      - Windows Standalone, Raw Input / Direct Input + Native Keyboard Handling: Modified to detect Backquote and Quote keys on UK keyboard layout.
+
+1.1.21.2:
+
+    Bug Fixes:
+      - DS4 battery level can no longer report negative values if invalid data is returned by hardware.
+
+1.1.21.1:
+  
+    Changes:
+      - Updated Bolt integration for Bolt 1.4.0f11.
+      
+    Bug Fixes:
+      - Fixed exception thrown on PS4 and Xbox One platforms when calling ReInput.mapping.GetJoystickMapInstance(guid, ...) method.
+
 1.1.21.0:
 
     Changes:
-      - Added Combined Keyboard and Mouse Mapping example.
+      - Added Simple Combined Keyboard Mouse Remapping example.
 
     API Changes:
       - Added InputMapper.mappingContext property.

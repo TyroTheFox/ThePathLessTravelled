@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1453291137, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: teleportVictory
   m_EditorClassIdentifier: 
-  time: 3/1/2019 8:08:13 PM
+  time: 05/03/2019 17:13:25
   version: 2.21.0
   data:
     name: battleEndEvent
@@ -25,12 +25,12 @@ MonoBehaviour:
       266 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeMusicStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<music
       channel=\"0\" type=\"0\" storedID=\"0\" id=\"3\" interpolation=\"0\" >\n\t\t\t\t\t<_float
       targetVolume=\"1\" fade=\"1\" />\n\t\t\t\t\t<_bool stored=\"False\" fromCurrentTime=\"False\"
-      />\n\t\t\t\t</music>\n\t\t\t</0>\n\t\t\t<1 next=\"2\" >\n\t\t\t\t<_bool active=\"True\"
+      />\n\t\t\t\t</music>\n\t\t\t</0>\n\t\t\t<1 next=\"5\" >\n\t\t\t\t<_bool active=\"True\"
       overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       722 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeMusicStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<music
       channel=\"0\" type=\"4\" storedID=\"0\" id=\"0\" interpolation=\"0\" >\n\t\t\t\t\t<_float
       targetVolume=\"1\" fade=\"1\" />\n\t\t\t\t\t<_bool stored=\"True\" fromCurrentTime=\"False\"
-      />\n\t\t\t\t</music>\n\t\t\t</1>\n\t\t\t<2 next=\"5\" >\n\t\t\t\t<_bool stored=\"True\"
+      />\n\t\t\t\t</music>\n\t\t\t</1>\n\t\t\t<2 next=\"-1\" >\n\t\t\t\t<_bool stored=\"True\"
       useFadeOut=\"True\" wait=\"False\" useFadeIn=\"True\" active=\"True\" overrideNodeName=\"False\"
       />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 950 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[LoadSceneStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<fadeOut
       interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"0.5\" />\n\t\t\t\t\t<_bool alpha=\"True\"
@@ -49,12 +49,15 @@ MonoBehaviour:
       456 133 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CollectBattleGainsStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<collectGains>\n\t\t\t\t\t<_float
       closeTime=\"3\" />\n\t\t\t\t\t<_bool display=\"False\" autoClose=\"False\" blockAccept=\"False\"
       collectLoot=\"True\" collectExp=\"True\" useItemBox=\"False\" useAddType=\"True\"
-      />\n\t\t\t\t</collectGains>\n\t\t\t</4>\n\t\t\t<5 next=\"-1\" >\n\t\t\t\t<_float
-      timeBetween=\"0\" />\n\t\t\t\t<_bool broadcast=\"False\" addParameter=\"False\"
-      waitBetween=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
-      1178 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Open]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[SendMessageStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
-      type=\"2\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
-      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</5>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
+      />\n\t\t\t\t</collectGains>\n\t\t\t</4>\n\t\t\t<5 origin=\"1\" next=\"2\" >\n\t\t\t\t<_bool
+      useObject=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      855 133 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeGameVariableStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<change>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t<0
+      type=\"1\" floatOperator=\"7\" vector3Operator=\"2\" >\n\t\t\t\t\t\t\t\t<_bool
+      remove=\"False\" boolValue=\"False\" vector3Normalize=\"False\" />\n\t\t\t\t\t\t\t\t<key
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[SentryDeployed]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t<1
+      type=\"1\" floatOperator=\"7\" vector3Operator=\"2\" >\n\t\t\t\t\t\t\t\t<_bool
+      remove=\"False\" boolValue=\"False\" vector3Normalize=\"False\" />\n\t\t\t\t\t\t\t\t<key
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[HealBotDeployed]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</change>\n\t\t\t</5>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
     lookUp:
       textures: []
       audioClips: []

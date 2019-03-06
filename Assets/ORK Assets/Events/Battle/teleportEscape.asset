@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1453291137, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: teleportEscape
   m_EditorClassIdentifier: 
-  time: 2/3/2019 9:16:34 PM
+  time: 05/03/2019 17:14:43
   version: 2.21.0
   data:
     name: battleEndEvent
@@ -22,7 +22,7 @@ MonoBehaviour:
       />\n\t<_floatarrays>\n\t\t<nodePosition 38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
       next=\"1\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       266 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ClearBattleGainsStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t\t<1
-      next=\"2\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      next=\"3\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       494 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeMusicStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<music
       channel=\"0\" type=\"4\" storedID=\"0\" id=\"0\" interpolation=\"0\" >\n\t\t\t\t\t<_float
       targetVolume=\"1\" fade=\"1\" />\n\t\t\t\t\t<_bool stored=\"True\" fromCurrentTime=\"False\"
@@ -37,7 +37,16 @@ MonoBehaviour:
       0 0 0 1 />\n\t\t\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeIn>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<target>\n\t\t\t\t\t\t<0
       loadSceneMode=\"0\" type=\"0\" spawnID=\"0\" >\n\t\t\t\t\t\t\t<_float yRot=\"0\"
       />\n\t\t\t\t\t\t\t<_bool isVar=\"False\" loadAsync=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<position
-      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<sceneName><![CDATA[]]></sceneName>\n\t\t\t\t\t\t\t\t<variableKey><![CDATA[]]></variableKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</target>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
+      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<sceneName><![CDATA[]]></sceneName>\n\t\t\t\t\t\t\t\t<variableKey><![CDATA[]]></variableKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</target>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
+      origin=\"1\" next=\"2\" >\n\t\t\t\t<_bool useObject=\"True\" active=\"True\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      627 114 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeGameVariableStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<change>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t<0
+      type=\"1\" floatOperator=\"7\" vector3Operator=\"2\" >\n\t\t\t\t\t\t\t\t<_bool
+      remove=\"False\" boolValue=\"False\" vector3Normalize=\"False\" />\n\t\t\t\t\t\t\t\t<key
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[SentryDeployed]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t<1
+      type=\"1\" floatOperator=\"7\" vector3Operator=\"2\" >\n\t\t\t\t\t\t\t\t<_bool
+      remove=\"False\" boolValue=\"False\" vector3Normalize=\"False\" />\n\t\t\t\t\t\t\t\t<key
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[HealBotDeployed]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</change>\n\t\t\t</3>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
     lookUp:
       textures: []
       audioClips: []

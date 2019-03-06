@@ -25,9 +25,8 @@ public class MenuScreenHandler : MonoBehaviour
     public Text choiceCount;
     public Text menuTitle;
     private BaseEvent baseEvent;
-    private List<BaseEvent> previousEvents;
+    private List<KeyValuePair<BaseEvent, int>> previousEvents;
     private int next;
-    private List<int> previousNext;
     private MenuScreen screen;
 
     public int order;
@@ -35,8 +34,7 @@ public class MenuScreenHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        previousEvents = new List<BaseEvent>();
-        previousNext = new List<int>();
+        previousEvents = new List<KeyValuePair<BaseEvent, int>>();
         if (combatant == null || menuObject == null){ return; }
         //openMenu = menuObject.activeSelf;
         menuTitle.text = "The actions of " + combatant.GetName() + " have taken their toll...";
@@ -105,8 +103,20 @@ public class MenuScreenHandler : MonoBehaviour
     public void Open(BaseEvent bE, int n)
     {
         menuObject.SetActive(true);
-        previousEvents.Add(bE);
-        previousNext.Add(n);
+        previousEvents.Add(new KeyValuePair<BaseEvent, int>(bE, n));
+        screen.Show((IEventStarter) baseEvent);
+    }
+    
+    public void Open(BaseEvent bE, int n, List<KeyValuePair<BaseEvent, int>> pE)
+    {
+        menuObject.SetActive(true);
+        int i = 0;
+        previousEvents.Add(new KeyValuePair<BaseEvent, int>(bE, n));
+        foreach (var previousEvent in pE)
+        {
+            previousEvents.Add(previousEvent);
+            i++;
+        }
         screen.Show((IEventStarter) baseEvent);
     }
 
@@ -122,8 +132,8 @@ public class MenuScreenHandler : MonoBehaviour
                 int i = 0;
                 foreach (var previousEvent in previousEvents)
                 {
-                    Debug.Log("PREVIOUS EVENT CLOSE (NO MENUS): " + previousEvent.nodeName);
-                    previousEvent.StepFinished(previousNext.IndexOf(i));
+                    Debug.Log("PREVIOUS EVENT CLOSE (NO MENUS): " + previousEvent.Key.nodeName);
+                    previousEvent.Key.StepFinished(previousEvent.Value);
                     i++;
                 }
             }
@@ -138,7 +148,8 @@ public class MenuScreenHandler : MonoBehaviour
                 if (menuHandler.order == order + 1)
                 {
                     Debug.Log("PASS TO NEXT MENU: " + baseEvent.GetNodeName());
-                    menuHandler.Open(baseEvent, next);
+                    menuHandler.Open(baseEvent, next, previousEvents);
+                    break;
                 }
             }
         }

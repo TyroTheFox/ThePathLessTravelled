@@ -90,6 +90,8 @@ namespace Rewired {
         protected override void DetectPlatform() {
             // Set the editor and platform versions
 
+            scriptingBackend = ScriptingBackend.Mono;
+            scriptingAPILevel = ScriptingAPILevel.Net20;
             editorPlatform = EditorPlatform.None;
             platform = Platform.Unknown;
             webplayerPlatform = WebplayerPlatform.None;
@@ -243,6 +245,34 @@ namespace Rewired {
             platform = Platform.Webplayer;
 
 #endif
+
+#if ENABLE_MONO
+            scriptingBackend = ScriptingBackend.Mono;
+#endif
+
+#if ENABLE_DOTNET
+            scriptingBackend = ScriptingBackend.DotNet;
+#endif
+
+#if ENABLE_IL2CPP
+            scriptingBackend = ScriptingBackend.IL2CPP;
+#endif
+
+#if NET_2_0
+            scriptingAPILevel = ScriptingAPILevel.Net20;
+#endif
+
+#if NET_2_0_SUBSET
+            scriptingAPILevel = ScriptingAPILevel.Net20Subset;
+#endif
+
+#if NET_4_6
+            scriptingAPILevel = ScriptingAPILevel.Net46;
+#endif
+
+#if NET_STANDARD_2_0
+            scriptingAPILevel = ScriptingAPILevel.NetStandard20;
+#endif
         }
 
         protected override void CheckRecompile() {
@@ -283,7 +313,7 @@ namespace Rewired {
         private void UnsubscribeEvents() {
 #if SUPPORTS_SCENE_MANAGEMENT
             SceneManager.sceneLoaded -= OnSceneLoaded;
-#endif    
+#endif
         }
 
 #if SUPPORTS_SCENE_MANAGEMENT

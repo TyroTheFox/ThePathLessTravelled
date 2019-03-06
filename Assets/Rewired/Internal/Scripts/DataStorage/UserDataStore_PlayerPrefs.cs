@@ -341,7 +341,7 @@ namespace Rewired.Data {
         /// Calls after a controller has been disconnected.
         /// </summary>
         /// <param name="args">ControllerStatusChangedEventArgs</param>
-        protected override void OnControllerPreDiscconnect(ControllerStatusChangedEventArgs args) {
+        protected override void OnControllerPreDisconnect(ControllerStatusChangedEventArgs args) {
             if(!isEnabled) return;
 
             // Save data before joystick is disconnected

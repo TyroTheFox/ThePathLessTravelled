@@ -81,6 +81,34 @@
             The type of the controller. This can be used along with controllerId to get the controller.
             </summary>
         </member>
+        <member name="P:Rewired.ControllerStatusChangedEventArgs.controller">
+            <summary>
+            The Controller. This will be null if the Controller was already disconnected.
+            </summary>
+        </member>
+        <member name="T:Rewired.ControllerAssignmentChangedEventArgs">
+            <summary>
+            Event args returned by controller assignment and unassignment events in Players.
+            Contains information about the controller that was changed.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerAssignmentChangedEventArgs.state">
+            <summary>
+            The assignment state change that took place.
+            True = the Controller was assigned to the Player.
+            False = the Controller was unassigned from the Player.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerAssignmentChangedEventArgs.controller">
+            <summary>
+            The Controller whose assignment status changed.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerAssignmentChangedEventArgs.player">
+            <summary>
+            The Player to which the Controller was assigned or unassigned.
+            </summary>
+        </member>
         <member name="T:Rewired.InputActionEventData">
             <summary>
             Event data returned by an Input Action update event. Use this to get information about the input event.
@@ -1591,6 +1619,514 @@
             Gets the element identifier name of the element that contributed to the value of the Action.
             </summary>
         </member>
+        <member name="T:Rewired.ControllerSelector">
+            <summary>
+            Used for selecting Controllers based on the specified criteria.
+            See static factory methods for construction.
+            </summary>
+        </member>
+        <member name="M:Rewired.ControllerSelector.#ctor(Rewired.ControllerSelector.Type)">
+            <summary>
+            Creates an instance of the class.
+            </summary>
+            <param name="type">The selector type</param>
+        </member>
+        <member name="M:Rewired.ControllerSelector.#ctor">
+            <summary>
+            Creates an instance of the class.
+            </summary>
+        </member>
+        <member name="M:Rewired.ControllerSelector.Matches(Rewired.Controller)">
+            <summary>
+            Determines if the specified Controller is matched by the selector.
+            </summary>
+            <param name="controller">The Controller.</param>
+            <returns>True if the Controller matches the selection criteria, false if not.</returns>
+        </member>
+        <member name="M:Rewired.ControllerSelector.SelectAll">
+            <summary>
+            Creates an entry with a <see cref="F:Rewired.ControllerSelector.Type.All"/> selector type.
+            </summary>
+            <returns>Entry</returns>
+        </member>
+        <member name="M:Rewired.ControllerSelector.SelectControllerType(Rewired.ControllerType)">
+            <summary>
+            Creates an entry with a <see cref="F:Rewired.ControllerSelector.Type.ControllerType"/> selector type.
+            </summary>
+            <param name="controllerType">Controller type</param>
+            <returns>ControllerSelector</returns>
+        </member>
+        <member name="M:Rewired.ControllerSelector.SelectHardwareType(Rewired.ControllerType,System.Guid,System.String)">
+            <summary>
+            Creates an entry with a <see cref="F:Rewired.ControllerSelector.Type.HardwareType"/> selector type.
+            </summary>
+            <param name="controllerType">The Controller Type</param>
+            <param name="hardwareTypeGuid">The hardware type GUID</param>
+            <param name="hardwareIdentifier">The hardware identifier</param>
+            <returns>ControllerSelector</returns>
+        </member>
+        <member name="M:Rewired.ControllerSelector.SelectHardwareType(Rewired.Controller)">
+            <summary>
+            Creates an entry with a <see cref="F:Rewired.ControllerSelector.Type.HardwareType"/> selector type.
+            Necessary properties will be populated from the Controller.
+            </summary>
+            <param name="controller">The Controller</param>
+            <returns>ControllerSelector</returns>
+        </member>
+        <member name="M:Rewired.ControllerSelector.SelectControllerTemplateType(Rewired.ControllerType,System.Guid)">
+            <summary>
+            Creates an entry with a <see cref="F:Rewired.ControllerSelector.Type.ControllerTemplateType"/> selector type.
+            </summary>
+            <param name="controllerType">The Controller Type</param>
+            <param name="controllerTemplateTypeGuid">The Controller Template type GUID</param>
+            <returns>ControllerSelector</returns>
+        </member>
+        <member name="M:Rewired.ControllerSelector.SelectControllerTemplateType(Rewired.IControllerTemplate)">
+            <summary>
+            Creates an entry with a <see cref="F:Rewired.ControllerSelector.Type.ControllerTemplateType"/> selector type.
+            Necessary properties will be populated from the Controller Template.
+            </summary>
+            <param name="controllerTemplate">The Controller Template</param>
+            <returns>ControllerSelector</returns>
+        </member>
+        <member name="M:Rewired.ControllerSelector.SelectPersistentControllerInstance(Rewired.ControllerType,System.Guid)">
+            <summary>
+            Creates an entry with a <see cref="F:Rewired.ControllerSelector.Type.PersistentControllerInstance"/> selector type.
+            </summary>
+            <param name="controllerType">The Controller Type</param>
+            <param name="deviceInstanceGuid">The device instance GUID</param>
+            <returns>ControllerSelector</returns>
+        </member>
+        <member name="M:Rewired.ControllerSelector.SelectPersistentControllerInstance(Rewired.Controller)">
+            <summary>
+            Creates an entry with a <see cref="F:Rewired.ControllerSelector.Type.PersistentControllerInstance"/> selector type.
+            Necessary properties will be populated from the Controller.
+            </summary>
+            <param name="controller">The Controller</param>
+            <returns>ControllerSelector</returns>
+        </member>
+        <member name="M:Rewired.ControllerSelector.SelectSessionControllerInstance(Rewired.ControllerType,System.Int32)">
+            <summary>
+            Creates an entry with a <see cref="F:Rewired.ControllerSelector.Type.SessionControllerInstance"/> selector type.
+            </summary>
+            <param name="controllerType">The Controller Type</param>
+            <param name="controllerId">The id of the Controller</param>
+            <returns>ControllerSelector</returns>
+        </member>
+        <member name="M:Rewired.ControllerSelector.SelectSessionControllerInstance(Rewired.Controller)">
+            <summary>
+            Creates an entry with a <see cref="F:Rewired.ControllerSelector.Type.SessionControllerInstance"/> selector type.
+            Necessary properties will be populated from the Controller.
+            </summary>
+            <param name="controller">The Controller</param>
+            <returns>ControllerSelector</returns>
+        </member>
+        <member name="P:Rewired.ControllerSelector.type">
+            <summary>
+            Determines selection method used to find the devices the entry applies to.
+            Depending on the value chosen, one or more other properties must be set.
+            The required fields for each mode are as follows:
+            <see cref="F:Rewired.ControllerSelector.Type.All"/>: None.
+            <see cref="F:Rewired.ControllerSelector.Type.ControllerType"/>: <see cref="P:Rewired.ControllerSelector.controllerType"/>.
+            <see cref="F:Rewired.ControllerSelector.Type.HardwareType"/>: <see cref="P:Rewired.ControllerSelector.controllerType"/>, <see cref="P:Rewired.ControllerSelector.hardwareTypeGuid"/>, <see cref="P:Rewired.ControllerSelector.hardwareIdentifier"/>.
+            <see cref="F:Rewired.ControllerSelector.Type.ControllerTemplateType"/>: <see cref="P:Rewired.ControllerSelector.controllerType"/>, <see cref="P:Rewired.ControllerSelector.controllerTemplateTypeGuid"/>.
+            <see cref="F:Rewired.ControllerSelector.Type.PersistentControllerInstance"/>: <see cref="P:Rewired.ControllerSelector.controllerType"/>, <see cref="P:Rewired.ControllerSelector.deviceInstanceGuid"/>.
+            <see cref="F:Rewired.ControllerSelector.Type.SessionControllerInstance"/>: <see cref="P:Rewired.ControllerSelector.controllerType"/>, <see cref="P:Rewired.ControllerSelector.controllerId"/>.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerSelector.controllerType">
+            <summary>
+            The Controller Type the entry applies to.
+            This is required for all Device Selector Type modes except <see cref="F:Rewired.ControllerSelector.Type.All"/>.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerSelector.hardwareTypeGuid">
+            <summary>
+            The hardware type Guid of the Controller this entry applies to.
+            This is only used if <see cref="P:Rewired.ControllerSelector.type"/> is set to <see cref="F:Rewired.ControllerSelector.Type.HardwareType"/>.
+            This targets all Controllers that match a specific recognized hardware type such as all Xbox 360 controolers.
+            You should set both <see cref="P:Rewired.ControllerSelector.hardwareTypeGuid"/> and <see cref="P:Rewired.ControllerSelector.hardwareIdentifier"/> with the values supplied by
+            <see cref="P:Rewired.Controller.hardwareTypeGuid"/> and <see cref="P:Rewired.Controller.hardwareIdentifier"/> so both recognized and
+            unrecognized Controllers will be handled.
+            This value can be obtained from <see cref="P:Rewired.Controller.hardwareTypeGuid"/>.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerSelector.hardwareIdentifier">
+            <summary>
+            The hardware identifier of the Controller this entry applies to.
+            This is only used if <see cref="P:Rewired.ControllerSelector.type"/> is set to <see cref="F:Rewired.ControllerSelector.Type.HardwareType"/>.
+            This targets all Controllers that match a specific unrecognized hardware type such as for a Joystick that has no controller definition built into Rewired.
+            You should set both <see cref="P:Rewired.ControllerSelector.hardwareTypeGuid"/> and <see cref="P:Rewired.ControllerSelector.hardwareIdentifier"/> with the values supplied by
+            <see cref="P:Rewired.Controller.hardwareTypeGuid"/> and <see cref="P:Rewired.Controller.hardwareIdentifier"/> so both recognized and
+            unrecognized Joysticks will be handled.
+            This value can be obtained from <see cref="P:Rewired.Controller.hardwareIdentifier"/>.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerSelector.controllerTemplateTypeGuid">
+            <summary>
+            The Controller Template type this entry applies to.
+            This is only used if <see cref="P:Rewired.ControllerSelector.type"/> is set to <see cref="F:Rewired.ControllerSelector.Type.ControllerTemplateType"/>.
+            This targets all Controllers that match the specified Controller Template type.
+            This value can be obtained from <see cref="P:Rewired.IControllerTemplate.typeGuid"/> or the concrete static class of the Controller
+            Template such as GamepadTemplate.typeGuid.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerSelector.deviceInstanceGuid">
+            <summary>
+            The device instance guid of the Controller this entry applies to.
+            This is only used if <see cref="P:Rewired.ControllerSelector.type"/> is set to <see cref="F:Rewired.ControllerSelector.Type.PersistentControllerInstance"/>.
+            This targets all a single, specific Controller instance that may be valid across sessions.
+            This value can be obtained from <see cref="P:Rewired.Controller.deviceInstanceGuid"/>.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerSelector.controllerId">
+            <summary>
+            The <see cref="F:Rewired.Controller.id"/> of the Controller this entry applies to.
+            This is only used if <see cref="P:Rewired.ControllerSelector.type"/> is set to <see cref="F:Rewired.ControllerSelector.Type.SessionControllerInstance"/>.
+            This targets all a single, specific Controller instance that is only valid for the current session..
+            This value can be obtained from <see cref="P:Rewired.Controller.deviceInstanceGuid"/>.
+            </summary>
+        </member>
+        <member name="T:Rewired.ControllerSelector.Type">
+            <summary>
+            The Controller selector type.
+            </summary>
+        </member>
+        <member name="F:Rewired.ControllerSelector.Type.All">
+            <summary>
+            Selects all Controllers.
+            </summary>
+        </member>
+        <member name="F:Rewired.ControllerSelector.Type.ControllerType">
+            <summary>
+            Selects all Controllers that match a specific ControllerType.
+            </summary>
+        </member>
+        <member name="F:Rewired.ControllerSelector.Type.HardwareType">
+            <summary>
+            Selects all Controllers that match a specific hardware type guid and/or hardware identifier.
+            </summary>
+        </member>
+        <member name="F:Rewired.ControllerSelector.Type.ControllerTemplateType">
+            <summary>
+            Selects all Controllers that match a specific Controller Template type.
+            </summary>
+        </member>
+        <member name="F:Rewired.ControllerSelector.Type.PersistentControllerInstance">
+            <summary>
+            Selects a single, specific <see cref="T:Rewired.Controller"/> instance that persists across sessions.
+            This uses <see cref="P:Rewired.Controller.deviceInstanceGuid"/> to identify the <see cref="T:Rewired.Controller"/>.
+            This relies on the ability to get a persistent device id for the device which
+            may not be available or reliable on all platforms and input sources.
+            </summary>
+        </member>
+        <member name="F:Rewired.ControllerSelector.Type.SessionControllerInstance">
+            <summary>
+            Selects a single, specific <see cref="T:Rewired.Controller"/> instance that is valid only for the current session.
+            This uses <see cref="F:Rewired.Controller.id"/> to identify the <see cref="T:Rewired.Controller"/>. <see cref="F:Rewired.Controller.id"/> is not consistent across
+            application sessions and should not be saved or loaded.
+            </summary>
+        </member>
+        <member name="T:Rewired.ControllerMapLayoutHelper">
+            <summary>
+            Manages loading and unloading of Controller Maps in a Player based on user settings to force the specified Layouts to be used.
+            This must be enabled before use by setting <see cref="P:Rewired.ControllerMapLayoutHelper.enabled"/> to true, otherwise Controller Map
+            enabled states in the Player will be unmanaged.
+            This can be used to make specific Controller Maps be loaded in a Player with specific Layouts, for example when changing from one Controller
+            Layout to another. These settings will persist and be inherited by new Controllers assigned to the Player.
+            This will enforce a single Layout per managed Map Category be loaded in the Player. This cannot manage mutliple simultaneous
+            Layouts in the same Map Category being loaded in the Player.
+            This does not manage enabled states of the Controller Maps. It only manages loading and unloading of Controller Maps.
+            </summary>
+        </member>
+        <member name="M:Rewired.ControllerMapLayoutHelper.Apply">
+            <summary>
+            Applies settings to Controller Maps in the Player.
+            This must be called if you make changes to anything in <see cref="P:Rewired.ControllerMapLayoutHelper.entries"/> in
+            order for those changes to be applied to the Player's Controller Maps.
+            </summary>
+        </member>
+        <member name="M:Rewired.ControllerMapLayoutHelper.LoadDefaults">
+            <summary>
+            Creates default settings based on assigned Controller Maps in the Player in the Rewired Input Manager.
+            This attempts to derrive rules from the starting default Controller Maps.
+            </summary>
+        </member>
+        <member name="M:Rewired.ControllerMapLayoutHelper.ToXmlString">
+            <summary>
+            Exports data to XML.
+            </summary>
+            <returns>Exported data as an XML string.</returns>
+        </member>
+        <member name="M:Rewired.ControllerMapLayoutHelper.ToJsonString">
+            <summary>
+            Exports data to JSON.
+            </summary>
+            <returns>Exported data as a JSON string.</returns>
+        </member>
+        <member name="M:Rewired.ControllerMapLayoutHelper.ImportXml(System.String)">
+            <summary>
+            Imports data from XML.
+            </summary>
+            <param name="xmlString">The XML string</param>
+            <returns>True if data was imported successfully, false on failure.</returns>
+        </member>
+        <member name="M:Rewired.ControllerMapLayoutHelper.ImportJson(System.String)">
+            <summary>
+            Imports data from JSON.
+            </summary>
+            <param name="jsonString">The JSON string</param>
+            <returns>True if data was imported successfully, false on failure.</returns>
+        </member>
+        <member name="P:Rewired.ControllerMapLayoutHelper.enabled">
+            <summary>
+            If enabled, loaded Controller Maps will be evaluated when Controllers are assigned, after saved data is loaded, etc.
+            Changes to Controller Maps will be applied immediately in the Player when enabled.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapLayoutHelper.loadFromUserDataStore">
+            <summary>
+            If enabled, Controller Maps will be loaded from UserDataStore (if available) instead of from the Rewired Input Manager
+            defaults. If no matching Controller Map is found in UserDataStore, the Rewired Input Manager default will be loaded.
+            Note: The UserDataStore implementation must implement <see cref="T:Rewired.Interfaces.IControllerMapStore"/> to be used.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapLayoutHelper.entries">
+            <summary>
+            The entry list.
+            When <see cref="M:Rewired.ControllerMapLayoutHelper.Apply"/> is called (whether manually or on various events which trigger it), each entry in the list
+            will be evaluated and Controller Maps for the Controller(s) specified in the entry properties will be loaded or removed.
+            After modifying or replacing the list, you must call <see cref="M:Rewired.ControllerMapLayoutHelper.Apply"/> for the changes to take effect in the Player.
+            </summary>
+        </member>
+        <member name="T:Rewired.ControllerMapLayoutHelper.Entry">
+            <summary>
+            Settings for persisting a Controller Map Layout.
+            </summary>
+        </member>
+        <member name="M:Rewired.ControllerMapLayoutHelper.Entry.#ctor">
+            <summary>
+            Creates a new object instance.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapLayoutHelper.Entry.tag">
+            <summary>
+            A tag which can be used to find an entry in the list. This is optional.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapLayoutHelper.Entry.controllerSelector">
+            <summary>
+            Determines which Controller(s) this applies to.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapLayoutHelper.Entry.categoryId">
+            <summary>
+            The first Map Category id of the Controller Maps the entry applies to.
+            If you need to set more than one Map Category, use <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.categoryIds"/> instead.
+            This is required, or you can set the value using <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.categoryName"/>, <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.categoryIds"/>, or <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.categoryNames"/> instead.
+            Set this to -1 to clear the categories.
+            Note: If you set this value while an array of categories has already been set, the array will be cleared and only this value will remain.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapLayoutHelper.Entry.categoryIds">
+            <summary>
+            The Map Category ids of the Controller Maps the entry applies to.
+            This is required, or you can set the value using <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.categoryNames"/> instead.
+            Set this to null to clear the categories.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapLayoutHelper.Entry.layoutId">
+            <summary>
+            The Layout id of the Controller Maps the entry applies to.
+            This is required, or you can set the value using <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.layoutName"/> instead.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapLayoutHelper.Entry.categoryName">
+            <summary>
+            The first Map Category of the Controller Maps the entry applies to.
+            If you need to set more than one Map Category, use <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.categoryNames"/> instead.
+            This is required, or you can set the value using <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.categoryId"/>, <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.categoryNames"/>, or <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.categoryIds"/> instead.
+            Set this to null to clear the categories.
+            Note: If you set this value while an array of categories has already been set, the array will be cleared and only this value will remain.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapLayoutHelper.Entry.categoryNames">
+            <summary>
+            The Map Category names of the Controller Maps the entry applies to.
+            This is an alternate way of setting the Map Category id.
+            This will automatically be set by the Map Category id and vice versa when changed.
+            This is required, or you can set the value using <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.categoryIds"/> instead.
+            Set this to null to clear the categories.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapLayoutHelper.Entry.layoutName">
+            <summary>
+            The Layout name of the Controller Maps the entry applies to.
+            This is an alternate way of setting the Layout id.
+            This will automatically be set by the Layout id and vice versa when changed.
+            This is required, or you can set the value using <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.layoutId"/> instead.
+            NOTE: <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.controllerSelector"/> must be set before this value is set because <see cref="P:Rewired.ControllerSelector.controllerType"/>
+            is used to determine the Controller Type for looking up the Layout id. Alway create the <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.controllerSelector"/> before
+            setting this value as a string. The same limitation does not apply to <see cref="P:Rewired.ControllerMapLayoutHelper.Entry.layoutId"/>.
+            </summary>
+        </member>
+        <member name="T:Rewired.ControllerMapEnabler">
+            <summary>
+            Enforces persistent enabled states on Controller Maps in a Player based on user settings.
+            This must be enabled before use by setting <see cref="P:Rewired.ControllerMapEnabler.enabled"/> to true, otherwise Controller Map
+            enabled states in the Player will be unmanaged.
+            This can be used to make specific Controller Maps be enabled or disabled in a Player,
+            for example when changing game modes that require user input to change.
+            These settings will persist and be inherited by new Controllers assigned to the Player.
+            Enabled states will be sync'd when new Controllers are added, when Controller Maps are loaded, etc.
+            When using <see cref="T:Rewired.ControllerMapEnabler"/>, you should not manually set enabled states
+            on Controller Maps that are managed by this class, but instead change all settings within this class.
+            </summary>
+        </member>
+        <member name="M:Rewired.ControllerMapEnabler.Apply">
+            <summary>
+            Applies settings to Controller Maps in the Player.
+            This must be called if you make changes to anything in <see cref="P:Rewired.ControllerMapEnabler.entries"/> in
+            order for those changes to be applied to the Player's Controller Maps.
+            </summary>
+        </member>
+        <member name="M:Rewired.ControllerMapEnabler.LoadDefaults">
+            <summary>
+            Creates default settings based on assigned Controller Maps in the Player in the Rewired Input Manager.
+            This attempts to derrive rules from the starting default Controller Maps.
+            </summary>
+        </member>
+        <member name="M:Rewired.ControllerMapEnabler.ToXmlString">
+            <summary>
+            Exports data to XML.
+            </summary>
+            <returns>Exported data as an XML string.</returns>
+        </member>
+        <member name="M:Rewired.ControllerMapEnabler.ToJsonString">
+            <summary>
+            Exports data to JSON.
+            </summary>
+            <returns>Exported data as a JSON string.</returns>
+        </member>
+        <member name="M:Rewired.ControllerMapEnabler.ImportXml(System.String)">
+            <summary>
+            Imports data from XML.
+            </summary>
+            <param name="xmlString">The XML string</param>
+            <returns>True if data was imported successfully, false on failure.</returns>
+        </member>
+        <member name="M:Rewired.ControllerMapEnabler.ImportJson(System.String)">
+            <summary>
+            Imports data from JSON.
+            </summary>
+            <param name="jsonString">The JSON string</param>
+            <returns>True if data was imported successfully, false on failure.</returns>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.enabled">
+            <summary>
+            If enabled, Controller Maps enabled states will be sync'd when Controllers are assigned, new maps are loaded, etc.
+            Changes to Controller Maps will be applied immediately in the Player when enabled.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.entries">
+            <summary>
+            The entry list.
+            When <see cref="M:Rewired.ControllerMapEnabler.Apply"/> is called (whether manually or on various events which trigger it), each entry in the list
+            will be evaluated and enable or disable Controller Maps for the Controller(s) specified in the entry properties.
+            After modifying or replacing the list, you must call <see cref="M:Rewired.ControllerMapEnabler.Apply"/> for the changes to take effect in the Player.
+            </summary>
+        </member>
+        <member name="T:Rewired.ControllerMapEnabler.Entry">
+            <summary>
+            Settings for persisting the enabled state of Controller Maps.
+            </summary>
+        </member>
+        <member name="M:Rewired.ControllerMapEnabler.Entry.#ctor">
+            <summary>
+            Creates a new object instance.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.Entry.appliesToAllLayouts">
+            <summary>
+            Does this entry apply to Controller Maps in all Layouts or just a specific Layout id?
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.Entry.tag">
+            <summary>
+            A tag which can be used to find an entry in the list. This is optional.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.Entry.enabled">
+            <summary>
+            The enabled state to be set on the Controller Maps.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.Entry.controllerSelector">
+            <summary>
+            Determines which Controller(s) this applies to.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.Entry.categoryIds">
+            <summary>
+            The Map Category ids of the Controller Maps the entry applies to.
+            This is optional. If this value is set to null, this will apply to all Controller Maps
+            regardless of the Map Category id.
+            [Null = Match any Map Category id (wildcard)]
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.Entry.layoutIds">
+            <summary>
+            The MLayout ids of the Controller Maps the entry applies to.
+            This is optional. If this value is set to null, this will apply to all Controller Maps
+            regardless of the Layout id.
+            [Null = Match any Layout id (wildcard)]
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.Entry.categoryId">
+            <summary>
+            The first Map Category id of the Controller Maps the entry applies to.
+            If you need to set more than one Map Category, use <see cref="P:Rewired.ControllerMapEnabler.Entry.categoryIds"/> instead.
+            This is optional. If this value is not specified, this will apply to all Controller Maps
+            regardless of the Map Category id.
+            [-1 = Match any Map Category id (wildcard)]
+            Note: If you set this value while an array of categories has already been set, the array will be cleared and only this value will remain.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.Entry.layoutId">
+            <summary>
+            The first Layout id of the Controller Maps the entry applies to.
+            If you need to set more than one Layout, use <see cref="P:Rewired.ControllerMapEnabler.Entry.layoutIds"/> instead.
+            This is optional. If this value is not specified, this will apply to all Controller Maps
+            regardless of the Layout id.
+            [-1 = Match any Layout id (wildcard)]
+            Note: If you set this value while an array of categories has already been set, the array will be cleared and only this value will remain.
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.Entry.categoryNames">
+            <summary>
+            The Map Category names of the Controller Maps the entry applies to.
+            This is an alternate way of setting the Map Category id.
+            This will automatically be set by the Map Category id and vice versa when changed.
+            This is optional. If this value is set to null, this will apply to all Controller Maps
+            regardless of the Map Category.
+            [Null = Match any Map Category (wildcard)]
+            </summary>
+        </member>
+        <member name="P:Rewired.ControllerMapEnabler.Entry.layoutNames">
+            <summary>
+            The Layout names of the Controller Maps the entry applies to.
+            This is an alternate way of setting the Layout id.
+            This will automatically be set by the Layout id and vice versa when changed.
+            This is optional. If this value is set to null, this will apply to all Controller Maps
+            regardless of the Layout.
+            [Null = Match any Layout (wildcard)]
+            IMPORTANT: <see cref="P:Rewired.ControllerMapEnabler.Entry.controllerSelector"/> must be set before this value is set because <see cref="P:Rewired.ControllerSelector.controllerType"/>
+            is used to determine the Controller Type for looking up the Layout id. Alway create the <see cref="P:Rewired.ControllerMapEnabler.Entry.controllerSelector"/> before
+            setting this value as a string array. The same limitation does not apply to <see cref="P:Rewired.ControllerMapEnabler.Entry.layoutIds"/>.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Rewired.ControllerMapEnabler.Entry.categoryName" -->
+        <!-- Badly formed XML comment ignored for member "P:Rewired.ControllerMapEnabler.Entry.layoutName" -->
         <member name="P:Rewired.ButtonStateRecorder.lastTimeStateChangedToPressed">
             <summary>
             Returns the last time the button state became pressed exactly.
@@ -3898,6 +4434,22 @@
             The type of this controller.
             </summary>
         </member>
+        <member name="P:Rewired.Controller.hardwareTypeGuid">
+            <summary>
+            The Rewired GUID associated with this device. A GUID of all zeros is an Unknown Controller.
+            </summary>
+        </member>
+        <member name="P:Rewired.Controller.deviceInstanceGuid">
+            <summary>
+            The unique persistent instance GUID of this device.
+            This is an id generated for the device that may stay constant between application sessions and system restarts.
+            This can be used for device assignment persistence between runs. The specific platform and input sources in use
+            affects the reliability of this value for device assignment persistence.
+            A value of Guid.Empty means the device or input source has no reliable unique identifier so persistant assignment
+            isn't possible using this value. Even if a Guid is provided, reliability when multiple identical controllers are
+            attached depends greatly on the platform and input source(s) currently in use.
+            </summary>
+        </member>
         <member name="P:Rewired.Controller.isConnected">
             <summary>
             Is the controller connected?
@@ -4645,6 +5197,17 @@
             Clears the Button value.
             </summary>
             <param name="elementId">The id of the Button. The id can be found in the Rewired Input Manager Custom Controller properties.</param>
+        </member>
+        <member name="P:Rewired.CustomController.deviceInstanceGuid">
+            <summary>
+            The unique persistent instance GUID of this device.
+            This is an id generated for the device that may stay constant between application sessions and system restarts.
+            This can be used for device assignment persistence between runs. The specific platform and input sources in use
+            affects the reliability of this value for device assignment persistence.
+            A value of Guid.Empty means the device or input source has no reliable unique identifier so persistant assignment
+            isn't possible using this value. Even if a Guid is provided, reliability when multiple identical controllers are
+            attached depends greatly on the platform and input source(s) currently in use.
+            </summary>
         </member>
         <member name="T:Rewired.ControllerExtensions.IDualShock4Extension">
             <summary>
@@ -5430,11 +5993,6 @@
             Returns 0 if the platform does not use Unity input or if the joystick is not associated with a Unity joystick.
             </summary>
         </member>
-        <member name="P:Rewired.Joystick.hardwareTypeGuid">
-            <summary>
-            The Rewired GUID associated with this device. A GUID of all zeros is an Unknown Controller.
-            </summary>
-        </member>
         <member name="P:Rewired.Joystick.deviceInstanceGuid">
             <summary>
             The unique persistent instance GUID of this device.
@@ -5511,6 +6069,17 @@
             <param name="keyCode">The KeyCode of the key.</param>
             <returns>Controller Element Identifier. Null if not found.</returns>
         </member>
+        <member name="P:Rewired.Keyboard.deviceInstanceGuid">
+            <summary>
+            The unique persistent instance GUID of this device.
+            This is an id generated for the device that may stay constant between application sessions and system restarts.
+            This can be used for device assignment persistence between runs. The specific platform and input sources in use
+            affects the reliability of this value for device assignment persistence.
+            A value of Guid.Empty means the device or input source has no reliable unique identifier so persistant assignment
+            isn't possible using this value. Even if a Guid is provided, reliability when multiple identical controllers are
+            attached depends greatly on the platform and input source(s) currently in use.
+            </summary>
+        </member>
         <member name="T:Rewired.Mouse">
             <summary>
             A mouse with buttons and axes.
@@ -5529,6 +6098,17 @@
         <member name="P:Rewired.Mouse.screenPositionDelta">
             <summary>
             The difference in position of the mouse pointer on the screen since the last frame in pixels.
+            </summary>
+        </member>
+        <member name="P:Rewired.Mouse.deviceInstanceGuid">
+            <summary>
+            The unique persistent instance GUID of this device.
+            This is an id generated for the device that may stay constant between application sessions and system restarts.
+            This can be used for device assignment persistence between runs. The specific platform and input sources in use
+            affects the reliability of this value for device assignment persistence.
+            A value of Guid.Empty means the device or input source has no reliable unique identifier so persistant assignment
+            isn't possible using this value. Even if a Guid is provided, reliability when multiple identical controllers are
+            attached depends greatly on the platform and input source(s) currently in use.
             </summary>
         </member>
         <member name="T:Rewired.ControllerTemplate">
@@ -7994,15 +8574,34 @@
         </member>
         <member name="M:Rewired.Data.UserDataStore.OnControllerDisconnected(Rewired.ControllerStatusChangedEventArgs)">
             <summary>
-            Called when a controller is about to be disconnected.
+            Calls after a controller has been disconnected.
             </summary>
             <param name="args">ControllerStatusChangedEventArgs</param>
         </member>
         <member name="M:Rewired.Data.UserDataStore.OnControllerPreDiscconnect(Rewired.ControllerStatusChangedEventArgs)">
             <summary>
-            Calls after a controller has been disconnected.
+            Called when a controller is about to be disconnected.
             </summary>
             <param name="args">ControllerStatusChangedEventArgs</param>
+        </member>
+        <member name="M:Rewired.Data.UserDataStore.OnControllerPreDisconnect(Rewired.ControllerStatusChangedEventArgs)">
+            <summary>
+            Called when a controller is about to be disconnected.
+            </summary>
+            <param name="args">ControllerStatusChangedEventArgs</param>
+        </member>
+        <member name="T:Rewired.ActiveControllerChangedDelegate">
+            <summary>
+            Delegate for a current active controller change.
+            </summary>
+            <param name="controller">The active Controller</param>
+        </member>
+        <member name="T:Rewired.PlayerActiveControllerChangedDelegate">
+            <summary>
+            Delegate for a current active controller change in a Player.
+            </summary>
+            <param name="player">The Player</param>
+            <param name="controller">The active Controller</param>
         </member>
         <member name="T:Rewired.ModifierKey">
             <summary>
@@ -8152,6 +8751,11 @@
         <member name="T:Rewired.DeadZone2DType">
             <summary>
             Calculation type for 2D deadzones.
+            </summary>
+        </member>
+        <member name="T:Rewired.AxisSensitivity2DType">
+            <summary>
+            Calculation type for sensitivity on 2D axes.
             </summary>
         </member>
         <member name="T:Rewired.ElementAssignmentType">
@@ -8389,11 +8993,25 @@
         <member name="F:Rewired.InputActionEventType.AxisRawActive">
             <summary>
             Event fires every frame the raw axis value is non-zero.
+            This does not fire when the axis value is zero.
+            If you need to know both when the axis value is non-zero and when it returns to zero, see <see cref="F:Rewired.InputActionEventType.AxisRawActiveOrJustInactive"/>.
             </summary>
         </member>
         <member name="F:Rewired.InputActionEventType.AxisRawInactive">
             <summary>
             Event fires every frame the raw axis value is zero.
+            This does not fire when the axis value is zero.
+            If you need to know both when the axis value is non-zero and when it returns to zero, see <see cref="F:Rewired.InputActionEventType.AxisActiveOrJustInactive"/>.
+            </summary>
+        </member>
+        <member name="F:Rewired.InputActionEventType.AxisActiveOrJustInactive">
+            <summary>
+            Event fires every frame the axis value is non-zero and once more when the axis returns to zero.
+            </summary>
+        </member>
+        <member name="F:Rewired.InputActionEventType.AxisRawActiveOrJustInactive">
+            <summary>
+            Event fires every frame the raw axis value is non-zero and once more when the axis returns to zero.
             </summary>
         </member>
         <member name="F:Rewired.InputActionEventType.ButtonDoublePressJustReleased">
@@ -8449,6 +9067,29 @@
             <summary>
             Destroy this GameObject after initialization.
             </summary>
+        </member>
+        <member name="T:Rewired.Interfaces.IControllerMapStore">
+            <summary>
+            An interface for loading and saving Controller Maps.
+            </summary>
+        </member>
+        <member name="M:Rewired.Interfaces.IControllerMapStore.SaveControllerMap(System.Int32,Rewired.ControllerMap)">
+            <summary>
+            Saves a Controller Map.
+            </summary>
+            <param name="playerId">The Player id</param>
+            <param name="controllerMap">The Controller Map</param>
+        </member>
+        <member name="M:Rewired.Interfaces.IControllerMapStore.LoadControllerMap(System.Int32,Rewired.ControllerType,System.Guid,System.String,System.Int32,System.Int32)">
+            <summary>
+            Loads a Controller Map for a Controller.
+            </summary>
+            <param name="playerId">The Player id</param>
+            <param name="controllerType">The Controller type</param>
+            <param name="hardwareTypeGuid">The hardware type Guid of the Controller</param>
+            <param name="hardwareIdentifier">The hardware identifier of the Controller. This is used by Unknown Controllers for identification.</param>
+            <param name="categoryId">The Map Category id of the Controller Map</param>
+            <param name="layoutId">The Layout id of the Controller Map</param>
         </member>
         <member name="T:Rewired.Utils.Interfaces.IExternalTools">
             <exclude></exclude>
@@ -9428,6 +10069,7 @@
         <member name="P:Rewired.AxisCalibration.sensitivityCurve">
             <summary>
             Gets or sets the sensitivity curve. The curve has no effect unless sensitivityType is set to Curve.
+            Curve should have a time of 0 - 1 if using <see cref="F:Rewired.AxisSensitivity2DType.Radial"/>, -1 to +1 or 0 to 1 if using <see cref="F:Rewired.AxisSensitivity2DType.Axial"/>.
             </summary>
         </member>
         <member name="P:Rewired.AxisCalibration.applyRangeCalibration">
@@ -9502,6 +10144,11 @@
         <member name="P:Rewired.Axis2DCalibration.deadZoneType">
             <summary>
             The calculation type for the dead zone.
+            </summary>
+        </member>
+        <member name="P:Rewired.Axis2DCalibration.sensitivityType">
+            <summary>
+            Calculation type for sensitivity on 2D axes.
             </summary>
         </member>
         <member name="T:Rewired.ControllerElementIdentifier">
@@ -11993,6 +12640,18 @@
             The webplayer platform.
             </summary>
         </member>
+        <member name="T:Rewired.Platforms.ScriptingBackend">
+            <exclude></exclude>
+            <summary>
+            The Unity scripting backend.
+            </summary>
+        </member>
+        <member name="T:Rewired.Platforms.ScriptingAPILevel">
+            <exclude></exclude>
+            <summary>
+            The Unity scripting API level.
+            </summary>
+        </member>
         <member name="T:Rewired.Platforms.WindowsStandalonePrimaryInputSource">
             <exclude></exclude>
             <summary>
@@ -14060,6 +14719,16 @@
             <typeparam name="TInterface">Controller Template interface type. Note: You must use the interface of the Controller Template and not the concrete class.</typeparam>
             <returns></returns>
         </member>
+        <member name="E:Rewired.Player.ControllerHelper.ControllerAddedEvent">
+            <summary>
+            Event triggered when a controller is assigned to this Player.
+            </summary>
+        </member>
+        <member name="E:Rewired.Player.ControllerHelper.ControllerRemovedEvent">
+            <summary>
+            Event triggered when a controller is unassigned from this Player.
+            </summary>
+        </member>
         <member name="P:Rewired.Player.ControllerHelper.hasMouse">
             <summary>
             Is the mouse assigned to this Player?
@@ -14550,6 +15219,7 @@
             <summary>
             Loads a controller map from the maps defined in the Rewired Editor. Replaces if a map already exists with the same category and layout.
             When replaced, map enabled state is copied from the existing map into the replacement. Otherwise, map starts disabled and must be enabled before it can contribute to input.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that apply to the map, the enabled state will be set based on those settings.
             </summary>
             <typeparam name="T">Controller map type</typeparam>
             <param name="controllerId">Controller id - Get this from the Controller.id property. For Keyboard and Mouse, just use 0.</param>
@@ -14560,6 +15230,7 @@
             <summary>
             Loads a controller map from the maps defined in the Rewired Editor. Replaces if a map already exists with the same category and layout.
             When replaced, map enabled state is copied from the existing map into the replacement. Otherwise, map starts disabled and must be enabled before it can contribute to input.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that apply to the map, the enabled state will be set based on those settings.
             </summary>
             <typeparam name="T">Controller map type</typeparam>
             <param name="controllerId">Controller id - Get this from the Controller.id property. For Keyboard and Mouse, just use 0.</param>
@@ -14570,6 +15241,7 @@
             <summary>
             Loads a controller map from the maps defined in the Rewired Editor. Replaces if a map already exists with the same category and layout.
             When replaced, map enabled state is copied from the existing map into the replacement. Otherwise, map starts disabled and must be enabled before it can contribute to input.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that apply to the map, the enabled state will be set based on those settings.
             </summary>
             <param name="controllerType">Controller type</param>
             <param name="controllerId">Controller id - Get this from the Controller.id property. For Keyboard and Mouse, just use 0.</param>
@@ -14580,6 +15252,7 @@
             <summary>
             Loads a controller map from the maps defined in the Rewired Editor. Replaces if a map already exists with the same category and layout.
             When replaced, map enabled state is copied from the existing map into the replacement. Otherwise, map starts disabled and must be enabled before it can contribute to input.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that apply to the map, the enabled state will be set based on those settings.
             </summary>
             <param name="controllerType">Controller type</param>
             <param name="controllerId">Controller id - Get this from the Controller.id property. For Keyboard and Mouse, just use 0.</param>
@@ -14589,6 +15262,7 @@
         <member name="M:Rewired.Player.ControllerHelper.MapHelper.LoadMap``1(System.Int32,System.Int32,System.Int32,System.Boolean)">
             <summary>
             Loads a controller map from the maps defined in the Rewired Editor. Replaces if a map already exists with the same category and layout.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that apply to the map, the enabled state will be set based on those settings overriding the startEnabled setting passed into the function.
             </summary>
             <typeparam name="T">Controller map type</typeparam>
             <param name="controllerId">Controller id - Get this from the Controller.id property. For Keyboard and Mouse, just use 0.</param>
@@ -14599,6 +15273,7 @@
         <member name="M:Rewired.Player.ControllerHelper.MapHelper.LoadMap``1(System.Int32,System.String,System.String,System.Boolean)">
             <summary>
             Loads a controller map from the maps defined in the Rewired Editor. Replaces if a map already exists with the same category and layout.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that apply to the map, the enabled state will be set based on those settings overriding the startEnabled setting passed into the function.
             </summary>
             <typeparam name="T">Controller map type</typeparam>
             <param name="controllerId">Controller id - Get this from the Controller.id property. For Keyboard and Mouse, just use 0.</param>
@@ -14609,6 +15284,7 @@
         <member name="M:Rewired.Player.ControllerHelper.MapHelper.LoadMap(Rewired.ControllerType,System.Int32,System.Int32,System.Int32,System.Boolean)">
             <summary>
             Loads a controller map from the maps defined in the Rewired Editor. Replaces if a map already exists with the same category and layout.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that apply to the map, the enabled state will be set based on those settings overriding the startEnabled setting passed into the function.
             </summary>
             <param name="controllerType">Controller type</param>
             <param name="controllerId">Controller id - Get this from the Controller.id property. For Keyboard and Mouse, just use 0.</param>
@@ -14619,6 +15295,7 @@
         <member name="M:Rewired.Player.ControllerHelper.MapHelper.LoadMap(Rewired.ControllerType,System.Int32,System.String,System.String,System.Boolean)">
             <summary>
             Loads a controller map from the maps defined in the Rewired Editor. Replaces if a map already exists with the same category and layout.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that apply to the map, the enabled state will be set based on those settings overriding the startEnabled setting passed into the function.
             </summary>
             <param name="controllerType">Controller type</param>
             <param name="controllerId">Controller id - Get this from the Controller.id property. For Keyboard and Mouse, just use 0.</param>
@@ -16168,6 +16845,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <returns>Number of maps that changed state.</returns>
@@ -16182,6 +16861,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="controllerType">The controller type.</param>
@@ -16197,6 +16878,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="controller">The Controller.</param>
@@ -16212,6 +16895,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="controllerType">The controller type.</param>
@@ -16228,6 +16913,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="categoryId">The id of the category.</param>
@@ -16243,6 +16930,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="categoryName">The name of the category.</param>
@@ -16258,6 +16947,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="categoryName">The name of the category.</param>
@@ -16274,6 +16965,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="controllerType">The controller type.</param>
@@ -16290,6 +16983,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="controllerType">The controller type.</param>
@@ -16306,6 +17001,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="controllerType">The controller type.</param>
@@ -16323,6 +17020,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="controllerType">The controller type.</param>
@@ -16340,6 +17039,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="controller">The Controller.</param>
@@ -16356,6 +17057,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="controller">The Controller.</param>
@@ -16373,6 +17076,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="controller">The Controller.</param>
@@ -16389,6 +17094,8 @@
             the newly loaded maps will be enabled/disabled based on the default enabled state settings for
             these maps on the Player page in the Rewired Input Manager, not based on previous calls to
             SetMapsEnabled. Read the documentation on Controller Maps for more information.
+            If you need persistent enabled state management, use <see cref="T:Rewired.ControllerMapEnabler"/>.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that affect the Controller Maps you are attempting to change the enabled state on, you should not use this function and instead use the functions in <see cref="T:Rewired.ControllerMapEnabler"/>.
             </summary>
             <param name="state">The enabled state.</param>
             <param name="controller">The Controller.</param>
@@ -16402,6 +17109,7 @@
             All existing maps will be cleared and replaced with the default maps.
             The Enabled state of each map will attempt to be preserved, but if you have
             added or removed maps through scripting, the result may not be as expected and you should set the Enabled states manually.
+            If <see cref="P:Rewired.ControllerMapEnabler.enabled"/> is set to true and rules exist that apply to the map, the enabled state will be set based on those settings.
             </summary>
             <param name="controllerType">The controller type.</param>
         </member>
@@ -16433,6 +17141,35 @@
         <member name="M:Rewired.Player.ControllerHelper.MapHelper.GetInputBehavior(System.String)">
             <summary>
             Gets a specific InputBehavior.
+            </summary>
+        </member>
+        <member name="P:Rewired.Player.ControllerHelper.MapHelper.layoutHelper">
+            <summary>
+            Manages loading and unloading of Controller Maps in a Player based on user settings to force the specified Layouts to be used.
+            This must be enabled before use by setting <see cref="P:Rewired.ControllerMapLayoutHelper.enabled"/> to true, otherwise Controller Map
+            enabled states in the Player will be unmanaged.
+            This can be used to make specific Controller Maps be loaded in a Player with specific Layouts, for example when changing from one Controller
+            Layout to another. These settings will persist and be inherited by new Controllers assigned to the Player.
+            This will enforce a single Layout per managed Map Category be loaded in the Player. This cannot manage mutliple simultaneous
+            Layouts in the same Map Category being loaded in the Player.
+            To manage the enabled states, use <see cref="P:Rewired.Player.ControllerHelper.MapHelper.mapEnabler"/>.
+            It is recommended that you use both <see cref="P:Rewired.Player.ControllerHelper.MapHelper.mapEnabler"/> and <see cref="P:Rewired.Player.ControllerHelper.MapHelper.layoutHelper"/> together to manage
+            both loading and enabled states of Controller Maps.
+            When both are enabled, <see cref="P:Rewired.Player.ControllerHelper.MapHelper.layoutHelper"/> will load/unload Controller Maps first, then <see cref="P:Rewired.Player.ControllerHelper.MapHelper.mapEnabler"/> will enable/disable
+            the Controller Maps based on the rules you've set up in each..
+            </summary>
+        </member>
+        <member name="P:Rewired.Player.ControllerHelper.MapHelper.mapEnabler">
+            <summary>
+            Enforces persistent enabled states on Controller Maps in a Player based on user settings.
+            This must be enabled before use by setting <see cref="P:Rewired.ControllerMapEnabler.enabled"/> to true, otherwise Controller Map
+            enabled states in the Player will be unmanaged.
+            This can be used to make specific Controller Maps be enabled or disabled in a Player,
+            for example when changing game modes that require user input to change.
+            These settings will persist and be inherited by new Controllers assigned to the Player.
+            Enabled states will be sync'd when new Controllers are added, when Controller Maps are loaded, etc.
+            When using <see cref="T:Rewired.ControllerMapEnabler"/>, you should not manually set enabled states
+            on Controller Maps that are managed by this class, but instead change all settings within this class.
             </summary>
         </member>
         <member name="P:Rewired.Player.ControllerHelper.MapHelper.InputBehaviors">
@@ -17177,6 +17914,11 @@
         <member name="P:Rewired.ReInput.ConfigHelper.defaultJoystickAxis2DDeadZoneType">
             <summary>
             Changes the default dead zone type for 2D joystick axes for recognized controllers. This setting can be changed without resetting Rewired.
+            </summary>
+        </member>
+        <member name="P:Rewired.ReInput.ConfigHelper.defaultJoystickAxis2DSensitivityType">
+            <summary>
+            Changes the default sensitivity type for 2D joystick axes for recognized controllers. This setting can be changed without resetting Rewired.
             </summary>
         </member>
         <member name="P:Rewired.ReInput.ConfigHelper.force4WayHats">
@@ -18194,6 +18936,8 @@
             actual device connected, properties returned by this device, the current input source(s) in use, and more factors.
             This is only intended to be used to view the default Controller Map setup in the Rewired Input Manager.
             Do not attempt to use this Controller Map in a Player.
+            NOTE: Element indices in ActionElementMaps may not match to to a Controller Map created with the actual controller connected.
+            Do not rely on ActionElementMap.elementIndex being accurate in Controller Maps returned by this method.
             </summary>
             <param name="joystickTypeGuid">Joystick GUID for which to retrieve the map</param>
             <param name="categoryId">Category Id</param>
@@ -18203,8 +18947,14 @@
         <member name="M:Rewired.ReInput.MappingHelper.GetJoystickMapInstance(System.Guid,System.String,System.String)">
             <summary>
             Gets an instanced copy of a joystick map from the default controller maps.
+            This overload can be used when no Joystick is actually connected and available to be used to look up the correct Controller Maps to load.
+            The Controller Map returned by this method is not guarateed to be consistent with the Controller Map that would be loaded
+            were the actual device to be connected. This is due to the fact that different Controller Maps may be loaded depending on the
+            actual device connected, properties returned by this device, the current input source(s) in use, and more factors.
             This is only intended to be used to view the default Controller Map setup in the Rewired Input Manager.
             Do not attempt to use this Controller Map in a Player.
+            NOTE: Element indices in ActionElementMaps may not match to to a Controller Map created with the actual controller connected.
+            Do not rely on ActionElementMap.elementIndex being accurate in Controller Maps returned by this method.
             </summary>
             <param name="joystickTypeGuid">Joystick GUID for which to retrieve the map</param>
             <param name="categoryName">Category Name</param>
@@ -18519,9 +19269,6 @@
         </member>
         <member name="T:Rewired.InputSources.SDL2.SDL.SDL_TextEditingEvent">
             \brief Keyboard text editing event structure (event.edit.*)
-        </member>
-        <member name="T:Rewired.InputSources.SDL2.SDL.SDL_TextInputEvent">
-            \brief Keyboard text input event structure (event.text.*)
         </member>
         <member name="T:Rewired.InputSources.SDL2.SDL.SDL_MouseMotionEvent">
             \brief Mouse motion event structure (event.motion.*)
@@ -20439,6 +21186,27 @@
             <param name="bufferLength">The length of the buffer in bytes.</param>
             <param name="numBytesToWrite">Number of bytes to write to the buffer.</param>
             <returns>Number of bytes written</returns>
+        </member>
+        <member name="T:Rewired.Utils.Classes.Utility.ObjectInstanceTracker">
+            <summary>
+            Stores instances and assigns unique ids.
+            This is used for static function pointer callback handling due to IL2CPP's inability to marshal a function pointer to an instance method.
+            Objects must be unregistered when no longer needed or you will get a MEMORY LEAK.
+            </summary>
+        </member>
+        <member name="M:Rewired.Utils.Classes.Utility.ObjectInstanceTracker.Register(System.Object)">
+            <summary>
+            Registers the object and returns a new instance id.
+            </summary>
+            <returns>New instance id.</returns>
+        </member>
+        <member name="T:Rewired.Utils.Classes.Utility.ObjectInstanceTracker.Wrapper`1">
+            <summary>
+            A wrapper for an object that registers the object with a tracker
+            and automatically unregisters it when the wrapper goes out of scope or is disposed.
+            This is so a class doesn't have to store its own id and so it can unregister properly
+            without having to implement IDisposable and be disposed manually.
+            </summary>
         </member>
         <member name="T:Rewired.Utils.Classes.Utility.SetAndRestoreVar`1">
             <summary>
