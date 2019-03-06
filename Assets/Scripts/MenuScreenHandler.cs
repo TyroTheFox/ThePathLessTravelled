@@ -48,7 +48,8 @@ public class MenuScreenHandler : MonoBehaviour
         if (updateList)
         {
             menuButtonsPopulatorObject.buttons = menuButtonObject;
-            var abilities = combatant.Abilities.GetAbilities(UseableIn.Both, IncludeCheckType.No);
+            var abilities = combatant.Abilities.GetAbilities(UseableIn.Battle, IncludeCheckType.No);
+            abilities.AddRange(combatant.Abilities.GetAbilities(UseableIn.None, IncludeCheckType.No));
             foreach (var ability in abilities)
             {
                 menuButtonsPopulatorObject.AddButton(ability, combatant);
@@ -58,7 +59,8 @@ public class MenuScreenHandler : MonoBehaviour
 
         if (menuButtonsPopulatorObject.transform.childCount == 0)
         {
-            var abilities = combatant.Abilities.GetAbilities(UseableIn.Both, IncludeCheckType.No);
+            var abilities = combatant.Abilities.GetAbilities(UseableIn.Battle, IncludeCheckType.No);
+            abilities.AddRange(combatant.Abilities.GetAbilities(UseableIn.None, IncludeCheckType.No));
             if (abilities.Count > 0)
             {
                 updateList = true;

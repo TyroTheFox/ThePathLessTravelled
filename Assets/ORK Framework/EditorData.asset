@@ -30,8 +30,8 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   eventAsset:
-  - {fileID: 11400000, guid: 835c31eb10aca77439fd50d0f7358705, type: 2}
   - {fileID: 11400000, guid: 0b94935472081194ca0e4d4e1bfb090d, type: 2}
+  - {fileID: 11400000, guid: 835c31eb10aca77439fd50d0f7358705, type: 2}
   - {fileID: 11400000, guid: 8ed7238ddf9842a45b52dfe198299edc, type: 2}
   - {fileID: 11400000, guid: 185d645ec349d33419a126b738908f3f, type: 2}
   - {fileID: 11400000, guid: 543cb4087776974438a98281a710cc8e, type: 2}

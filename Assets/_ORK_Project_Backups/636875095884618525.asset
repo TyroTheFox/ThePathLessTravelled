@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 636874317968137996
+  m_Name: 636875095884618525
   m_EditorClassIdentifier: 
-  time: 06/03/2019 00:59:29
+  time: 06/03/2019 22:52:40
   version: 2.21.0
   keys:
   - editorSettings
@@ -2736,7 +2736,11 @@ MonoBehaviour:
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" setPrefabs=\"False\"
       setAudioClips=\"False\" useRequirements=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_eventasset
       evt=\"2\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t<ddActivation
+      turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t\t<3>\n\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" setPrefabs=\"False\"
+      setAudioClips=\"False\" useRequirements=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_eventasset
+      evt=\"3\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
+      turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</3>\n\t\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t<ddActivation
       soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float stopAfter=\"1\" after=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool
       addAudio=\"False\" useSoundType=\"False\" targetSound=\"False\" addPrefab=\"False\"
       mountPrefab=\"False\" stopParticles=\"False\" />\n\t\t\t\t\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t\t\t\t\t\t<_bool
@@ -2822,16 +2826,20 @@ MonoBehaviour:
       animate=\"True\" />\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" setPrefabs=\"False\"
       setAudioClips=\"False\" useRequirements=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_eventasset
-      evt=\"3\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
+      evt=\"4\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
       turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" setPrefabs=\"False\"
       setAudioClips=\"False\" useRequirements=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_eventasset
-      evt=\"4\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
+      evt=\"5\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
       turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t<2>\n\t\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" setPrefabs=\"False\"
       setAudioClips=\"False\" useRequirements=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_eventasset
-      evt=\"5\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t<ddActivation
+      evt=\"6\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
+      turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t\t<3>\n\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" setPrefabs=\"False\"
+      setAudioClips=\"False\" useRequirements=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_eventasset
+      evt=\"7\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
+      turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</3>\n\t\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t<ddActivation
       soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float stopAfter=\"1\" after=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool
       addAudio=\"False\" useSoundType=\"False\" targetSound=\"False\" addPrefab=\"False\"
       mountPrefab=\"False\" stopParticles=\"False\" />\n\t\t\t\t\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t\t\t\t\t\t<_bool
@@ -3759,16 +3767,17 @@ MonoBehaviour:
       animate=\"True\" />\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" setPrefabs=\"False\"
       setAudioClips=\"False\" useRequirements=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_eventasset
-      evt=\"6\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
+      evt=\"8\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
       turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" setPrefabs=\"False\"
       setAudioClips=\"False\" useRequirements=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_eventasset
-      evt=\"7\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
+      evt=\"9\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
       turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t<2>\n\t\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" setPrefabs=\"False\"
       setAudioClips=\"False\" useRequirements=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_eventasset
-      evt=\"8\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t<ddActivation
+      evt=\"10\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"2\"
+      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool turnBased=\"True\" activeTime=\"True\" realTime=\"True\"
+      phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t<ddActivation
       soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float stopAfter=\"1\" after=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool
       addAudio=\"False\" useSoundType=\"False\" targetSound=\"False\" addPrefab=\"False\"
       mountPrefab=\"False\" stopParticles=\"False\" />\n\t\t\t\t\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t\t\t\t\t\t<_bool
@@ -4905,7 +4914,7 @@ MonoBehaviour:
       value=\"70\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t</hitChance>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</variableChanges>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Fire
       Burst]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</13>\n\t\t\t<14
-      abilityType=\"4\" damageTypeID=\"0\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\"
+      abilityType=\"4\" damageTypeID=\"0\" useableIn=\"3\" selectionID=\"0\" lvlType=\"0\"
       expID=\"0\" >\n\t\t\t\t<_bool ownDamageType=\"False\" hidden=\"False\" allowLvlChange=\"False\"
       allowDeadUser=\"False\" ownSelection=\"False\" useScreenCombatant=\"False\"
       ownNotifications=\"False\" ownConsoleAddAction=\"False\" ownConsoleAction=\"False\"
@@ -4916,47 +4925,14 @@ MonoBehaviour:
       variableSave=\"True\" variableUseWhenLoading=\"True\" useVariableDescription=\"False\"
       />\n\t\t\t\t\t\t\t<buyPriceValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
       initialValue=\"0\" offset=\"0\" value=\"50\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
-      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</buyPriceValue>\n\t\t\t\t\t\t\t<active
-      reuseType=\"0\" reuseScope=\"0\" globalEventID=\"0\" orderChange=\"0\" timebarChangeOperator=\"0\"
-      timebarChangeRounding=\"0\" actionsPerTurnChangeOperator=\"0\" actionsPerTurnChangeRounding=\"0\"
-      autoConsumeType=\"1\" >\n\t\t\t\t\t\t\t\t<_float availableTime=\"0\" timebarUse=\"1000\"
-      randomBattleFactor=\"0\" randomBattleFactorTime=\"60\" />\n\t\t\t\t\t\t\t\t<_bool
-      revive=\"False\" counterable=\"False\" reflectable=\"False\" scanTarget=\"False\"
-      scanIgnoreNotScanable=\"False\" scanIgnoreNoEntry=\"False\" endTurn=\"True\"
-      ownTurnActionCost=\"False\" ownPhaseActionCost=\"False\" useHitChance=\"False\"
-      useUserHitChance=\"False\" hasCritical=\"False\" ownCastTime=\"False\" useDelay=\"False\"
-      callGlobalEvent=\"False\" changeClass=\"False\" setRandomBattleFactor=\"False\"
-      removeTurnOrder=\"False\" changeTimebar=\"False\" changeActionsPerTurn=\"False\"
-      changeUsedActionsPerTurn=\"False\" useRequirements=\"False\" itemShowNotification=\"True\"
-      itemShowConsole=\"True\" userChangeTargetHitOnly=\"False\" />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
-      targetType=\"0\" targetRange=\"1\" isDead=\"1\" affectRangeType=\"0\" horizontalPlane=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t<_bool targetRangeToggle=\"False\" notSelf=\"False\" noneSelectGridCell=\"False\"
-      ownUseRange=\"False\" useRequirements=\"False\" checkUserOrientation=\"False\"
-      userFront=\"False\" userBack=\"False\" userLeft=\"False\" userRight=\"False\"
-      checkTargetOrientation=\"False\" targetFront=\"False\" targetBack=\"False\"
-      targetLeft=\"False\" targetRight=\"False\" useAutoTarget=\"False\" />\n\t\t\t\t\t\t\t\t</targetSettings>\n\t\t\t\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t\t\t\t\t<_bool
-      animate=\"False\" />\n\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t<ddActivation
-      soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float stopAfter=\"1\" after=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool
-      addAudio=\"False\" useSoundType=\"False\" targetSound=\"False\" addPrefab=\"False\"
-      mountPrefab=\"False\" stopParticles=\"False\" />\n\t\t\t\t\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t\t\t\t\t\t<_bool
-      animate=\"False\" />\n\t\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t</ddActivation>\n\t\t\t\t\t\t\t\t<stealChance
-      itemType=\"0\" itemID=\"0\" currencyID=\"0\" money=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float
-      itemBonus=\"0\" moneyBonus=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool stealItem=\"False\"
-      fixItem=\"False\" stealMoney=\"False\" fixMoney=\"False\" />\n\t\t\t\t\t\t\t\t</stealChance>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
-      cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
-      volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</useCost>\n\t\t\t\t\t\t\t\t<userChange>\n\t\t\t\t\t\t\t\t\t<_bool
-      cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
-      volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t\t<0
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</buyPriceValue>\n\t\t\t\t\t\t\t<passive>\n\t\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t\t<addEquipmentPart
+      />\n\t\t\t\t\t\t\t\t\t<blockedEquipmentPart />\n\t\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t\t<bonus>\n\t\t\t\t\t\t\t\t\t<_bool
+      useCustomBonus=\"False\" />\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<bonuses>\n\t\t\t\t\t\t\t\t\t\t</bonuses>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</bonus>\n\t\t\t\t\t\t\t\t<autoEffects>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t\t<0
       typeID=\"0\" effectID=\"14\" effectCast=\"1\" requirementType=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool
       useType=\"False\" ownHitChance=\"False\" useHitChance=\"False\" force=\"True\"
-      removeSingle=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</userChange>\n\t\t\t\t\t\t\t\t<targetChange>\n\t\t\t\t\t\t\t\t\t<_bool
-      cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
-      volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</variableChanges>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Energy
+      removeSingle=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t\t<attackEffect>\n\t\t\t\t\t\t\t\t\t\t</attackEffect>\n\t\t\t\t\t\t\t\t\t\t<defenceEffect>\n\t\t\t\t\t\t\t\t\t\t</defenceEffect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</autoEffects>\n\t\t\t\t\t\t\t</passive>\n\t\t\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</variableChanges>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Energy
       Regen]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</14>\n\t\t\t<15
-      abilityType=\"4\" damageTypeID=\"0\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\"
+      abilityType=\"4\" damageTypeID=\"0\" useableIn=\"3\" selectionID=\"0\" lvlType=\"0\"
       expID=\"0\" >\n\t\t\t\t<_bool ownDamageType=\"False\" hidden=\"False\" allowLvlChange=\"False\"
       allowDeadUser=\"False\" ownSelection=\"False\" useScreenCombatant=\"False\"
       ownNotifications=\"False\" ownConsoleAddAction=\"False\" ownConsoleAction=\"False\"
@@ -4967,47 +4943,11 @@ MonoBehaviour:
       variableSave=\"True\" variableUseWhenLoading=\"True\" useVariableDescription=\"False\"
       />\n\t\t\t\t\t\t\t<buyPriceValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
       initialValue=\"0\" offset=\"0\" value=\"50\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
-      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</buyPriceValue>\n\t\t\t\t\t\t\t<active
-      reuseType=\"0\" reuseScope=\"0\" globalEventID=\"0\" orderChange=\"0\" timebarChangeOperator=\"0\"
-      timebarChangeRounding=\"0\" actionsPerTurnChangeOperator=\"0\" actionsPerTurnChangeRounding=\"0\"
-      autoConsumeType=\"1\" >\n\t\t\t\t\t\t\t\t<_float availableTime=\"0\" timebarUse=\"1000\"
-      randomBattleFactor=\"0\" randomBattleFactorTime=\"60\" />\n\t\t\t\t\t\t\t\t<_bool
-      revive=\"False\" counterable=\"False\" reflectable=\"False\" scanTarget=\"False\"
-      scanIgnoreNotScanable=\"False\" scanIgnoreNoEntry=\"False\" endTurn=\"True\"
-      ownTurnActionCost=\"False\" ownPhaseActionCost=\"False\" useHitChance=\"False\"
-      useUserHitChance=\"False\" hasCritical=\"False\" ownCastTime=\"False\" useDelay=\"False\"
-      callGlobalEvent=\"False\" changeClass=\"False\" setRandomBattleFactor=\"False\"
-      removeTurnOrder=\"False\" changeTimebar=\"False\" changeActionsPerTurn=\"False\"
-      changeUsedActionsPerTurn=\"False\" useRequirements=\"False\" itemShowNotification=\"True\"
-      itemShowConsole=\"True\" userChangeTargetHitOnly=\"False\" />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
-      targetType=\"0\" targetRange=\"1\" isDead=\"1\" affectRangeType=\"0\" horizontalPlane=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t<_bool targetRangeToggle=\"False\" notSelf=\"False\" noneSelectGridCell=\"False\"
-      ownUseRange=\"False\" useRequirements=\"False\" checkUserOrientation=\"False\"
-      userFront=\"False\" userBack=\"False\" userLeft=\"False\" userRight=\"False\"
-      checkTargetOrientation=\"False\" targetFront=\"False\" targetBack=\"False\"
-      targetLeft=\"False\" targetRight=\"False\" useAutoTarget=\"False\" />\n\t\t\t\t\t\t\t\t</targetSettings>\n\t\t\t\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t\t\t\t\t<_bool
-      animate=\"False\" />\n\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t<ddActivation
-      soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float stopAfter=\"1\" after=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool
-      addAudio=\"False\" useSoundType=\"False\" targetSound=\"False\" addPrefab=\"False\"
-      mountPrefab=\"False\" stopParticles=\"False\" />\n\t\t\t\t\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t\t\t\t\t\t<_bool
-      animate=\"False\" />\n\t\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t</ddActivation>\n\t\t\t\t\t\t\t\t<stealChance
-      itemType=\"0\" itemID=\"0\" currencyID=\"0\" money=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float
-      itemBonus=\"0\" moneyBonus=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool stealItem=\"False\"
-      fixItem=\"False\" stealMoney=\"False\" fixMoney=\"False\" />\n\t\t\t\t\t\t\t\t</stealChance>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
-      cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
-      volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</useCost>\n\t\t\t\t\t\t\t\t<userChange>\n\t\t\t\t\t\t\t\t\t<_bool
-      cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
-      volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t\t<0
-      typeID=\"0\" effectID=\"15\" effectCast=\"1\" requirementType=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      useType=\"False\" ownHitChance=\"False\" useHitChance=\"False\" force=\"False\"
-      removeSingle=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</userChange>\n\t\t\t\t\t\t\t\t<targetChange>\n\t\t\t\t\t\t\t\t\t<_bool
-      cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
-      volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</variableChanges>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Weapon
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</buyPriceValue>\n\t\t\t\t\t\t\t<passive>\n\t\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t\t<addEquipmentPart
+      />\n\t\t\t\t\t\t\t\t\t<blockedEquipmentPart />\n\t\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t\t<bonus>\n\t\t\t\t\t\t\t\t\t<_bool
+      useCustomBonus=\"False\" />\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<bonuses>\n\t\t\t\t\t\t\t\t\t\t</bonuses>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</bonus>\n\t\t\t\t\t\t\t\t<autoEffects>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t\t<attackEffect>\n\t\t\t\t\t\t\t\t\t\t</attackEffect>\n\t\t\t\t\t\t\t\t\t\t<defenceEffect>\n\t\t\t\t\t\t\t\t\t\t</defenceEffect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</autoEffects>\n\t\t\t\t\t\t\t</passive>\n\t\t\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</variableChanges>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Weapon
       Damage Resistance]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</15>\n\t\t\t<16
-      abilityType=\"4\" damageTypeID=\"0\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\"
+      abilityType=\"4\" damageTypeID=\"0\" useableIn=\"3\" selectionID=\"0\" lvlType=\"0\"
       expID=\"0\" >\n\t\t\t\t<_bool ownDamageType=\"False\" hidden=\"False\" allowLvlChange=\"False\"
       allowDeadUser=\"False\" ownSelection=\"False\" useScreenCombatant=\"False\"
       ownNotifications=\"False\" ownConsoleAddAction=\"False\" ownConsoleAction=\"False\"
@@ -5018,45 +4958,9 @@ MonoBehaviour:
       variableSave=\"True\" variableUseWhenLoading=\"True\" useVariableDescription=\"False\"
       />\n\t\t\t\t\t\t\t<buyPriceValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
       initialValue=\"0\" offset=\"0\" value=\"50\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
-      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</buyPriceValue>\n\t\t\t\t\t\t\t<active
-      reuseType=\"0\" reuseScope=\"0\" globalEventID=\"0\" orderChange=\"0\" timebarChangeOperator=\"0\"
-      timebarChangeRounding=\"0\" actionsPerTurnChangeOperator=\"0\" actionsPerTurnChangeRounding=\"0\"
-      autoConsumeType=\"1\" >\n\t\t\t\t\t\t\t\t<_float availableTime=\"0\" timebarUse=\"1000\"
-      randomBattleFactor=\"0\" randomBattleFactorTime=\"60\" />\n\t\t\t\t\t\t\t\t<_bool
-      revive=\"False\" counterable=\"False\" reflectable=\"False\" scanTarget=\"False\"
-      scanIgnoreNotScanable=\"False\" scanIgnoreNoEntry=\"False\" endTurn=\"True\"
-      ownTurnActionCost=\"False\" ownPhaseActionCost=\"False\" useHitChance=\"False\"
-      useUserHitChance=\"False\" hasCritical=\"False\" ownCastTime=\"False\" useDelay=\"False\"
-      callGlobalEvent=\"False\" changeClass=\"False\" setRandomBattleFactor=\"False\"
-      removeTurnOrder=\"False\" changeTimebar=\"False\" changeActionsPerTurn=\"False\"
-      changeUsedActionsPerTurn=\"False\" useRequirements=\"False\" itemShowNotification=\"True\"
-      itemShowConsole=\"True\" userChangeTargetHitOnly=\"False\" />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
-      targetType=\"0\" targetRange=\"1\" isDead=\"1\" affectRangeType=\"0\" horizontalPlane=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t<_bool targetRangeToggle=\"False\" notSelf=\"False\" noneSelectGridCell=\"False\"
-      ownUseRange=\"False\" useRequirements=\"False\" checkUserOrientation=\"False\"
-      userFront=\"False\" userBack=\"False\" userLeft=\"False\" userRight=\"False\"
-      checkTargetOrientation=\"False\" targetFront=\"False\" targetBack=\"False\"
-      targetLeft=\"False\" targetRight=\"False\" useAutoTarget=\"False\" />\n\t\t\t\t\t\t\t\t</targetSettings>\n\t\t\t\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t\t\t\t\t<_bool
-      animate=\"False\" />\n\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t<ddActivation
-      soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float stopAfter=\"1\" after=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool
-      addAudio=\"False\" useSoundType=\"False\" targetSound=\"False\" addPrefab=\"False\"
-      mountPrefab=\"False\" stopParticles=\"False\" />\n\t\t\t\t\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t\t\t\t\t\t<_bool
-      animate=\"False\" />\n\t\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t</ddActivation>\n\t\t\t\t\t\t\t\t<stealChance
-      itemType=\"0\" itemID=\"0\" currencyID=\"0\" money=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float
-      itemBonus=\"0\" moneyBonus=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool stealItem=\"False\"
-      fixItem=\"False\" stealMoney=\"False\" fixMoney=\"False\" />\n\t\t\t\t\t\t\t\t</stealChance>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
-      cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
-      volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</useCost>\n\t\t\t\t\t\t\t\t<userChange>\n\t\t\t\t\t\t\t\t\t<_bool
-      cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
-      volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t\t<0
-      typeID=\"0\" effectID=\"16\" effectCast=\"1\" requirementType=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      useType=\"False\" ownHitChance=\"False\" useHitChance=\"False\" force=\"False\"
-      removeSingle=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</userChange>\n\t\t\t\t\t\t\t\t<targetChange>\n\t\t\t\t\t\t\t\t\t<_bool
-      cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
-      volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</variableChanges>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Energy
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</buyPriceValue>\n\t\t\t\t\t\t\t<passive>\n\t\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t\t<addEquipmentPart
+      />\n\t\t\t\t\t\t\t\t\t<blockedEquipmentPart />\n\t\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t\t<bonus>\n\t\t\t\t\t\t\t\t\t<_bool
+      useCustomBonus=\"False\" />\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<bonuses>\n\t\t\t\t\t\t\t\t\t\t</bonuses>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</bonus>\n\t\t\t\t\t\t\t\t<autoEffects>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t\t<attackEffect>\n\t\t\t\t\t\t\t\t\t\t</attackEffect>\n\t\t\t\t\t\t\t\t\t\t<defenceEffect>\n\t\t\t\t\t\t\t\t\t\t</defenceEffect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</autoEffects>\n\t\t\t\t\t\t\t</passive>\n\t\t\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</variableChanges>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Energy
       Projection Resistance]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</16>\n\t\t\t<17
       abilityType=\"1\" damageTypeID=\"0\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\"
       expID=\"0\" >\n\t\t\t\t<_bool ownDamageType=\"False\" hidden=\"False\" allowLvlChange=\"False\"
@@ -5091,8 +4995,9 @@ MonoBehaviour:
       animate=\"True\" />\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" setPrefabs=\"True\"
       setAudioClips=\"False\" useRequirements=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_eventasset
-      evt=\"9\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"1\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      turnBased=\"True\" activeTime=\"True\" realTime=\"True\" phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_gameobject
+      evt=\"11\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"1\"
+      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool turnBased=\"True\" activeTime=\"True\" realTime=\"True\"
+      phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_gameobject
       prefab=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t<ddActivation
       soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float stopAfter=\"1\" after=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool
       addAudio=\"False\" useSoundType=\"False\" targetSound=\"False\" addPrefab=\"False\"
@@ -5298,7 +5203,7 @@ MonoBehaviour:
       animate=\"True\" />\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" setPrefabs=\"True\"
       setAudioClips=\"False\" useRequirements=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_eventasset
-      evt=\"10\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"1\"
+      evt=\"12\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<battleSystemCheck gridBattles=\"1\"
       >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool turnBased=\"True\" activeTime=\"True\" realTime=\"True\"
       phase=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</battleSystemCheck>\n\t\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_gameobject
       prefab=\"1\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t\t\t\t<ddActivation
@@ -5404,9 +5309,11 @@ MonoBehaviour:
       fonts: []
       eventAssets:
       - {fileID: 11400000, guid: e8da8ca9b73e5814b90735c28e3697e5, type: 2}
+      - {fileID: 11400000, guid: 0b94935472081194ca0e4d4e1bfb090d, type: 2}
       - {fileID: 11400000, guid: 8ed7238ddf9842a45b52dfe198299edc, type: 2}
       - {fileID: 11400000, guid: e0990874eb3aa7d4db2ed5c1f6991de5, type: 2}
       - {fileID: 11400000, guid: e8da8ca9b73e5814b90735c28e3697e5, type: 2}
+      - {fileID: 11400000, guid: 0b94935472081194ca0e4d4e1bfb090d, type: 2}
       - {fileID: 11400000, guid: 8ed7238ddf9842a45b52dfe198299edc, type: 2}
       - {fileID: 11400000, guid: e0990874eb3aa7d4db2ed5c1f6991de5, type: 2}
       - {fileID: 11400000, guid: e8da8ca9b73e5814b90735c28e3697e5, type: 2}
@@ -5980,7 +5887,23 @@ MonoBehaviour:
       isCombatantType=\"True\" isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\"
       inInventory=\"True\" isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\"
       isChoosing=\"True\" isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
-      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</applyRequirement>\n\t\t\t\t\t<removeRequirement>\n\t\t\t\t\t</removeRequirement>\n\t\t\t\t\t<prefab>\n\t\t\t\t\t</prefab>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Energy
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t<status
+      statusNeeded=\"5\" selectionID=\"14\" selectionID2=\"0\" attrGetValue=\"0\"
+      svGetValue=\"0\" comparison=\"0\" otherStatusValueID=\"0\" svOtherGetValue=\"0\"
+      setter=\"1\" classLevelID=\"0\" level=\"1\" abilityCheck=\"0\" stackComparison=\"0\"
+      stackedQuantity=\"0\" deadScope=\"0\" equipmentPartID=\"0\" combatantScope=\"0\"
+      groupSizeComparison=\"0\" groupSize=\"0\" turnState=\"2\" researchTreeState=\"0\"
+      researchItem=\"0\" researchCountComparison=\"0\" researchCount=\"0\" researchItemState=\"0\"
+      aiSlotComparison=\"0\" aiSlotCount=\"0\" >\n\t\t\t\t\t\t\t\t<_float value=\"0\"
+      />\n\t\t\t\t\t\t\t\t<_bool checkDefAttrVal=\"False\" compareWithOther=\"False\"
+      classLevel=\"False\" checkDefinedClassLevel=\"False\" abilityValid=\"True\"
+      applied=\"False\" checkStacked=\"False\" appliedEffectType=\"False\" isDead=\"True\"
+      isEquipped=\"True\" checkEquipmentPart=\"False\" isClass=\"True\" isCombatantType=\"True\"
+      isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\" inInventory=\"True\"
+      isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\" isChoosing=\"True\"
+      isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</applyRequirement>\n\t\t\t\t\t<removeRequirement>\n\t\t\t\t\t</removeRequirement>\n\t\t\t\t\t<prefab>\n\t\t\t\t\t</prefab>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Energy
       Regen Delay]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</14>\n\t\t\t<15
       typeID=\"1\" priority=\"0\" stackable=\"0\" maxStack=\"99\" endAfter=\"0\" effectRecast=\"1\"
       endActionChange=\"0\" applyNeeded=\"0\" removeNeeded=\"0\" animationID=\"0\"
@@ -8332,7 +8255,10 @@ MonoBehaviour:
       >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\" isGroupAbility=\"False\" showNotification=\"True\"
       showConsole=\"True\" />\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t<2 atLevel=\"1\"
       abilityID=\"21\" abilityLevel=\"1\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\"
-      isGroupAbility=\"False\" showNotification=\"True\" showConsole=\"True\" />\n\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t</abilityTree>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</abilityDevelopment>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Dynamo-Defender]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
+      isGroupAbility=\"False\" showNotification=\"True\" showConsole=\"True\" />\n\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t<3
+      atLevel=\"1\" abilityID=\"16\" abilityLevel=\"1\" >\n\t\t\t\t\t\t\t\t<_bool
+      classLevel=\"False\" isGroupAbility=\"False\" showNotification=\"True\" showConsole=\"True\"
+      />\n\t\t\t\t\t\t\t</3>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t</abilityTree>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</abilityDevelopment>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Dynamo-Defender]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
       menuID=\"0\" turnBasedMenuID=\"0\" activeTimeMenuID=\"0\" realTimeMenuID=\"0\"
       phaseMenuID=\"0\" statusDevelopmentID=\"0\" shortcutListCount=\"1\" >\n\t\t\t\t<_bool
       useClassAbility=\"False\" ownBM=\"False\" useTurnBasedMenu=\"False\" useActiveTimeMenu=\"False\"
@@ -8914,7 +8840,7 @@ MonoBehaviour:
       replaceDefaultAutoAddSlots=\"False\" replaceDefaultAutoArrangeSlots=\"False\"
       useBattleAnims=\"False\" autoMoveAnimation=\"True\" useMoveAI=\"False\" useBattleMoveAI=\"False\"
       />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap />\n\t\t\t\t\t<startValue 85
-      15 0 0 20 15 7 5 5 1 3 0 0 0 0 0 0 0 0 0 0 100 100 />\n\t\t\t\t\t<defenceAttributeID
+      15 0 0 35 15 7 5 5 1 3 0 0 0 0 0 0 0 0 0 0 100 100 />\n\t\t\t\t\t<defenceAttributeID
       1 0 />\n\t\t\t\t\t<actionCombo />\n\t\t\t\t\t<money 50 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<spawnOffset
       0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<prefabRoot><![CDATA[]]></prefabRoot>\n\t\t\t\t\t<animationCustomName><![CDATA[Animator]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<_gameobject
       prefab=\"1\" />\n\t\t\t\t<buyPriceValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t<_float
@@ -12594,7 +12520,7 @@ MonoBehaviour:
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Equipment]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[Change
       your equipment]]></description>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t<2
       type=\"0\" screenID=\"3\" selectionID=\"0\" eventID=\"0\" reqID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_bool
-      selectCom=\"False\" useCombatantPart=\"False\" ownSelection=\"False\" closeScreen=\"False\"
+      selectCom=\"True\" useCombatantPart=\"False\" ownSelection=\"False\" closeScreen=\"False\"
       closeAfterSave=\"False\" useReq=\"False\" reqHide=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Abilities]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[Show
       your abilities]]></description>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t<3
