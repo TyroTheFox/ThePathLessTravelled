@@ -11,6 +11,11 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="2D_Magic_Attack" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Demo.cs" t="Include" />
+          </e>
+        </e>
         <e p="Game Jam Template" t="Include">
           <e p="GameJamTemplateReadMe.txt" t="Include" />
           <e p="ReadMe.txt" t="Include" />
@@ -50,6 +55,33 @@
         </e>
         <e p="ORK Framework" t="Include">
           <e p="ReadMe.txt" t="Include" />
+        </e>
+        <e p="PixelEffects" t="Include">
+          <e p="ReadMe.txt" t="Include" />
+          <e p="Script" t="Include">
+            <e p="Ease.cs" t="Include" />
+            <e p="Effects.cs" t="Include" />
+            <e p="Effects1.cs" t="Include" />
+            <e p="Effects10.cs" t="Include" />
+            <e p="Effects11.cs" t="Include" />
+            <e p="Effects2.cs" t="Include" />
+            <e p="Effects3.cs" t="Include" />
+            <e p="Effects4.cs" t="Include" />
+            <e p="Effects5.cs" t="Include" />
+            <e p="Effects6.cs" t="Include" />
+            <e p="Effects7.cs" t="Include" />
+            <e p="Effects8.cs" t="Include" />
+            <e p="Effects9.cs" t="Include" />
+            <e p="Intro.cs" t="Include" />
+            <e p="ModelEffectAnimation.cs" t="Include" />
+            <e p="Pool.cs" t="Include" />
+            <e p="StateFlip.cs" t="Include" />
+            <e p="StateRandom.cs" t="Include" />
+            <e p="StateRemove.cs" t="Include" />
+          </e>
+          <e p="Visual" t="Include">
+            <e p="Additive.shader" t="Include" />
+          </e>
         </e>
         <e p="Plugins" t="Include">
           <e p="GitHub" t="Include">
