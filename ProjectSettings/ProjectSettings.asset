@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 17
-  productGUID: 00000000000000000000000000000000
+  productGUID: 85a626b2297d58f49b95d56664fe0f7e
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -569,6 +569,7 @@ PlayerSettings:
   monoEnv: 
   splashScreenBackgroundSourceLandscape: {fileID: 0}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
+  blurSplashScreenBackground: 1
   spritePackerPolicy: 
   webGLMemorySize: 256
   webGLExceptionSupport: 1
@@ -603,6 +604,7 @@ PlayerSettings:
     26: UNITY_POST_PROCESSING_STACK_V2
     27: UNITY_POST_PROCESSING_STACK_V2
     28: UNITY_POST_PROCESSING_STACK_V2
+    29: UNITY_POST_PROCESSING_STACK_V2
   platformArchitecture:
     iPhone: 2
     tvOS: 1
@@ -679,7 +681,7 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   XboxOneXTitleMemory: 8
-  xboxOneScriptCompiler: 0
+  xboxOneScriptCompiler: 1
   XboxOneOverrideIdentityName: 
   vrEditorSettings:
     daydream:
@@ -716,7 +718,7 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   cloudProjectId: 406b91a4-521b-40e7-8075-cf5034ce8b1a
   framebufferDepthMemorylessMode: 0
-  projectName: EffectsExamples
+  projectName: The Path Less Travelled
   organizationId: tyrothefox
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

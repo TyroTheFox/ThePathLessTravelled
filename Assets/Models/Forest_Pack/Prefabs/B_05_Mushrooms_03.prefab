@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4263629220264826}
   - component: {fileID: 33290152022473978}
   - component: {fileID: 23052477393617102}
-  - component: {fileID: 64130648121552560}
   m_Layer: 0
   m_Name: B_05_Mushrooms_03
   m_TagString: Untagged
@@ -79,17 +78,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64130648121552560
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1162752005378312}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 9f9622bc4fe0a48aab60b09c55daf4f1, type: 3}
