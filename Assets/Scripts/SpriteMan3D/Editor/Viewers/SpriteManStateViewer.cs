@@ -23,11 +23,11 @@ namespace SpriteMan3D.UnityEditor.Viewers
                 scrollPos = EditorGUILayout.BeginScrollView(scrollPos, GUILayout.MaxHeight(maxHeight));
 
                 var states = state.StateMapping;
-                foreach (var s in states)
+                foreach (var state in states)
                 {
-                    EditorGUILayout.LabelField(s.stateName);
+                    EditorGUILayout.LabelField(state.stateName);
 
-                    foreach (var dir in s.directions)
+                    foreach (var dir in state.directions)
                     {
                         var dirStr = string.Format("{0}{1}", EditorDisplayHelper.Tabs(1), dir.direction.ToString());
                         EditorGUILayout.LabelField(dirStr);

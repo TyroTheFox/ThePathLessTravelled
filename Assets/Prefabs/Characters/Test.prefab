@@ -100,6 +100,7 @@ MonoBehaviour:
   canMove: 1
   canJump: 0
   canAttack: 0
+  currentCamera: {fileID: 0}
   attackCooldown: 0.2
   interactionController: {fileID: 3076259111557512550}
 --- !u!54 &54471831881805920
@@ -175,6 +176,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

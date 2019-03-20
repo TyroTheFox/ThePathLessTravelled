@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 11/03/2019 21:44:54
+  time: 20/03/2019 01:44:05
   version: 2.21.0
   keys:
   - editorSettings
@@ -949,7 +949,13 @@ MonoBehaviour:
     xmlData: "<animations>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_bool
       randomFirstStartTime=\"False\" mSetSpeed=\"False\" mSetAutoHorizontal=\"False\"
       mSetAutoVertical=\"False\" mSetXRotation=\"False\" mSetYRotation=\"False\" mSetZRotation=\"False\"
-      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default]]></name>\n\t\t\t\t\t<mAutoHoriziontal><![CDATA[]]></mAutoHoriziontal>\n\t\t\t\t\t<mAutoVertical><![CDATA[]]></mAutoVertical>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<legacy>\n\t\t\t\t\t</legacy>\n\t\t\t\t\t<mecanim>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default]]></name>\n\t\t\t\t\t<mAutoHoriziontal><![CDATA[]]></mAutoHoriziontal>\n\t\t\t\t\t<mAutoVertical><![CDATA[]]></mAutoVertical>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<legacy>\n\t\t\t\t\t\t<0
+      typeID=\"0\" layer=\"0\" playType=\"0\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"False\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[toivoIdle]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      typeID=\"1\" layer=\"0\" playType=\"0\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"False\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[toivoWalk]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</legacy>\n\t\t\t\t\t<mecanim>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -1360,7 +1366,7 @@ MonoBehaviour:
   - name: areas
     xmlData: "<areas>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 typeID=\"0\" >\n\t\t\t\t<_bool
       ownLayout=\"False\" />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Town
-      Entrance]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[Test Town Entrance]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      Entrance]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[The Path Less Travelled]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
       typeID=\"0\" >\n\t\t\t\t<_bool ownLayout=\"False\" />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[A
       Bloke]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[Such blokeyness]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</areas>\n"
     lookUp:
@@ -16446,7 +16452,7 @@ MonoBehaviour:
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
       logID=\"0\" deathVarOrigin=\"0\" stealItemType=\"0\" stealItemID=\"0\" stealMoneyAmount=\"0\"
       aggressionType=\"0\" shortcutListCount=\"1\" animationSystem=\"0\" animationID=\"0\"
-      animationBattleID=\"0\" moveID=\"0\" battleMoveID=\"0\" >\n\t\t\t\t<_float boxRadius=\"1\"
+      animationBattleID=\"0\" moveID=\"1\" battleMoveID=\"0\" >\n\t\t\t\t<_float boxRadius=\"1\"
       sympathyChange=\"0\" stealItemFactor=\"1\" stealMoneyFactor=\"1\" aiTimeout=\"0\"
       />\n\t\t\t\t<_bool setObjectName=\"False\" useObjectVariables=\"False\" ownConsoleAddDefend=\"False\"
       ownConsoleDefend=\"False\" ownConsoleAddEscape=\"False\" ownConsoleEscape=\"False\"
@@ -16474,7 +16480,7 @@ MonoBehaviour:
       aggressionReactFaction=\"False\" limitAIRange=\"False\" ownAIDecisionTime=\"False\"
       useClassShortcuts=\"False\" ownShortcutListCount=\"False\" replaceDefaultShortcuts=\"False\"
       replaceDefaultAutoAddSlots=\"False\" replaceDefaultAutoArrangeSlots=\"False\"
-      useBattleAnims=\"False\" autoMoveAnimation=\"False\" useMoveAI=\"False\" useBattleMoveAI=\"False\"
+      useBattleAnims=\"False\" autoMoveAnimation=\"False\" useMoveAI=\"True\" useBattleMoveAI=\"False\"
       />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap />\n\t\t\t\t\t<startValue 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 />\n\t\t\t\t\t<defenceAttributeID
       2 1 />\n\t\t\t\t\t<actionCombo />\n\t\t\t\t\t<money 500 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<spawnOffset
@@ -16554,7 +16560,7 @@ MonoBehaviour:
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
       logID=\"0\" deathVarOrigin=\"0\" stealItemType=\"0\" stealItemID=\"0\" stealMoneyAmount=\"0\"
       aggressionType=\"0\" shortcutListCount=\"1\" animationSystem=\"0\" animationID=\"0\"
-      animationBattleID=\"0\" moveID=\"0\" battleMoveID=\"0\" >\n\t\t\t\t<_float boxRadius=\"1\"
+      animationBattleID=\"0\" moveID=\"1\" battleMoveID=\"0\" >\n\t\t\t\t<_float boxRadius=\"1\"
       sympathyChange=\"0\" stealItemFactor=\"1\" stealMoneyFactor=\"1\" aiTimeout=\"0\"
       />\n\t\t\t\t<_bool setObjectName=\"False\" useObjectVariables=\"False\" ownConsoleAddDefend=\"False\"
       ownConsoleDefend=\"False\" ownConsoleAddEscape=\"False\" ownConsoleEscape=\"False\"
@@ -16582,7 +16588,7 @@ MonoBehaviour:
       aggressionReactFaction=\"False\" limitAIRange=\"False\" ownAIDecisionTime=\"False\"
       useClassShortcuts=\"False\" ownShortcutListCount=\"False\" replaceDefaultShortcuts=\"False\"
       replaceDefaultAutoAddSlots=\"False\" replaceDefaultAutoArrangeSlots=\"False\"
-      useBattleAnims=\"False\" autoMoveAnimation=\"False\" useMoveAI=\"False\" useBattleMoveAI=\"False\"
+      useBattleAnims=\"False\" autoMoveAnimation=\"False\" useMoveAI=\"True\" useBattleMoveAI=\"False\"
       />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap />\n\t\t\t\t\t<startValue 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 />\n\t\t\t\t\t<defenceAttributeID
       2 0 />\n\t\t\t\t\t<actionCombo />\n\t\t\t\t\t<money 500 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<spawnOffset
@@ -16663,7 +16669,7 @@ MonoBehaviour:
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
       logID=\"0\" deathVarOrigin=\"0\" stealItemType=\"0\" stealItemID=\"0\" stealMoneyAmount=\"0\"
       aggressionType=\"0\" shortcutListCount=\"1\" animationSystem=\"0\" animationID=\"0\"
-      animationBattleID=\"0\" moveID=\"0\" battleMoveID=\"0\" >\n\t\t\t\t<_float boxRadius=\"1\"
+      animationBattleID=\"0\" moveID=\"1\" battleMoveID=\"0\" >\n\t\t\t\t<_float boxRadius=\"1\"
       sympathyChange=\"0\" stealItemFactor=\"1\" stealMoneyFactor=\"1\" aiTimeout=\"0\"
       />\n\t\t\t\t<_bool setObjectName=\"False\" useObjectVariables=\"False\" ownConsoleAddDefend=\"False\"
       ownConsoleDefend=\"False\" ownConsoleAddEscape=\"False\" ownConsoleEscape=\"False\"
@@ -16691,7 +16697,7 @@ MonoBehaviour:
       aggressionReactFaction=\"False\" limitAIRange=\"False\" ownAIDecisionTime=\"False\"
       useClassShortcuts=\"False\" ownShortcutListCount=\"False\" replaceDefaultShortcuts=\"False\"
       replaceDefaultAutoAddSlots=\"False\" replaceDefaultAutoArrangeSlots=\"False\"
-      useBattleAnims=\"False\" autoMoveAnimation=\"False\" useMoveAI=\"False\" useBattleMoveAI=\"False\"
+      useBattleAnims=\"False\" autoMoveAnimation=\"False\" useMoveAI=\"True\" useBattleMoveAI=\"False\"
       />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap />\n\t\t\t\t\t<startValue 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 />\n\t\t\t\t\t<defenceAttributeID
       2 0 />\n\t\t\t\t\t<actionCombo />\n\t\t\t\t\t<money 500 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<spawnOffset
@@ -16771,7 +16777,7 @@ MonoBehaviour:
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
       logID=\"0\" deathVarOrigin=\"0\" stealItemType=\"0\" stealItemID=\"0\" stealMoneyAmount=\"0\"
       aggressionType=\"0\" shortcutListCount=\"1\" animationSystem=\"0\" animationID=\"0\"
-      animationBattleID=\"0\" moveID=\"0\" battleMoveID=\"0\" >\n\t\t\t\t<_float boxRadius=\"1\"
+      animationBattleID=\"0\" moveID=\"1\" battleMoveID=\"0\" >\n\t\t\t\t<_float boxRadius=\"1\"
       sympathyChange=\"0\" stealItemFactor=\"1\" stealMoneyFactor=\"1\" aiTimeout=\"0\"
       />\n\t\t\t\t<_bool setObjectName=\"False\" useObjectVariables=\"False\" ownConsoleAddDefend=\"False\"
       ownConsoleDefend=\"False\" ownConsoleAddEscape=\"False\" ownConsoleEscape=\"False\"
@@ -16799,7 +16805,7 @@ MonoBehaviour:
       aggressionReactFaction=\"False\" limitAIRange=\"False\" ownAIDecisionTime=\"False\"
       useClassShortcuts=\"False\" ownShortcutListCount=\"False\" replaceDefaultShortcuts=\"False\"
       replaceDefaultAutoAddSlots=\"False\" replaceDefaultAutoArrangeSlots=\"False\"
-      useBattleAnims=\"False\" autoMoveAnimation=\"False\" useMoveAI=\"False\" useBattleMoveAI=\"False\"
+      useBattleAnims=\"False\" autoMoveAnimation=\"False\" useMoveAI=\"True\" useBattleMoveAI=\"False\"
       />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap />\n\t\t\t\t\t<startValue 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 />\n\t\t\t\t\t<defenceAttributeID
       2 0 />\n\t\t\t\t\t<actionCombo />\n\t\t\t\t\t<money 500 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<spawnOffset
@@ -16887,7 +16893,7 @@ MonoBehaviour:
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
       logID=\"0\" deathVarOrigin=\"0\" stealItemType=\"0\" stealItemID=\"0\" stealMoneyAmount=\"0\"
       aggressionType=\"0\" shortcutListCount=\"1\" animationSystem=\"0\" animationID=\"0\"
-      animationBattleID=\"0\" moveID=\"0\" battleMoveID=\"0\" >\n\t\t\t\t<_float boxRadius=\"1\"
+      animationBattleID=\"0\" moveID=\"1\" battleMoveID=\"0\" >\n\t\t\t\t<_float boxRadius=\"1\"
       sympathyChange=\"0\" stealItemFactor=\"1\" stealMoneyFactor=\"1\" aiTimeout=\"0\"
       />\n\t\t\t\t<_bool setObjectName=\"False\" useObjectVariables=\"False\" ownConsoleAddDefend=\"False\"
       ownConsoleDefend=\"False\" ownConsoleAddEscape=\"False\" ownConsoleEscape=\"False\"
@@ -16915,7 +16921,7 @@ MonoBehaviour:
       aggressionReactFaction=\"False\" limitAIRange=\"False\" ownAIDecisionTime=\"False\"
       useClassShortcuts=\"False\" ownShortcutListCount=\"False\" replaceDefaultShortcuts=\"False\"
       replaceDefaultAutoAddSlots=\"False\" replaceDefaultAutoArrangeSlots=\"False\"
-      useBattleAnims=\"False\" autoMoveAnimation=\"False\" useMoveAI=\"False\" useBattleMoveAI=\"False\"
+      useBattleAnims=\"False\" autoMoveAnimation=\"False\" useMoveAI=\"True\" useBattleMoveAI=\"False\"
       />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap />\n\t\t\t\t\t<startValue 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 />\n\t\t\t\t\t<defenceAttributeID
       2 0 />\n\t\t\t\t\t<actionCombo />\n\t\t\t\t\t<money 500 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<spawnOffset
@@ -17874,20 +17880,20 @@ MonoBehaviour:
       - {fileID: 1417703181067376, guid: b19b7fadaa3a8314795cb2dc4fb7d04c, type: 3}
       - {fileID: 1417703181067376, guid: b19b7fadaa3a8314795cb2dc4fb7d04c, type: 3}
       - {fileID: 1417703181067376, guid: 81ea9fb21081deb44801fce087e7d727, type: 3}
-      - {fileID: 1417703181067376, guid: 81ea9fb21081deb44801fce087e7d727, type: 3}
-      - {fileID: 1417703181067376, guid: 81ea9fb21081deb44801fce087e7d727, type: 3}
-      - {fileID: 1417703181067376, guid: 81ea9fb21081deb44801fce087e7d727, type: 3}
-      - {fileID: 1417703181067376, guid: 81ea9fb21081deb44801fce087e7d727, type: 3}
-      - {fileID: 1417703181067376, guid: 81ea9fb21081deb44801fce087e7d727, type: 3}
-      - {fileID: 1417703181067376, guid: 81ea9fb21081deb44801fce087e7d727, type: 3}
-      - {fileID: 1096456435530344717, guid: 90182377a2704c248bc9974cba07093b, type: 3}
-      - {fileID: 1096456435530344717, guid: 90182377a2704c248bc9974cba07093b, type: 3}
-      - {fileID: 1096456435530344717, guid: 90182377a2704c248bc9974cba07093b, type: 3}
-      - {fileID: 1417703181067376, guid: b19b7fadaa3a8314795cb2dc4fb7d04c, type: 3}
-      - {fileID: 1417703181067376, guid: b19b7fadaa3a8314795cb2dc4fb7d04c, type: 3}
-      - {fileID: 1417703181067376, guid: b19b7fadaa3a8314795cb2dc4fb7d04c, type: 3}
-      - {fileID: 1417703181067376, guid: b19b7fadaa3a8314795cb2dc4fb7d04c, type: 3}
-      - {fileID: 1417703181067376, guid: b19b7fadaa3a8314795cb2dc4fb7d04c, type: 3}
+      - {fileID: 3735379375532270336, guid: b277dea607ecfa2429bf849cebbc4fe8, type: 3}
+      - {fileID: 1366093155293631115, guid: faf5d0c19ec6e1a4e8be3ba5abd4a3e4, type: 3}
+      - {fileID: 561687079910283524, guid: 2a8f7b1be16322e4b976417d58315bbf, type: 3}
+      - {fileID: 6554676396534380922, guid: 227af6dbb2cef9f4fb0b6b673e311612, type: 3}
+      - {fileID: 2463446463618111665, guid: a616b55563899504684728f463c3511d, type: 3}
+      - {fileID: 3184066813462127076, guid: 7d77785145ba40947a89b6a714079d0d, type: 3}
+      - {fileID: 3305307160681170838, guid: 0a42dcce000ce564891f9244f85512ae, type: 3}
+      - {fileID: 8534745600778896960, guid: 2cf89a5576b841547a63f6160c52c8f6, type: 3}
+      - {fileID: 2827611032972879971, guid: f6dc52ebdf40a0343823a717e44fa498, type: 3}
+      - {fileID: 6303196767667884486, guid: 32ade57d2af03b14bb05c6c39d037d07, type: 3}
+      - {fileID: 6303196767667884486, guid: 32ade57d2af03b14bb05c6c39d037d07, type: 3}
+      - {fileID: 1082195343477352351, guid: 81376d0d69fb6fb48b5bc6ef88f426c4, type: 3}
+      - {fileID: 1906739572048346656, guid: 59a1375e568c58b4e9ad1dccd9996e56, type: 3}
+      - {fileID: 8785510176081307531, guid: 7467ffaa4f5575d45bfe3764917a86e9, type: 3}
       guiSkins: []
       materials: []
       fonts: []
@@ -18327,7 +18333,57 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t\t<_bool useStartInventory=\"True\" useStartEquipment=\"True\"
       useInitEvent=\"True\" levelOnlyBattle=\"True\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
       checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</17>\n\t\t</data>\n\t</_subarrays>\n</combatantGroups>\n"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</17>\n\t\t\t<18>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
+      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Player
+      Party]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<combatant
+      id=\"5\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\"
+      classMaxOffset=\"5\" classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_float levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\"
+      />\n\t\t\t\t\t\t\t\t<_bool useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t<combatant
+      id=\"6\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\"
+      classMaxOffset=\"5\" classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_float levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\"
+      />\n\t\t\t\t\t\t\t\t<_bool useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2>\n\t\t\t\t\t\t\t<combatant
+      id=\"7\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\"
+      classMaxOffset=\"5\" classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_float levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\"
+      />\n\t\t\t\t\t\t\t\t<_bool useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3>\n\t\t\t\t\t\t\t<combatant
+      id=\"8\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\"
+      classMaxOffset=\"5\" classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_float levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\"
+      />\n\t\t\t\t\t\t\t\t<_bool useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4>\n\t\t\t\t\t\t\t<combatant
+      id=\"9\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\"
+      classMaxOffset=\"5\" classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_float levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\"
+      />\n\t\t\t\t\t\t\t\t<_bool useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t\t<5>\n\t\t\t\t\t\t\t<combatant
+      id=\"10\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\"
+      classMaxOffset=\"5\" classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_float levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\"
+      />\n\t\t\t\t\t\t\t\t<_bool useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</5>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</18>\n\t\t</data>\n\t</_subarrays>\n</combatantGroups>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -18382,7 +18438,7 @@ MonoBehaviour:
       threshold=\"0\" />\n\t\t\t\t\t\t<_bool ignoreHeightDistance=\"True\" ignoreRadius=\"False\"
       />\n\t\t\t\t\t</stopRange>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<condition>\n\t\t\t\t\t\t</condition>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</caution>\n\t\t\t</0>\n\t\t\t<1
       useMode=\"0\" horizontalPlane=\"0\" compType=\"0\" detectionNeeded=\"1\" >\n\t\t\t\t<_float
-      stopDistance=\"0.5\" stopTime=\"0.5\" waypointStopDistance=\"0.1\" waypointResetTime=\"1\"
+      stopDistance=\"0.2\" stopTime=\"0.5\" waypointStopDistance=\"0.1\" waypointResetTime=\"1\"
       patrolRadius=\"20\" detectionTimeout=\"1\" />\n\t\t\t\t<_bool useMoveRange=\"False\"
       autoStop=\"True\" stopClear=\"False\" compAdd=\"True\" waypointIgnoreRadius=\"False\"
       randomPatrol=\"False\" patrolFromCurrent=\"False\" useIdle=\"False\" idleRandom=\"False\"
@@ -18395,7 +18451,7 @@ MonoBehaviour:
       type=\"1\" >\n\t\t\t\t\t<_float speed=\"5\" />\n\t\t\t\t</huntingSpeed>\n\t\t\t\t<fleeSpeed
       type=\"1\" >\n\t\t\t\t\t<_float speed=\"5\" />\n\t\t\t\t</fleeSpeed>\n\t\t\t\t<waypointSpeed
       type=\"1\" >\n\t\t\t\t\t<_float speed=\"5\" />\n\t\t\t\t</waypointSpeed>\n\t\t\t\t<followLeaderRange>\n\t\t\t\t\t<_float
-      range=\"2\" threshold=\"0.5\" />\n\t\t\t\t\t<_bool ignoreHeightDistance=\"True\"
+      range=\"1\" threshold=\"0.5\" />\n\t\t\t\t\t<_bool ignoreHeightDistance=\"True\"
       ignoreRadius=\"False\" />\n\t\t\t\t</followLeaderRange>\n\t\t\t\t<giveWayRange>\n\t\t\t\t\t<_float
       range=\"0.5\" threshold=\"0.5\" />\n\t\t\t\t\t<_bool ignoreHeightDistance=\"True\"
       ignoreRadius=\"False\" />\n\t\t\t\t</giveWayRange>\n\t\t\t\t<autoRespawnRange>\n\t\t\t\t\t<_float
@@ -19967,7 +20023,7 @@ MonoBehaviour:
       >\n\t<_float waitTime=\"0\" />\n\t<_bool mainMenuLoadAsync=\"False\" autoCall=\"True\"
       newGameLoadAsync=\"False\" newGameStopMusic=\"True\" setStartGroup=\"False\"
       useFadeOut=\"True\" useFadeIn=\"True\" />\n\t<_string>\n\t\t<mainMenuScene><![CDATA[Main
-      Menu]]></mainMenuScene>\n\t\t<newGameScene><![CDATA[Test]]></newGameScene>\n\t</_string>\n\t<_eventasset
+      Menu]]></mainMenuScene>\n\t\t<newGameScene><![CDATA[Town]]></newGameScene>\n\t</_string>\n\t<_eventasset
       startEvent=\"0\" />\n\t<fadeOut interpolation=\"0\" >\n\t\t<_float time=\"0.5\"
       />\n\t\t<_bool alpha=\"True\" red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\"
       />\n\t\t<_floatarrays>\n\t\t\t<startColor 0 0 0 0 />\n\t\t\t<endColor 0 0 0
@@ -21615,7 +21671,82 @@ MonoBehaviour:
       price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
       limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
       />\n\t\t\t\t\t\t</9>\n\t\t\t\t\t</armor>\n\t\t\t\t\t<ability>\n\t\t\t\t\t</ability>\n\t\t\t\t\t<combatant>\n\t\t\t\t\t</combatant>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiRuleset>\n\t\t\t\t\t</aiRuleset>\n\t\t\t\t\t<craftingRecipe>\n\t\t\t\t\t</craftingRecipe>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Test
-      Shop]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</shops>\n"
+      Shop]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      menuScreenID=\"0\" layoutID=\"0\" currencyID=\"0\" buyPriceRounding=\"0\" sellPriceRounding=\"0\"
+      musicStoreID=\"1\" >\n\t\t\t\t<_float timeScale=\"1\" exchangeRate=\"1\" />\n\t\t\t\t<_bool
+      useInventoryExchangeMenu=\"False\" blockControl=\"True\" blockMoveAI=\"False\"
+      blockOwnerMoveAI=\"False\" blockControlMaps=\"False\" pauseNotifications=\"False\"
+      pauseGame=\"False\" pauseTime=\"False\" freezePause=\"False\" setTimeScale=\"False\"
+      setORKScale=\"False\" saveShop=\"False\" saveSold=\"False\" ownBG=\"False\"
+      sellAllItemTypes=\"True\" setExchangeRate=\"False\" useBuyPriceModifier=\"False\"
+      useSellPriceModifier=\"False\" ownMusic=\"False\" lootRandom=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<lootID
+      />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<item>\n\t\t\t\t\t\t<0
+      itemID=\"10\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
+      />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</item>\n\t\t\t\t\t<weapon>\n\t\t\t\t\t\t<0
+      equipID=\"5\" level=\"1\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\"
+      useVariableConditions=\"False\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 equipID=\"7\"
+      level=\"1\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
+      />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2 equipID=\"8\" level=\"1\" quantity=\"1\"
+      price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3 equipID=\"9\" level=\"1\" quantity=\"1\"
+      price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</weapon>\n\t\t\t\t\t<armor>\n\t\t\t\t\t\t<0
+      equipID=\"0\" level=\"1\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\"
+      useVariableConditions=\"False\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 equipID=\"1\"
+      level=\"1\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
+      />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2 equipID=\"2\" level=\"1\" quantity=\"1\"
+      price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3 equipID=\"3\" level=\"1\" quantity=\"1\"
+      price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4 equipID=\"4\" level=\"1\" quantity=\"1\"
+      price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</4>\n\t\t\t\t\t\t<5 equipID=\"5\" level=\"1\" quantity=\"1\"
+      price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</5>\n\t\t\t\t\t\t<6 equipID=\"6\" level=\"1\" quantity=\"1\"
+      price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</6>\n\t\t\t\t\t\t<7 equipID=\"7\" level=\"1\" quantity=\"1\"
+      price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</7>\n\t\t\t\t\t\t<8 equipID=\"8\" level=\"1\" quantity=\"1\"
+      price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</8>\n\t\t\t\t\t\t<9 equipID=\"9\" level=\"1\" quantity=\"1\"
+      price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</9>\n\t\t\t\t\t</armor>\n\t\t\t\t\t<ability>\n\t\t\t\t\t</ability>\n\t\t\t\t\t<combatant>\n\t\t\t\t\t</combatant>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiRuleset>\n\t\t\t\t\t</aiRuleset>\n\t\t\t\t\t<craftingRecipe>\n\t\t\t\t\t</craftingRecipe>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Equipment
+      Shop]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
+      menuScreenID=\"0\" layoutID=\"0\" currencyID=\"0\" buyPriceRounding=\"0\" sellPriceRounding=\"0\"
+      musicStoreID=\"1\" >\n\t\t\t\t<_float timeScale=\"1\" exchangeRate=\"1\" />\n\t\t\t\t<_bool
+      useInventoryExchangeMenu=\"False\" blockControl=\"True\" blockMoveAI=\"False\"
+      blockOwnerMoveAI=\"False\" blockControlMaps=\"False\" pauseNotifications=\"False\"
+      pauseGame=\"False\" pauseTime=\"False\" freezePause=\"False\" setTimeScale=\"False\"
+      setORKScale=\"False\" saveShop=\"False\" saveSold=\"False\" ownBG=\"False\"
+      sellAllItemTypes=\"True\" setExchangeRate=\"False\" useBuyPriceModifier=\"False\"
+      useSellPriceModifier=\"False\" ownMusic=\"False\" lootRandom=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<lootID
+      />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<item>\n\t\t\t\t\t\t<0
+      itemID=\"0\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
+      />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 itemID=\"1\" quantity=\"1\" price=\"0\"
+      >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\"
+      overridePrice=\"False\" useVariableConditions=\"False\" />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      itemID=\"2\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
+      />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3 itemID=\"3\" quantity=\"1\" price=\"0\"
+      >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\"
+      overridePrice=\"False\" useVariableConditions=\"False\" />\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</item>\n\t\t\t\t\t<weapon>\n\t\t\t\t\t</weapon>\n\t\t\t\t\t<armor>\n\t\t\t\t\t</armor>\n\t\t\t\t\t<ability>\n\t\t\t\t\t</ability>\n\t\t\t\t\t<combatant>\n\t\t\t\t\t</combatant>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiRuleset>\n\t\t\t\t\t</aiRuleset>\n\t\t\t\t\t<craftingRecipe>\n\t\t\t\t\t</craftingRecipe>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Item
+      Shop]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t</data>\n\t</_subarrays>\n</shops>\n"
     lookUp:
       textures: []
       audioClips: []

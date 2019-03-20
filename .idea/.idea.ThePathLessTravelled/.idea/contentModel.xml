@@ -52,6 +52,64 @@
             <e p="SimpleSpriteOneAnimation.cs" t="Include" />
           </e>
         </e>
+        <e p="Editor" t="Include">
+          <e p="PackageManagerAssembly" t="Include">
+            <e p="PackageImportList.txt" t="Include" />
+          </e>
+          <e p="PrefabsBatchCreation.cs" t="Include" />
+          <e p="ScreenshotMaker.cs" t="Include" />
+        </e>
+        <e p="EffectExamples" t="Include">
+          <e p="Magic Effects" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Ice.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Misc Effects" t="Include">
+            <e p="Prefabs" t="Include">
+              <e p="Readme_Dissolve_Respawn_.txt" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="SpawnEffect.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="Dissolve.shader" t="Include" />
+              <e p="FireFly.shader" t="Include" />
+              <e p="Respawn.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Models" t="Include">
+          <e p="EnchantedForestPack1" t="Include">
+            <e p="ReadMe.txt" t="Include" />
+          </e>
+          <e p="MegaPack1Lite" t="Include">
+            <e p="EnchantedForestPack1" t="Include">
+              <e p="ReadMe.txt" t="Include" />
+            </e>
+            <e p="GreekPack1Lite" t="Include">
+              <e p="ReadMe.txt" t="Include" />
+            </e>
+            <e p="RomanCityPack1Lite" t="Include">
+              <e p="ReadMe.txt" t="Include" />
+            </e>
+            <e p="SciFiPack1" t="Include">
+              <e p="ReadMe.txt" t="Include" />
+            </e>
+            <e p="Steampunk" t="Include">
+              <e p="ReadMe.txt" t="Include" />
+            </e>
+            <e p="ToolsAndWeapons" t="Include">
+              <e p="ReadMe.txt" t="Include" />
+            </e>
+            <e p="TropicalIslandPack1" t="Include">
+              <e p="ReadMe.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Steampunk" t="Include">
+            <e p="ReadMe.txt" t="Include" />
+          </e>
+        </e>
         <e p="ORK Framework" t="Include">
           <e p="ReadMe.txt" t="Include" />
         </e>
@@ -96,6 +154,7 @@
             <e p="Collect Custom Battle Gains.cs" t="Include" />
             <e p="DamageCalculation.cs" t="Include" />
           </e>
+          <e p="PartyAnimator.cs" t="Include" />
           <e p="SpriteMan3D" t="Include">
             <e p="Demo" t="Include">
               <e p="Models" t="Include">
@@ -175,6 +234,22 @@
               <e p="SpriteManagerState.cs" t="Include" />
             </e>
             <e p="UPGRADE INSTRUCTIONS.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Shared" t="Include">
+          <e p="Ramps" t="Include">
+            <e p="Editor" t="Include">
+              <e p="RampAssetEditor.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="RampAsset.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="AdjustTimeScale.cs" t="Include" />
+            <e p="ProximityActivate.cs" t="Include" />
+            <e p="SimpleCameraController.cs" t="Include" />
+            <e p="SimpleCharacterMotor.cs" t="Include" />
           </e>
         </e>
         <e p="Standard Assets" t="Include">
@@ -428,9 +503,38 @@
             </e>
           </e>
         </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Tutorial Resources" t="Include">
           <e p="Models" t="Include">
             <e p="egg_entity.txt" t="Include" />
+          </e>
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
           </e>
         </e>
         <e p="UI" t="Include">

@@ -59,6 +59,8 @@ namespace SpriteMan3D
         
         private Rewired.Player playerIn; // The Rewired Player
         public InteractionController interactionController; // Ork Interaction Controller
+
+        public Transform currentCamera;
         
         void Start()
         {
@@ -82,8 +84,12 @@ namespace SpriteMan3D
 
         void FixedUpdate()
         {
-            canMove = !ORK.Battle.InBattle && !ORK.Control.InMenu && !ORK.Control.InShop && !ORK.Control.InEvent;
-            canJump = !ORK.Battle.InBattle || !ORK.Control.InMenu || !ORK.Control.InShop || !ORK.Control.InEvent;
+            if (ORK.Initialized)
+            {
+                canMove = !ORK.Battle.InBattle && !ORK.Control.InMenu && !ORK.Control.InShop && !ORK.Control.InEvent;
+                canJump = !ORK.Battle.InBattle || !ORK.Control.InMenu || !ORK.Control.InShop || !ORK.Control.InEvent;
+            }
+
             HandleMove();
         }
 
@@ -106,6 +112,11 @@ namespace SpriteMan3D
 
                 // rotate the character
                 var movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+                if (currentCamera != null)
+                {
+                    movement = currentCamera.rotation * movement;
+                    movement.y = 0.0f;
+                }
                 var rot = movement * (speed / 10);
 
                 if (attackTimer <= 0 && movement != Vector3.zero)
@@ -134,7 +145,7 @@ namespace SpriteMan3D
             if (canJump)
             {
                 // detect jump
-                //JumpStarted = playerIn.GetButtonDown("Jump");
+                JumpStarted = playerIn.GetButtonDown("Jump");
 
                 // make the character jump
                 if (JumpStarted && IsGrounded)

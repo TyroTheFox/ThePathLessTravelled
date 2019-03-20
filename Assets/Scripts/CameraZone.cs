@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using SpriteMan3D;
 using UnityEngine;
 
 public class CameraZone : MonoBehaviour
@@ -18,6 +19,8 @@ public class CameraZone : MonoBehaviour
 			camera.enabled = true;
 			camera.tag = "MainCamera";
 			audioListener.enabled = true;
+			if(other.GetComponent<PersonPlayerController>().currentCamera != null)
+				other.GetComponent<PersonPlayerController>().currentCamera = camera.transform;
 		}
 	}
 }
