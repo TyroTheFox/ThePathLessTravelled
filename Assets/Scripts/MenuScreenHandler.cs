@@ -5,7 +5,6 @@ using ORKFramework;
 using ORKFramework.Events;
 using ORKFramework.Events.Steps;
 using ORKFramework.Menu;
-using UnityEditor.IMGUI.Controls;
 using UnityEngine.UI;
 
 public class MenuScreenHandler : MonoBehaviour
@@ -52,6 +51,7 @@ public class MenuScreenHandler : MonoBehaviour
             abilities.AddRange(combatant.Abilities.GetAbilities(UseableIn.None, IncludeCheckType.No));
             foreach (var ability in abilities)
             {
+                if(ability.TypeID != 5)
                 menuButtonsPopulatorObject.AddButton(ability, combatant);
             }
             updateList = false;
@@ -61,7 +61,13 @@ public class MenuScreenHandler : MonoBehaviour
         {
             var abilities = combatant.Abilities.GetAbilities(UseableIn.Battle, IncludeCheckType.No);
             abilities.AddRange(combatant.Abilities.GetAbilities(UseableIn.None, IncludeCheckType.No));
-            if (abilities.Count > 0)
+            List<AbilityShortcut> checkedAbilities = new List<AbilityShortcut>();
+            foreach (var ability in abilities)
+            {
+                if(ability.TypeID != 5)
+                    checkedAbilities.Add(ability);
+            }
+            if (checkedAbilities.Count > 0)
             {
                 updateList = true;
             }

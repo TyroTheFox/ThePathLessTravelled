@@ -12,44 +12,57 @@ MonoBehaviour:
   m_Script: {fileID: -988360344, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: startsneak
   m_EditorClassIdentifier: 
-  time: 11/03/2019 14:54:25
+  time: 26/03/2019 15:35:05
   version: 2.21.0
   data:
     name: battleEvent
-    xmlData: "<battleEvent startIndex=\"2\" >\n\t<_float noBlockChance=\"100\" />\n\t<_bool
+    xmlData: "<battleEvent startIndex=\"4\" >\n\t<_float noBlockChance=\"100\" />\n\t<_bool
       blockMoveAI=\"False\" blockActorMoveAI=\"False\" blockControlMaps=\"False\"
       clearFoundObjects=\"False\" resetCam=\"False\" resetLook=\"False\" calcNeeded=\"False\"
       clearBlocks=\"False\" autoDamageDealers=\"True\" mainCamera=\"True\" cameraTag=\"False\"
       ignoreCamBlock=\"False\" destroyPrefabs=\"True\" overrideNodeName=\"False\"
       />\n\t<_floatarrays>\n\t\t<nodePosition 38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<prefab>\n\t\t\t<0>\n\t\t\t\t<_gameobject
-      prefab=\"0\" />\n\t\t\t</0>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
-      next=\"3\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
-      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 456 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
+      prefab=\"0\" />\n\t\t\t</0>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t\t<0>\n\t\t\t\t<_audioclip
+      clip=\"0\" />\n\t\t\t</0>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0 next=\"2\"
+      >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 475 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
       type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
       >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\"
       />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t</0>\n\t\t\t<1
-      next=\"-1\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
-      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 874 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
-      type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
-      >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\"
-      />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t</1>\n\t\t\t<2
       next=\"0\" >\n\t\t\t\t<_float timeBetween=\"0.3\" />\n\t\t\t\t<_bool waitBetween=\"True\"
-      start=\"True\" fadeChildren=\"True\" active=\"True\" overrideNodeName=\"False\"
+      start=\"True\" fadeChildren=\"False\" active=\"True\" overrideNodeName=\"False\"
       />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 247 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[BlinkObjectStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
-      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
-      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t\t<color
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[Sprite
+      Board]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey type=\"0\"
+      >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t\t<color
       interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"0.25\" />\n\t\t\t\t\t<_bool
       alpha=\"True\" red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\"
       />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor 0 0 0 0 />\n\t\t\t\t\t\t<endColor
-      0 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</color>\n\t\t\t</2>\n\t\t\t<3
-      next=\"1\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool setVisible=\"False\"
+      0 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</color>\n\t\t\t</1>\n\t\t\t<2
+      next=\"3\" >\n\t\t\t\t<_float timeBetween=\"0.3\" />\n\t\t\t\t<_bool waitBetween=\"True\"
+      start=\"False\" fadeChildren=\"True\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 684 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[BlinkObjectStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[Sprite
+      Board]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey type=\"0\"
+      >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</2>\n\t\t\t<3
+      next=\"-1\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool setActive=\"False\"
       waitBetween=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
-      665 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ObjectVisibleStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      912 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ActivateObjectStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[Sprite
+      Board]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey type=\"0\"
+      >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</3>\n\t\t\t<4
+      soundTypeID=\"0\" id=\"0\" next=\"1\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool
+      waitBetween=\"True\" useSoundType=\"False\" wait=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 247 114 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[PlaySoundStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
       type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
-      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</3>\n\t\t</step>\n\t</_subarrays>\n</battleEvent>\n"
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t\t<audio
+      rolloff=\"1\" >\n\t\t\t\t\t<_float volume=\"1\" minD=\"0\" maxD=\"100\" pitch=\"1\"
+      panLevel=\"0\" pan=\"0\" />\n\t\t\t\t\t<_bool oneShot=\"True\" advSet=\"False\"
+      loop=\"False\" ignoreLV=\"False\" setPan=\"False\" />\n\t\t\t\t</audio>\n\t\t\t</4>\n\t\t</step>\n\t</_subarrays>\n</battleEvent>\n"
     lookUp:
       textures: []
-      audioClips: []
+      audioClips:
+      - {fileID: 8300000, guid: 6a4b002191913463db033bc0e31d627a, type: 3}
       gameObjects:
       - {fileID: 1000011086562262, guid: a84c1c578194d44c8917accb10f0b069, type: 3}
       guiSkins: []

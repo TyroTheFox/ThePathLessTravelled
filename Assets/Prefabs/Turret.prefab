@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2193255953005937084}
   - component: {fileID: 2063152305070449136}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3305307160681170838}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.433469, y: 0.6819029, z: 1.4928675}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1981688318570472103}
@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 1981688318570472103}
   - component: {fileID: 5748384045773388119}
   - component: {fileID: 4699898895776456127}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite Board
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4015078618381409631}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.17, z: 0}
+  m_LocalPosition: {x: 0, y: 0.872, z: 0}
   m_LocalScale: {x: 0.7292199, y: 0.82424986, z: 0.21616}
   m_Children: []
   m_Father: {fileID: 2193255953005937084}
@@ -176,7 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8056891843946496082}
   - component: {fileID: 8981292631385574570}
-  m_Layer: 1
+  m_Layer: 11
   m_Name: Drop Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

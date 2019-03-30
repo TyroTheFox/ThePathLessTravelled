@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: NewGame
   m_EditorClassIdentifier: 
-  time: 15/03/2019 21:35:23
+  time: 26/03/2019 02:19:09
   version: 2.21.0
   data:
     name: gameEvent
@@ -20,8 +20,9 @@ MonoBehaviour:
       blockActorMoveAI=\"False\" blockControlMaps=\"False\" clearFoundObjects=\"True\"
       blockPlayer=\"False\" blockCamera=\"False\" clearBlocks=\"False\" mainCamera=\"True\"
       cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\" />\n\t<_floatarrays>\n\t\t<nodePosition
-      38 19 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
-      groupID=\"18\" id=\"5\" next=\"1\" >\n\t\t\t\t<_bool actor=\"False\" showNotification=\"True\"
+      38 19 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t\t<0>\n\t\t\t\t<_audioclip
+      clip=\"0\" />\n\t\t\t</0>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0 groupID=\"10\"
+      id=\"5\" next=\"1\" >\n\t\t\t\t<_bool actor=\"False\" showNotification=\"True\"
       showConsole=\"True\" useCombatantGroup=\"True\" otherGroup=\"False\" useInactive=\"False\"
       useStartInventory=\"True\" useStartEquipment=\"True\" useInitEvent=\"True\"
       active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
@@ -44,7 +45,8 @@ MonoBehaviour:
       266 209 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[LearnLogTextStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
     lookUp:
       textures: []
-      audioClips: []
+      audioClips:
+      - {fileID: 8300000, guid: 8c0d3e7e3b513a741a34790a4701416e, type: 3}
       gameObjects: []
       guiSkins: []
       materials: []

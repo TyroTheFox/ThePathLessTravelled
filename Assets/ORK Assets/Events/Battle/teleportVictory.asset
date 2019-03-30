@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 1453291137, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: teleportVictory
   m_EditorClassIdentifier: 
-  time: 05/03/2019 17:13:25
+  time: 23/03/2019 15:19:00
   version: 2.21.0
   data:
     name: battleEndEvent
     xmlData: "<battleEndEvent startIndex=\"0\" >\n\t<_bool blockMoveAI=\"False\" blockActorMoveAI=\"False\"
-      blockControlMaps=\"False\" blockPlayer=\"True\" blockCamera=\"True\" clearBlocks=\"False\"
+      blockControlMaps=\"False\" blockPlayer=\"True\" blockCamera=\"False\" clearBlocks=\"False\"
       mainCamera=\"True\" cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\"
       />\n\t<_floatarrays>\n\t\t<nodePosition 38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<prefab>\n\t\t\t<0>\n\t\t\t\t<_gameobject
       prefab=\"0\" />\n\t\t\t</0>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
@@ -57,7 +57,10 @@ MonoBehaviour:
       type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[SentryDeployed]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t<1
       type=\"1\" floatOperator=\"7\" vector3Operator=\"2\" >\n\t\t\t\t\t\t\t\t<_bool
       remove=\"False\" boolValue=\"False\" vector3Normalize=\"False\" />\n\t\t\t\t\t\t\t\t<key
-      type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[HealBotDeployed]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</change>\n\t\t\t</5>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[HealBotDeployed]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t<2
+      type=\"1\" floatOperator=\"7\" vector3Operator=\"2\" >\n\t\t\t\t\t\t\t\t<_bool
+      remove=\"False\" boolValue=\"False\" vector3Normalize=\"False\" />\n\t\t\t\t\t\t\t\t<key
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[ShieldDeployed]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</change>\n\t\t\t</5>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
     lookUp:
       textures: []
       audioClips: []

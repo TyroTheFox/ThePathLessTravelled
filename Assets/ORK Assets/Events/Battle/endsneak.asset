@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -988360344, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: endsneak
+  m_EditorClassIdentifier: 
+  time: 26/03/2019 15:37:12
+  version: 2.21.0
+  data:
+    name: battleEvent
+    xmlData: "<battleEvent startIndex=\"4\" >\n\t<_float noBlockChance=\"100\" />\n\t<_bool
+      blockMoveAI=\"False\" blockActorMoveAI=\"False\" blockControlMaps=\"False\"
+      clearFoundObjects=\"False\" resetCam=\"False\" resetLook=\"False\" calcNeeded=\"False\"
+      clearBlocks=\"False\" autoDamageDealers=\"False\" mainCamera=\"True\" cameraTag=\"False\"
+      ignoreCamBlock=\"False\" destroyPrefabs=\"True\" overrideNodeName=\"False\"
+      />\n\t<_floatarrays>\n\t\t<nodePosition 38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t\t<0>\n\t\t\t\t<_audioclip
+      clip=\"0\" />\n\t\t\t</0>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0 next=\"-1\"
+      >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 874 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
+      type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\"
+      />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t</0>\n\t\t\t<1
+      next=\"2\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool setActive=\"True\"
+      waitBetween=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      247 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ActivateObjectStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[Sprite
+      Board]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey type=\"0\"
+      >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</1>\n\t\t\t<2
+      next=\"3\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool waitBetween=\"True\"
+      start=\"True\" fadeChildren=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 456 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[BlinkObjectStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[Sprite
+      Board]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey type=\"0\"
+      >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t\t<color
+      interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"0.25\" />\n\t\t\t\t\t<_bool
+      alpha=\"True\" red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\"
+      />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor 0 0 0 1 />\n\t\t\t\t\t\t<endColor
+      0 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</color>\n\t\t\t</2>\n\t\t\t<3
+      next=\"0\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool waitBetween=\"True\"
+      start=\"False\" fadeChildren=\"True\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 665 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[BlinkObjectStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</3>\n\t\t\t<4
+      soundTypeID=\"0\" id=\"0\" next=\"1\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool
+      waitBetween=\"True\" useSoundType=\"False\" wait=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 247 114 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[PlaySoundStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t\t<audio
+      rolloff=\"1\" >\n\t\t\t\t\t<_float volume=\"1\" minD=\"0\" maxD=\"100\" pitch=\"1\"
+      panLevel=\"0\" pan=\"0\" />\n\t\t\t\t\t<_bool oneShot=\"True\" advSet=\"False\"
+      loop=\"False\" ignoreLV=\"False\" setPan=\"False\" />\n\t\t\t\t</audio>\n\t\t\t</4>\n\t\t</step>\n\t</_subarrays>\n</battleEvent>\n"
+    lookUp:
+      textures: []
+      audioClips:
+      - {fileID: 8300000, guid: 5344b2143ae44491495fbf282c55fa76, type: 3}
+      gameObjects: []
+      guiSkins: []
+      materials: []
+      fonts: []
+      eventAssets: []
+      generalAssets: []
+    encrypted: 0

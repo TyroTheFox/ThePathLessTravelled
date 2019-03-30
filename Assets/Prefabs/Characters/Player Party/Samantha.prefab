@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2460522270937123677}
   - component: {fileID: 2367562570640003947}
   - component: {fileID: 2462029620260052630}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite Board
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2463284782518727949}
-  m_LocalRotation: {x: 0.14366172, y: 0.13345814, z: -0.019556291, w: 0.9803917}
+  m_LocalRotation: {x: 0.14366172, y: 0.13345826, z: -0.019556312, w: 0.9803916}
   m_LocalPosition: {x: 0, y: 0.32, z: 0}
   m_LocalScale: {x: 0.7292211, y: 0.82425314, z: 0.21616}
   m_Children: []
@@ -69,7 +69,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300024, guid: 62c822f29f11e264db22f1b38fc09782, type: 3}
+  m_Sprite: {fileID: 21300008, guid: 62c822f29f11e264db22f1b38fc09782, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -141,6 +141,40 @@ MonoBehaviour:
       - {fileID: 21300010, guid: 62c822f29f11e264db22f1b38fc09782, type: 3}
       - {fileID: 21300012, guid: 62c822f29f11e264db22f1b38fc09782, type: 3}
       - {fileID: 21300014, guid: 62c822f29f11e264db22f1b38fc09782, type: 3}
+  - stateName: Cast
+    frameCount: 2
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 21300012, guid: 36c8c170cf1ac164ab7de9797e0f3949, type: 3}
+      - {fileID: 21300014, guid: 36c8c170cf1ac164ab7de9797e0f3949, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300008, guid: 36c8c170cf1ac164ab7de9797e0f3949, type: 3}
+      - {fileID: 21300010, guid: 36c8c170cf1ac164ab7de9797e0f3949, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300000, guid: 36c8c170cf1ac164ab7de9797e0f3949, type: 3}
+      - {fileID: 21300002, guid: 36c8c170cf1ac164ab7de9797e0f3949, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 21300004, guid: 36c8c170cf1ac164ab7de9797e0f3949, type: 3}
+      - {fileID: 21300006, guid: 36c8c170cf1ac164ab7de9797e0f3949, type: 3}
+  - stateName: Shoot
+    frameCount: 1
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 21300006, guid: 895b063c2bac34d46b7d85ad8e75e058, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300004, guid: 895b063c2bac34d46b7d85ad8e75e058, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300000, guid: 895b063c2bac34d46b7d85ad8e75e058, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 21300002, guid: 895b063c2bac34d46b7d85ad8e75e058, type: 3}
 --- !u!1 &2463446463618111665
 GameObject:
   m_ObjectHideFlags: 0
@@ -154,8 +188,8 @@ GameObject:
   - component: {fileID: 2578822376387660101}
   - component: {fileID: 2556739019255416867}
   - component: {fileID: 2516218284084497569}
-  - component: {fileID: 1226537633655243660}
-  m_Layer: 1
+  - component: {fileID: 9046775846413776161}
+  m_Layer: 11
   m_Name: Samantha
   m_TagString: PartyMember
   m_Icon: {fileID: 0}
@@ -170,7 +204,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2463446463618111665}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.6, y: 1.62, z: 0.33}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2460522270937123677}
@@ -235,7 +269,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &1226537633655243660
+--- !u!114 &9046775846413776161
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -249,7 +283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modelAnimator: {fileID: 2556739019255416867}
   canMove: 1
-  canJump: 0
+  canJump: 1
 --- !u!1 &8357341747353892311
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,9 +294,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8321168003416872052}
   - component: {fileID: 334167555404698524}
-  m_Layer: 1
+  m_Layer: 11
   m_Name: Drop Shadow
-  m_TagString: Untagged
+  m_TagString: PartyMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -988360344, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: attack
   m_EditorClassIdentifier: 
-  time: 08/03/2019 19:50:58
+  time: 30/03/2019 17:28:00
   version: 2.21.0
   data:
     name: battleEvent
@@ -23,10 +23,12 @@ MonoBehaviour:
       ignoreCamBlock=\"False\" destroyPrefabs=\"True\" overrideNodeName=\"False\"
       />\n\t<_floatarrays>\n\t\t<nodePosition 37 37 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<prefab>\n\t\t\t<0>\n\t\t\t\t<_gameobject
       prefab=\"0\" />\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_gameobject prefab=\"1\" />\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_gameobject
-      prefab=\"2\" />\n\t\t\t</2>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
-      typeID=\"12\" next=\"1\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool
-      waitBetween=\"True\" stop=\"False\" wait=\"False\" active=\"True\" overrideNodeName=\"False\"
-      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 265 37 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CombatantAnimationStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<animate
+      prefab=\"2\" />\n\t\t\t</2>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t\t<0>\n\t\t\t\t<_audioclip
+      clip=\"0\" />\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_audioclip clip=\"1\" />\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_audioclip
+      clip=\"2\" />\n\t\t\t</2>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0 typeID=\"12\"
+      next=\"1\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool waitBetween=\"True\"
+      stop=\"False\" wait=\"False\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      265 37 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CombatantAnimationStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<animate
       type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
       type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</animate>\n\t\t\t</0>\n\t\t\t<1
       next=\"2\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
@@ -34,13 +36,13 @@ MonoBehaviour:
       type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
       >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\"
       />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t</1>\n\t\t\t<2
-      nextCritical=\"12\" nextMiss=\"11\" nextBlock=\"-1\" next=\"3\" >\n\t\t\t\t<_bool
+      nextCritical=\"18\" nextMiss=\"11\" nextBlock=\"22\" next=\"3\" >\n\t\t\t\t<_bool
       animate=\"True\" reconsume=\"False\" setFactor=\"False\" useOtherTargets=\"False\"
-      useCritical=\"True\" useMiss=\"True\" useBlock=\"False\" active=\"True\" overrideNodeName=\"False\"
+      useCritical=\"True\" useMiss=\"True\" useBlock=\"True\" active=\"True\" overrideNodeName=\"False\"
       />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 721 37 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CalculateStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t\t<3
       soundTypeID=\"0\" id=\"0\" next=\"4\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool
-      waitBetween=\"True\" useSoundType=\"True\" wait=\"False\" active=\"True\" overrideNodeName=\"False\"
-      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 949 37 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[PlaySoundStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      waitBetween=\"True\" useSoundType=\"False\" wait=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 950 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[PlaySoundStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
       type=\"0\" aID=\"1\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
       type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t\t<audio
       rolloff=\"1\" >\n\t\t\t\t\t<_float volume=\"1\" minD=\"0\" maxD=\"100\" pitch=\"1\"
@@ -56,7 +58,7 @@ MonoBehaviour:
       type=\"0\" aID=\"1\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
       type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</useObject>\n\t\t\t\t<place>\n\t\t\t\t\t<_bool
       localSpace=\"True\" useRotation=\"True\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<offset
-      0 0 0 />\n\t\t\t\t\t\t<rotationOffset 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</place>\n\t\t\t</5>\n\t\t\t<6
+      0 0 1 />\n\t\t\t\t\t\t<rotationOffset 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</place>\n\t\t\t</5>\n\t\t\t<6
       next=\"7\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
       />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 1406 114 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
       type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
@@ -77,7 +79,7 @@ MonoBehaviour:
       type=\"0\" aID=\"1\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
       type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</useObject>\n\t\t\t\t<place>\n\t\t\t\t\t<_bool
       localSpace=\"True\" useRotation=\"True\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<offset
-      0 0 0 />\n\t\t\t\t\t\t<rotationOffset 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</place>\n\t\t\t</8>\n\t\t\t<9
+      0 0 1 />\n\t\t\t\t\t\t<rotationOffset 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</place>\n\t\t\t</8>\n\t\t\t<9
       next=\"10\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
       />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 1406 209 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
       type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
@@ -91,7 +93,7 @@ MonoBehaviour:
       />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t\t<onObject
       type=\"2\" aID=\"0\" wID=\"0\" pID=\"1\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
       type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</10>\n\t\t\t<11
-      next=\"-1\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
+      next=\"15\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
       />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 1862 209 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
       type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
       >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\"
@@ -103,7 +105,7 @@ MonoBehaviour:
       type=\"0\" aID=\"1\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
       type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</useObject>\n\t\t\t\t<place>\n\t\t\t\t\t<_bool
       localSpace=\"True\" useRotation=\"True\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<offset
-      0 0 0 />\n\t\t\t\t\t\t<rotationOffset 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</place>\n\t\t\t</12>\n\t\t\t<13
+      0 0 1 />\n\t\t\t\t\t\t<rotationOffset 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</place>\n\t\t\t</12>\n\t\t\t<13
       next=\"14\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
       />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 1406 323 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
       type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
@@ -116,10 +118,61 @@ MonoBehaviour:
       >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\"
       />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t\t<onObject
       type=\"2\" aID=\"0\" wID=\"0\" pID=\"1\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
-      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</14>\n\t\t</step>\n\t</_subarrays>\n</battleEvent>\n"
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</14>\n\t\t\t<15
+      id=\"0\" id2=\"-1\" next=\"16\" >\n\t\t\t\t<_bool destroyAfter=\"False\" wait=\"False\"
+      active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      2090 209 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[DestroyPrefabStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</15>\n\t\t\t<16
+      id=\"1\" id2=\"-1\" next=\"17\" >\n\t\t\t\t<_bool destroyAfter=\"False\" wait=\"False\"
+      active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      2090 285 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[DestroyPrefabStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</16>\n\t\t\t<17
+      id=\"2\" id2=\"-1\" next=\"-1\" >\n\t\t\t\t<_bool destroyAfter=\"False\" wait=\"False\"
+      active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      2090 361 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[DestroyPrefabStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</17>\n\t\t\t<18
+      soundTypeID=\"0\" id=\"1\" next=\"12\" >\n\t\t\t\t<_float timeBetween=\"0\"
+      />\n\t\t\t\t<_bool waitBetween=\"True\" useSoundType=\"False\" wait=\"False\"
+      active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      931 247 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[PlaySoundStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t\t<audio
+      rolloff=\"1\" >\n\t\t\t\t\t<_float volume=\"1\" minD=\"0\" maxD=\"100\" pitch=\"1\"
+      panLevel=\"0\" pan=\"0\" />\n\t\t\t\t\t<_bool oneShot=\"False\" advSet=\"False\"
+      loop=\"False\" ignoreLV=\"False\" setPan=\"False\" />\n\t\t\t\t</audio>\n\t\t\t</18>\n\t\t\t<19
+      id=\"0\" id2=\"0\" next=\"20\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool
+      usePosition=\"False\" useCenter=\"False\" waitBetween=\"True\" mount=\"False\"
+      useAudio=\"False\" addToObjectList=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 1178 418 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[SpawnPrefabStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<useObject
+      type=\"0\" aID=\"1\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</useObject>\n\t\t\t\t<place>\n\t\t\t\t\t<_bool
+      localSpace=\"True\" useRotation=\"True\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<offset
+      0 0 1 />\n\t\t\t\t\t\t<rotationOffset 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</place>\n\t\t\t</19>\n\t\t\t<20
+      next=\"21\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 1406 418 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
+      type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"0.1\" value2=\"0\"
+      />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t</20>\n\t\t\t<21
+      next=\"11\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool emit=\"False\"
+      waitBetween=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      1634 418 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[EmitParticlesStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
+      type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\"
+      />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t\t<onObject
+      type=\"2\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</21>\n\t\t\t<22
+      soundTypeID=\"0\" id=\"2\" next=\"19\" >\n\t\t\t\t<_float timeBetween=\"0\"
+      />\n\t\t\t\t<_bool waitBetween=\"True\" useSoundType=\"False\" wait=\"False\"
+      active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      893 361 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[PlaySoundStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t\t<audio
+      rolloff=\"1\" >\n\t\t\t\t\t<_float volume=\"1\" minD=\"0\" maxD=\"100\" pitch=\"1\"
+      panLevel=\"0\" pan=\"0\" />\n\t\t\t\t\t<_bool oneShot=\"False\" advSet=\"False\"
+      loop=\"False\" ignoreLV=\"False\" setPan=\"False\" />\n\t\t\t\t</audio>\n\t\t\t</22>\n\t\t</step>\n\t</_subarrays>\n</battleEvent>\n"
     lookUp:
       textures: []
-      audioClips: []
+      audioClips:
+      - {fileID: 8300000, guid: 2dddc99bdfff4064ea9f2d67c374e279, type: 3}
+      - {fileID: 8300000, guid: 5f2db8dd1973c5b42be4e5c967a432c5, type: 3}
+      - {fileID: 8300000, guid: 9b1d7dc2ea452dd44b6eea12196468fc, type: 3}
       gameObjects:
       - {fileID: 1000011108809118, guid: 6202e8c4dc62240a9ba113b16f9f8ff7, type: 3}
       - {fileID: 1000011729490408, guid: e16b4d9f5f94b46099ea801678ea82b7, type: 3}

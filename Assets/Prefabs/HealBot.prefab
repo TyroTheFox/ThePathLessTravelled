@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8982174210965631619}
   - component: {fileID: 8315897705675946397}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,12 +24,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004790690451009400}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6, z: -0.16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0.1645594, y: 0.3409159, z: 0.23131019}
+  m_LocalScale: {x: 4.6262016, y: 1.2132243, z: 1.3713282}
   m_Children: []
-  m_Father: {fileID: 5034826562228961386}
-  m_RootOrder: 2
+  m_Father: {fileID: 4624934827204469617}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &8315897705675946397
 Light:
@@ -79,7 +79,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3774186705731027332}
   - component: {fileID: 2813826925244960124}
-  m_Layer: 1
+  m_Layer: 11
   m_Name: Drop Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 4624934827204469617}
   - component: {fileID: 1470727005424957569}
   - component: {fileID: 1915766636551625833}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite Board
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -144,10 +144,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7788731485948091529}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05, y: 0.36, z: -0.04}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0.05, y: 1.398, z: -0.04}
   m_LocalScale: {x: 0.7292199, y: 0.82424986, z: 0.21616}
-  m_Children: []
+  m_Children:
+  - {fileID: 8982174210965631619}
   m_Father: {fileID: 5034826562228961386}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -188,7 +189,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: 9f7f04cc251724841b35c61172fa7e22, type: 3}
+  m_Sprite: {fileID: 21300006, guid: 9f7f04cc251724841b35c61172fa7e22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -243,7 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5034826562228961386}
   - component: {fileID: 5120175688597725222}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HealBot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,12 +259,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8534745600778896960}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.305, y: 0.6819029, z: 1.695}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4624934827204469617}
   - {fileID: 3774186705731027332}
-  - {fileID: 8982174210965631619}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -988360344, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: runToTarget
   m_EditorClassIdentifier: 
-  time: 2/1/2019 4:21:44 PM
+  time: 30/03/2019 17:46:30
   version: 2.21.0
   data:
     name: battleEvent
@@ -22,8 +22,8 @@ MonoBehaviour:
       clearBlocks=\"False\" autoDamageDealers=\"True\" mainCamera=\"True\" cameraTag=\"False\"
       ignoreCamBlock=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\"
       />\n\t<_floatarrays>\n\t\t<nodePosition 38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
-      speedType=\"1\" interpolation=\"0\" next=\"-1\" >\n\t\t\t\t<_float timeBetween=\"0\"
-      distance=\"0\" secureTime=\"0.5\" speed=\"5\" />\n\t\t\t\t<_bool waitBetween=\"True\"
+      speedType=\"3\" interpolation=\"0\" next=\"-1\" >\n\t\t\t\t<_float timeBetween=\"0\"
+      distance=\"0\" secureTime=\"0.5\" speed=\"10\" />\n\t\t\t\t<_bool waitBetween=\"True\"
       toObject=\"True\" useCenter=\"False\" localSpace=\"False\" localPosition=\"False\"
       move=\"True\" wait=\"True\" ignoreHeightDistance=\"True\" useController=\"True\"
       applyGravity=\"True\" face=\"True\" ignoreRadius=\"False\" useSpeed=\"True\"

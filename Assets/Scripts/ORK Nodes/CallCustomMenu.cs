@@ -80,7 +80,7 @@ namespace ORKFramework.Events.Steps
 			var menusOpen = GameObject.FindGameObjectsWithTag("CustomMenu");
 			if (menusOpen.Length == 0)
 			{
-				Debug.Log("OPEN MENU (NO OTHER MENUS)");
+				//Debug.Log("OPEN MENU (NO OTHER MENUS)");
 				MenuScreenHandler menuScreenHandler =
 					UnityWrapper.Instantiate(externalMenuObject).GetComponent<MenuScreenHandler>();
 				MenuScreen screen = ORK.MenuScreens.Get(8);
@@ -113,7 +113,7 @@ namespace ORKFramework.Events.Steps
 				MenuScreenHandler menu = menusOpen[0].GetComponent<MenuScreenHandler>();
 				if (menu != null)
 				{
-					Debug.Log("OPEN MENU (OTHER MENUS!!)");
+					//Debug.Log("OPEN MENU (OTHER MENUS!!)");
 					MenuScreen screen = ORK.MenuScreens.Get(8);
 					screen.Combatant = combatant;
 					if (menu.GetCombatant().ID == combatant.ID)

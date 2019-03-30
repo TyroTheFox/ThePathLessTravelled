@@ -52,6 +52,11 @@
             <e p="SimpleSpriteOneAnimation.cs" t="Include" />
           </e>
         </e>
+        <e p="Audio" t="Include">
+          <e p="Unity_Free_8bit_snd" t="Include">
+            <e p="ReadMe.txt" t="Include" />
+          </e>
+        </e>
         <e p="Editor" t="Include">
           <e p="PackageManagerAssembly" t="Include">
             <e p="PackageImportList.txt" t="Include" />
@@ -81,6 +86,9 @@
         </e>
         <e p="Models" t="Include">
           <e p="EnchantedForestPack1" t="Include">
+            <e p="ReadMe.txt" t="Include" />
+          </e>
+          <e p="Low Poly Toon Chests" t="Include">
             <e p="ReadMe.txt" t="Include" />
           </e>
           <e p="MegaPack1Lite" t="Include">
@@ -143,7 +151,9 @@
           <e p="AbilityMenuButton.cs" t="Include" />
           <e p="AlterSpriteBasedOnMainCamera.cs" t="Include" />
           <e p="AlwaysFaceMainCamera.cs" t="Include" />
+          <e p="AutoFloat.cs" t="Include" />
           <e p="CameraZone.cs" t="Include" />
+          <e p="ChangeScale.cs" t="Include" />
           <e p="DontDestroyObject.cs" t="Include" />
           <e p="GainsDisplayHandler.cs" t="Include" />
           <e p="MenuButtonsPopulator.cs" t="Include" />
@@ -250,6 +260,11 @@
             <e p="ProximityActivate.cs" t="Include" />
             <e p="SimpleCameraController.cs" t="Include" />
             <e p="SimpleCharacterMotor.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SimpleFX" t="Include">
+          <e p="Materials" t="Include">
+            <e p="UnlitVertexColour_Alpha.shader" t="Include" />
           </e>
         </e>
         <e p="Standard Assets" t="Include">

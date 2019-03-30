@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1085040507686483059}
   - component: {fileID: 1004325750480366661}
   - component: {fileID: 1081342793993061095}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite Board
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081999820703238691}
-  m_LocalRotation: {x: 0.0132781975, y: 0.9757594, z: -0.2095062, w: 0.06184221}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0, y: 0.31, z: 0}
   m_LocalScale: {x: 0.9282255, y: 1.0491918, z: 0.27515006}
   m_Children: []
@@ -69,7 +69,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: eacf2993baf71d043935bc79289ca0be, type: 3}
+  m_Sprite: {fileID: 21300016, guid: eacf2993baf71d043935bc79289ca0be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -160,6 +160,21 @@ MonoBehaviour:
       frames:
       - {fileID: 21300004, guid: c8583c8e5f2cfee4da627264e0079784, type: 3}
       - {fileID: 21300006, guid: c8583c8e5f2cfee4da627264e0079784, type: 3}
+  - stateName: Shoot
+    frameCount: 1
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 21300006, guid: d4b822229ea2f2a4a8f77d0efeb7797c, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300004, guid: d4b822229ea2f2a4a8f77d0efeb7797c, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300000, guid: d4b822229ea2f2a4a8f77d0efeb7797c, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 21300002, guid: d4b822229ea2f2a4a8f77d0efeb7797c, type: 3}
 --- !u!1 &1082195343477352351
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,8 +187,8 @@ GameObject:
   - component: {fileID: 1031339674959050509}
   - component: {fileID: 7169477200047620812}
   - component: {fileID: 585249327570901795}
-  - component: {fileID: 5949332999370925360}
-  m_Layer: 1
+  - component: {fileID: 1345549085817346173}
+  m_Layer: 11
   m_Name: Marksman
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -244,7 +259,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &5949332999370925360
+--- !u!114 &1345549085817346173
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -269,7 +284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6107717161258197876}
   - component: {fileID: 6331875195942287145}
-  m_Layer: 1
+  m_Layer: 11
   m_Name: Drop Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

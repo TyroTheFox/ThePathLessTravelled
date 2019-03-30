@@ -26,20 +26,16 @@ public class PartyAnimator : PersonController
     {
         if (ORK.Initialized)
         {
-            canMove = !ORK.Control.InMenu && !ORK.Control.InShop && !ORK.Control.InEvent;
+            canMove = !ORK.Control.InMenu && !ORK.Control.InShop;
             canJump = !ORK.Control.InMenu || !ORK.Control.InShop || !ORK.Control.InEvent;
         }
 
-        HandleMove();
+        //HandleMove();
     }
     
     void HandleMove()
     {
-        if (canMove)
-        {
-            // detect input movement
-            var currentVelocity = GetComponent<Rigidbody>().velocity;
-            IsMoving = currentVelocity.magnitude > 0;
-        }
+        Transform leader = GameObject.FindWithTag("Player").transform;
+        transform.localScale = leader.lossyScale;
     }
 }

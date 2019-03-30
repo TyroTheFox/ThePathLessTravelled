@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2461820272432472928}
   - component: {fileID: 2393534464972322621}
-  m_Layer: 1
+  m_Layer: 11
   m_Name: Drop Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62,8 +62,8 @@ GameObject:
   - component: {fileID: 8698933453805598489}
   - component: {fileID: 1555929471569265368}
   - component: {fileID: 9149033174637812535}
-  - component: {fileID: 4144532401790193416}
-  m_Layer: 1
+  - component: {fileID: 4574865336666374315}
+  m_Layer: 11
   m_Name: Heavy
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &4144532401790193416
+--- !u!114 &4574865336666374315
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 8783719722696094823}
   - component: {fileID: 8870060371613035601}
   - component: {fileID: 8784675219979223795}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite Board
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8785631176827521591}
-  m_LocalRotation: {x: 0.02117817, y: 0.91365445, z: -0.4030916, w: 0.048002794}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0, y: 0.31, z: 0}
   m_LocalScale: {x: 1.2959057, y: 1.4647878, z: 0.38413996}
   m_Children: []
@@ -218,7 +218,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d6ce771b1cc1cad4683642d19ad256fa, type: 3}
+  m_Sprite: {fileID: 21300016, guid: d6ce771b1cc1cad4683642d19ad256fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

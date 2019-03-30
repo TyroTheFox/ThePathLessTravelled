@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 1374561835303469951}
   - component: {fileID: 1414659605943894553}
   - component: {fileID: 1311069552092366491}
-  - component: {fileID: 4864464363440978861}
-  m_Layer: 1
+  - component: {fileID: 5708193075812383145}
+  m_Layer: 11
   m_Name: Dom
   m_TagString: PartyMember
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366093155293631115}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.71, y: 1.62, z: 0.04}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1368876605050306919}
@@ -94,7 +94,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &4864464363440978861
+--- !u!114 &5708193075812383145
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modelAnimator: {fileID: 1414659605943894553}
   canMove: 1
-  canJump: 0
+  canJump: 1
 --- !u!1 &1366250436182392631
 GameObject:
   m_ObjectHideFlags: 0
@@ -120,9 +120,9 @@ GameObject:
   - component: {fileID: 1368876605050306919}
   - component: {fileID: 1153476071572298065}
   - component: {fileID: 1364695245415379005}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite Board
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,7 +134,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366250436182392631}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.14366172, y: 0.13345826, z: -0.019556312, w: 0.9803916}
   m_LocalPosition: {x: 0, y: 0.3, z: 0}
   m_LocalScale: {x: 0.91240144, y: 1.0313056, z: 0.27045938}
   m_Children: []
@@ -178,7 +178,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300024, guid: 3611e713abc3fa340aa2db1bd890997f, type: 3}
+  m_Sprite: {fileID: 21300008, guid: 3611e713abc3fa340aa2db1bd890997f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -269,6 +269,21 @@ MonoBehaviour:
       frames:
       - {fileID: 21300004, guid: bc954f09d4ec1b749922004571f7e1cc, type: 3}
       - {fileID: 21300006, guid: bc954f09d4ec1b749922004571f7e1cc, type: 3}
+  - stateName: Shoot
+    frameCount: 1
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 21300006, guid: 19fb16ab520e2fd4595b366a4065f680, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300004, guid: 19fb16ab520e2fd4595b366a4065f680, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300000, guid: 19fb16ab520e2fd4595b366a4065f680, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 21300002, guid: 19fb16ab520e2fd4595b366a4065f680, type: 3}
 --- !u!1 &4837292573228466157
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4872903365953756750}
   - component: {fileID: 3781209914167482790}
-  m_Layer: 1
+  m_Layer: 11
   m_Name: Drop Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

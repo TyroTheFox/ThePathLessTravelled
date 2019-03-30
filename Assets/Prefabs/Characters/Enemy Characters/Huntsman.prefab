@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1955317190150385330}
   - component: {fileID: 8506660744833162099}
   - component: {fileID: 2120520659702760092}
-  - component: {fileID: 6493673059117291171}
-  m_Layer: 1
+  - component: {fileID: 3379445503056445244}
+  m_Layer: 11
   m_Name: Huntsman
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -84,7 +84,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &6493673059117291171
+--- !u!114 &3379445503056445244
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 1908530017849863628}
   - component: {fileID: 1766175855982900730}
   - component: {fileID: 1905885677584718680}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite Board
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906898946196640668}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0, y: 0.31, z: 0}
   m_LocalScale: {x: 0.9282255, y: 1.0491918, z: 0.27515006}
   m_Children: []
@@ -168,7 +168,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300024, guid: d143ae9f7f591a540b96dfa815ae1308, type: 3}
+  m_Sprite: {fileID: 21300016, guid: d143ae9f7f591a540b96dfa815ae1308, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -259,6 +259,21 @@ MonoBehaviour:
       frames:
       - {fileID: 21300004, guid: fea4a0e4fde4c014eadf9929d9337694, type: 3}
       - {fileID: 21300006, guid: fea4a0e4fde4c014eadf9929d9337694, type: 3}
+  - stateName: Cast
+    frameCount: 1
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 21300006, guid: 62bf18eb682a670489e5e24e3df05a2e, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300004, guid: 62bf18eb682a670489e5e24e3df05a2e, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300000, guid: 62bf18eb682a670489e5e24e3df05a2e, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 21300002, guid: 62bf18eb682a670489e5e24e3df05a2e, type: 3}
 --- !u!1 &7651831700201323439
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,7 +284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4733383274121509579}
   - component: {fileID: 4804766405803945622}
-  m_Layer: 1
+  m_Layer: 11
   m_Name: Drop Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

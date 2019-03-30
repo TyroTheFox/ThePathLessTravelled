@@ -89,7 +89,7 @@ MonoBehaviour:
       722 171 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[HasInInventoryStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<usedObject
       type=\"0\" aID=\"1\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
       type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<item>\n\t\t\t\t\t\t<0
-      type=\"0\" id=\"8\" level=\"1\" >\n\t\t\t\t\t\t\t<quantityValue type=\"0\" origin=\"1\"
+      type=\"0\" id=\"4\" level=\"1\" >\n\t\t\t\t\t\t\t<quantityValue type=\"0\" origin=\"1\"
       multiVariableUseType=\"0\" formulaID=\"0\" value=\"1\" value2=\"0\" rounding=\"0\"
       >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
       useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<chanceValue
@@ -112,7 +112,7 @@ MonoBehaviour:
       1178 171 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[RemoveFromInventoryStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<usedObject
       type=\"0\" aID=\"1\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
       type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<item>\n\t\t\t\t\t\t<0
-      type=\"0\" id=\"8\" level=\"1\" >\n\t\t\t\t\t\t\t<quantityValue type=\"0\" origin=\"1\"
+      type=\"0\" id=\"4\" level=\"1\" >\n\t\t\t\t\t\t\t<quantityValue type=\"0\" origin=\"1\"
       multiVariableUseType=\"0\" formulaID=\"0\" value=\"1\" value2=\"0\" rounding=\"0\"
       >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
       useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<chanceValue

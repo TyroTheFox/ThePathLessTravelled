@@ -12,30 +12,39 @@ MonoBehaviour:
   m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: levelMenu
   m_EditorClassIdentifier: 
-  time: 3/3/2019 11:42:29 PM
+  time: 21/03/2019 15:33:48
   version: 2.21.0
   data:
     name: gameEvent
-    xmlData: "<gameEvent startIndex=\"0\" >\n\t<_bool blockingEvent=\"False\" blockMoveAI=\"False\"
+    xmlData: "<gameEvent startIndex=\"2\" >\n\t<_bool blockingEvent=\"False\" blockMoveAI=\"False\"
       blockActorMoveAI=\"False\" blockControlMaps=\"False\" clearFoundObjects=\"False\"
-      blockPlayer=\"True\" blockCamera=\"True\" clearBlocks=\"False\" mainCamera=\"True\"
+      blockPlayer=\"True\" blockCamera=\"False\" clearBlocks=\"False\" mainCamera=\"True\"
       cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\" />\n\t<_floatarrays>\n\t\t<nodePosition
       38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t\t<0
       type=\"4\" memberIndex=\"0\" >\n\t\t\t\t<_bool isEventObject=\"False\" isFindObject=\"False\"
       onlyBattle=\"True\" useRoot=\"False\" useSceneName=\"True\" setName=\"False\"
       />\n\t\t\t\t<_string>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
       next=\"1\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
-      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 266 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 494 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
       type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
       >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\"
       />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t</0>\n\t\t\t<1
       selectionID=\"0\" next=\"-1\" >\n\t\t\t\t<_bool wait=\"True\" setUser=\"True\"
       selectCombatant=\"False\" canCancelSelection=\"True\" ownSelection=\"False\"
       active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
-      494 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CallCustomMenuScreenStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_gameobject
+      722 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CallCustomMenuScreenStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_gameobject
       externalMenuObject=\"0\" />\n\t\t\t\t<userObject type=\"0\" aID=\"0\" wID=\"0\"
       pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
-      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</userObject>\n\t\t\t</1>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</userObject>\n\t\t\t</1>\n\t\t\t<2
+      next=\"0\" >\n\t\t\t\t<_float timeBetween=\"0\" speed=\"45\" />\n\t\t\t\t<_bool
+      useCenter=\"True\" useAll=\"False\" waitBetween=\"True\" wait=\"False\" active=\"True\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<angles 0 1
+      0 />\n\t\t\t\t\t<nodePosition 266 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[RotateCameraAroundStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t\t<time
+      type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"1000\" value2=\"0\"
+      />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t</2>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
     lookUp:
       textures: []
       audioClips: []

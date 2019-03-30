@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: DeveloperMessage
+  m_EditorClassIdentifier: 
+  time: 26/03/2019 02:29:28
+  version: 2.21.0
+  data:
+    name: gameEvent
+    xmlData: "<gameEvent startIndex=\"1\" >\n\t<_bool blockingEvent=\"False\" blockMoveAI=\"False\"
+      blockActorMoveAI=\"False\" blockControlMaps=\"False\" clearFoundObjects=\"True\"
+      blockPlayer=\"False\" blockCamera=\"False\" clearBlocks=\"False\" mainCamera=\"True\"
+      cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\" />\n\t<_floatarrays>\n\t\t<nodePosition
+      38 19 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t\t<0>\n\t\t\t\t<_audioclip
+      clip=\"0\" />\n\t\t\t</0>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0 next=\"2\"
+      >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      475 19 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
+      type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" consoleTypeID=\"0\"
+      clipID=\"0\" cancelNext=\"-1\" >\n\t\t\t\t\t<_bool waitClose=\"True\" waitCloseNotControlable=\"False\"
+      notificationQueue=\"True\" useSpeaker=\"False\" atActorPosition=\"False\" speakerName=\"False\"
+      speakerPortrait=\"False\" ownPortraitPosition=\"False\" useTitle=\"True\" outputToConsole=\"False\"
+      useAudio=\"True\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"
+      blockAccept=\"False\" afterAudio=\"False\" wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff
+      0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[The
+      Developer]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[Welcome
+      to the #text.boldPath Less Travelled Demo#<style. This has been a long time
+      coming to get anything as close to the game you are currently playing. For that,
+      I'm kind of amazed. \n\nSo, let's fill you in. First, this game is a complete
+      experiment, the best I could do within the time given. Outside of this space
+      are hostile #text.boldMercenaries#<style that will fight you. Your band of characters
+      will begin the game at max level of 20. Yes, you begin at your most powerful.
+      Before you assume this till be a cake walk, know that you level backwards. You
+      will lose Experience over the course of the game, modelling your character's
+      fatigue as they explore and fight. Your characters will lose stats and capabilities.
+      You will be expected to weaken one of your abilities, and eventually lose it
+      entirely when its out of levels to lose. This is done every level so I encourage
+      you to experiment and get to know how the abilities all work so you can plan
+      to keep hold of the ones you like the most. You don't get levels back and neither
+      do you get lost abilities back here. \n\nLike I said, it's a complete experiment.
+      I should have linked to a questionire next to where you downloaded this game.
+      I would vitally appreciate your input on what you thought of the game and, if
+      it was in something more polished and ready for primetime, whether you'd enjoy
+      the game if it was an actual thing. The more you give me, the more I can report
+      back. FOR SCIENCE!\n\nSecondly, I did give you a few extra things. All of your
+      characters have equipment to begin with as well as some #text.boldAmmo#<style
+      to fuel your firearms. I would strongly suggest opening your pause menu, selecting
+      #text.boldEquipment#<style and then a character to deck out before you start
+      to explore. Pick the weapons that suit you best, as none are designed to be
+      straight upgrades but 'side-grades' instead that are there to augment the character's
+      abilities rather than just make them better. My favourites are #text.boldThe
+      Revengineer#<style and #text.boldThe Palm Pistol#<style. I'm sure you can find
+      them somewhere as they're not at the shop. \n\nOn that note, the third thing
+      is the shop. Remember to swing by there for more weapons.\n\nI'm sorry if this
+      was a little wordy but I hoped it'll help you to enjoy this game.\n\n- Kieran
+      Clare]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t<audio
+      rolloff=\"1\" >\n\t\t\t\t\t\t<_float volume=\"1\" minD=\"0\" maxD=\"100\" pitch=\"1\"
+      panLevel=\"0\" pan=\"0\" />\n\t\t\t\t\t\t<_bool oneShot=\"True\" advSet=\"False\"
+      loop=\"False\" ignoreLV=\"False\" setPan=\"False\" />\n\t\t\t\t\t</audio>\n\t\t\t\t</dialogue>\n\t\t\t</0>\n\t\t\t<1
+      channel=\"0\" easeType=\"1\" next=\"0\" >\n\t\t\t\t<_bool useChannel=\"False\"
+      fade=\"True\" wait=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      266 19 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeMusicVolumeStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<volume
+      type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"0.1\" value2=\"0\"
+      />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</volume>\n\t\t\t\t<time
+      type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"0.5\" value2=\"0\"
+      />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t</1>\n\t\t\t<2
+      channel=\"0\" easeType=\"2\" next=\"-1\" >\n\t\t\t\t<_bool useChannel=\"False\"
+      fade=\"True\" wait=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      684 19 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeMusicVolumeStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<volume
+      type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\"
+      />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</volume>\n\t\t\t\t<time
+      type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"0.5\" value2=\"0\"
+      />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t</2>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
+    lookUp:
+      textures: []
+      audioClips:
+      - {fileID: 8300000, guid: 8c0d3e7e3b513a741a34790a4701416e, type: 3}
+      gameObjects: []
+      guiSkins: []
+      materials: []
+      fonts: []
+      eventAssets: []
+      generalAssets: []
+    encrypted: 0

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 838710509736146367}
   - component: {fileID: 8969546938096317015}
-  m_Layer: 1
+  m_Layer: 11
   m_Name: Drop Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,9 +61,9 @@ GameObject:
   - component: {fileID: 6556272447620049558}
   - component: {fileID: 6341716337931711136}
   - component: {fileID: 6553839239947089645}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite Board
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6554514820661548230}
-  m_LocalRotation: {x: 0.14366172, y: 0.13345814, z: -0.019556291, w: 0.9803917}
+  m_LocalRotation: {x: 0.14366172, y: 0.13345826, z: -0.019556312, w: 0.9803916}
   m_LocalPosition: {x: 0, y: 0.34, z: 0}
   m_LocalScale: {x: 0.7292211, y: 0.82425314, z: 0.21616}
   m_Children: []
@@ -119,7 +119,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300024, guid: dc1d5166240977d46b949259a040206c, type: 3}
+  m_Sprite: {fileID: 21300008, guid: dc1d5166240977d46b949259a040206c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -191,6 +191,40 @@ MonoBehaviour:
       - {fileID: 21300010, guid: dc1d5166240977d46b949259a040206c, type: 3}
       - {fileID: 21300012, guid: dc1d5166240977d46b949259a040206c, type: 3}
       - {fileID: 21300014, guid: dc1d5166240977d46b949259a040206c, type: 3}
+  - stateName: Cast
+    frameCount: 2
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 21300012, guid: d13692a605a4cc54aab917344e25a9a4, type: 3}
+      - {fileID: 21300014, guid: d13692a605a4cc54aab917344e25a9a4, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300008, guid: d13692a605a4cc54aab917344e25a9a4, type: 3}
+      - {fileID: 21300010, guid: d13692a605a4cc54aab917344e25a9a4, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300000, guid: d13692a605a4cc54aab917344e25a9a4, type: 3}
+      - {fileID: 21300002, guid: d13692a605a4cc54aab917344e25a9a4, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 21300004, guid: d13692a605a4cc54aab917344e25a9a4, type: 3}
+      - {fileID: 21300006, guid: d13692a605a4cc54aab917344e25a9a4, type: 3}
+  - stateName: Shoot
+    frameCount: 1
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 21300006, guid: 0062ac33de6bf2944bb7bd8872a70086, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300002, guid: 0062ac33de6bf2944bb7bd8872a70086, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300000, guid: 0062ac33de6bf2944bb7bd8872a70086, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 21300004, guid: 0062ac33de6bf2944bb7bd8872a70086, type: 3}
 --- !u!1 &6554676396534380922
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,8 +238,8 @@ GameObject:
   - component: {fileID: 6561984059115677838}
   - component: {fileID: 6602932785175751144}
   - component: {fileID: 6499380113980058986}
-  - component: {fileID: 617776840709516183}
-  m_Layer: 1
+  - component: {fileID: 3561201792840202491}
+  m_Layer: 11
   m_Name: Jenny
   m_TagString: PartyMember
   m_Icon: {fileID: 0}
@@ -220,7 +254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6554676396534380922}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.28, y: 1.62, z: 0.12}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6556272447620049558}
@@ -285,7 +319,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &617776840709516183
+--- !u!114 &3561201792840202491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -299,4 +333,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modelAnimator: {fileID: 6602932785175751144}
   canMove: 1
-  canJump: 0
+  canJump: 1

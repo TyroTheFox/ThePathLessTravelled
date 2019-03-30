@@ -86,7 +86,7 @@ namespace SpriteMan3D
         {
             if (ORK.Initialized)
             {
-                canMove = !ORK.Battle.InBattle && !ORK.Control.InMenu && !ORK.Control.InShop && !ORK.Control.InEvent;
+                canMove = !ORK.Control.InMenu && !ORK.Control.InShop && !ORK.Control.InEvent;
                 canJump = !ORK.Battle.InBattle || !ORK.Control.InMenu || !ORK.Control.InShop || !ORK.Control.InEvent;
             }
 
@@ -137,6 +137,11 @@ namespace SpriteMan3D
                 {
                     rb.MovePosition(characterMovement);
                 }
+            }
+            else
+            {
+                var currentVelocity = GetComponent<Rigidbody>().velocity;
+                IsMoving = currentVelocity.magnitude > 0;
             }
         }
 

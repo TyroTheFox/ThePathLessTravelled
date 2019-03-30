@@ -3,7 +3,6 @@ using ORKFramework;
 using ORKFramework.Formulas;
 using ORKFramework.Events;
 using System.Collections.Generic;
-using UnityEditor.Experimental.UIElements;
 
 namespace ORKFramework.Formulas.Steps
 {
@@ -54,10 +53,11 @@ namespace ORKFramework.Formulas.Steps
 				{
 					float leveling = (2 * call.user.Status.Level) / 5 + 2;
 					float power = call.result;
-					float attack = call.user.Status.GetValueAtLevel(4, call.target.Status.Level);
+					float attack = call.user.Status.GetValueAtLevel(4, call.user.Status.Level);
 					float defense = call.target.Status.GetValueAtLevel(5, call.target.Status.Level);
 					float AD = attack / defense;
 					float value = (leveling * power * AD)/5 + 2;
+					Debug.Log("FINAL PHYSICAL DAMAGE: " + value);
 					ValueHelper.UseOperator(ref call.result, value, this.formulaOperator);
 				}
 				return this.next;
@@ -70,10 +70,11 @@ namespace ORKFramework.Formulas.Steps
 				{
 					float leveling = (2 * call.user.Status.Level) / 5 + 2;
 					float power = call.result;
-					float attack = call.user.Status.GetValueAtLevel(4, call.target.Status.Level);
+					float attack = call.user.Status.GetValueAtLevel(4, call.user.Status.Level);
 					float defense = call.target.Status.GetValueAtLevel(5, call.target.Status.Level);
 					float AD = attack / defense;
 					float value = (leveling * power * AD)/5 + 2;
+					
 					ValueHelper.UseOperator(ref call.result, value, this.formulaOperator);
 				}
 				return this.next;
@@ -137,10 +138,11 @@ Name functions
 				{
 					float leveling = (2 * call.user.Status.Level) / 5 + 2;
 					float power = call.result;
-					float attack = call.user.Status.GetValueAtLevel(7, call.target.Status.Level);
+					float attack = call.user.Status.GetValueAtLevel(7, call.user.Status.Level);
 					float defense = call.target.Status.GetValueAtLevel(8, call.target.Status.Level);
 					float AD = attack / defense;
 					float value = (leveling * power * AD)/5 + 2;
+					Debug.Log("FINAL SPECIAL DAMAGE: " + value);
 					ValueHelper.UseOperator(ref call.result, value, this.formulaOperator);
 				}
 				return this.next;
@@ -153,7 +155,7 @@ Name functions
 				{
 					float leveling = (2 * call.user.Status.Level) / 5 + 2;
 					float power = call.result;
-					float attack = call.user.Status.GetValueAtLevel(7, call.target.Status.Level);
+					float attack = call.user.Status.GetValueAtLevel(7, call.user.Status.Level);
 					float defense = call.target.Status.GetValueAtLevel(8, call.target.Status.Level);
 					float AD = attack / defense;
 					float value = (leveling * power * AD)/5 + 2;

@@ -19,7 +19,7 @@ public class CameraZone : MonoBehaviour
 			camera.enabled = true;
 			camera.tag = "MainCamera";
 			audioListener.enabled = true;
-			if(other.GetComponent<PersonPlayerController>().currentCamera != null)
+			if(other.GetComponent<PersonPlayerController>() != null)
 				other.GetComponent<PersonPlayerController>().currentCamera = camera.transform;
 		}
 	}
