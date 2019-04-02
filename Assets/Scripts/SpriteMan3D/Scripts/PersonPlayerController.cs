@@ -57,7 +57,7 @@ namespace SpriteMan3D
         public float attackCooldown = 0.2f;
         private float attackTimer = 0f;
         
-        private Rewired.Player playerIn; // The Rewired Player
+        private static Rewired.Player playerIn; // The Rewired Player
         public InteractionController interactionController; // Ork Interaction Controller
 
         public Transform currentCamera;
@@ -86,8 +86,7 @@ namespace SpriteMan3D
         {
             if (ORK.Initialized)
             {
-                canMove = !ORK.Control.InMenu && !ORK.Control.InShop && !ORK.Control.InEvent;
-                canJump = !ORK.Battle.InBattle || !ORK.Control.InMenu || !ORK.Control.InShop || !ORK.Control.InEvent;
+                canMove = !(ORK.Battle.InBattle || ORK.Control.InMenu || ORK.Control.InShop || ORK.Control.InEvent);
             }
 
             HandleMove();
@@ -211,6 +210,31 @@ namespace SpriteMan3D
         public void EndAttack()
         {
             attackCollider.enabled = false;
+        }
+
+        public static bool CheckPause()
+        {
+            return playerIn.GetButtonUp("Menu");
+        }
+        
+        public static bool CheckCancel()
+        {
+            return playerIn.GetButtonUp("Return");
+        }
+        
+        public static bool CheckAccept()
+        {
+            return playerIn.GetButtonDown("Action");
+        }
+        
+        public static float CheckMoveLeftRight()
+        {
+            return playerIn.GetAxis("MoveLeftRight");
+        }        
+        
+        public static float CheckMoveUpDown()
+        {
+            return playerIn.GetAxis("MoveUpDown");
         }
     }
 }
