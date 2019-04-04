@@ -50,21 +50,27 @@ namespace SpriteMan3D
         /// </summary>
         public bool canAttack = true;
 
+		//Character Ridgidbody
         private Rigidbody rb;
+		//Distance to the ground
         private float distToGround;
+		//Character's collider object
         private Collider charCollider;
 
+		//Unused values
         public float attackCooldown = 0.2f;
         private float attackTimer = 0f;
         
         private static Rewired.Player playerIn; // The Rewired Player
         public InteractionController interactionController; // Ork Interaction Controller
 
-        public Transform currentCamera;
+        public Transform currentCamera; //Current camera object that's used for forward vector calculations
         
         void Start()
         {
+			//Set up Rewired Input
             playerIn = ReInput.players.GetPlayer(0);
+			//Find the Ridgidbody
             rb = transform.GetComponent<Rigidbody>();
 
             // get the distance to ground
@@ -76,48 +82,60 @@ namespace SpriteMan3D
 
         void Update()
         {
+			//Check if off the ground or not
             IsGrounded = Physics.Raycast(transform.position, -Vector3.up, distToGround + groundDistanceOffset);
-            HandleInteract();
+            //Handle interacting with objects
+			HandleInteract();
+			//Not used
             HandleJump();
             
         }
 
         void FixedUpdate()
         {
+			//If the ORK Framework object is initialized
             if (ORK.Initialized)
             {
+				//Check if the player is in a battle, a menu, a shop menu or an event. 
+				//If so, lock movement controlls
                 canMove = !(ORK.Battle.InBattle || ORK.Control.InMenu || ORK.Control.InShop || ORK.Control.InEvent);
             }
-
+			//Handle movement
             HandleMove();
         }
 
         void HandleMove()
         {
+			//Controls are unlocked
             if (canMove)
             {
+				//Get walk speed
                 var speed = walkSpeed;
 
-                // detect input movement
+                //Get intended movement direction from controls
                 var moveHorizontal = playerIn.GetAxis("MoveLeftRight");
                 var moveVertical = playerIn.GetAxis("MoveUpDown");
+				//Check if moving this update
                 IsMoving = moveHorizontal != 0 || moveVertical != 0;
-
+				//Check if running
                 IsRunning = playerIn.GetButton("Run");
                 if(IsRunning)
                 {
                     speed = runSpeed;
                 }
 
-                // rotate the character
+                //Rotate the character in the desired direction
                 var movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+				//If the camera object isn't empty
                 if (currentCamera != null)
                 {
+					//Rotate the character by the direction the camera points in (but only in the x and z axes)
                     movement = currentCamera.rotation * movement;
                     movement.y = 0.0f;
                 }
+				//Update rotation
                 var rot = movement * (speed / 10);
-
+				//Not used
                 if (attackTimer <= 0 && movement != Vector3.zero)
                 {
                     var newRotation = Quaternion.LookRotation(rot);
@@ -163,15 +181,19 @@ namespace SpriteMan3D
 
         private void HandleInteract()
         {
+			//If controlls are not locked
             if (canMove)
             {
+				//Check if the action button has been pushed
                 if (playerIn.GetButtonDown("Action") && interactionController != null)
                 {
+					//Activate interaction with the event object
                     interactionController.Interact();
                 }
             }
         }
-
+		
+		//Not used
         private void HandleAttack()
         {
             if (canAttack)
@@ -211,27 +233,27 @@ namespace SpriteMan3D
         {
             attackCollider.enabled = false;
         }
-
+		//Check for Pause Button press
         public static bool CheckPause()
         {
             return playerIn.GetButtonUp("Menu");
         }
-        
+        //Check for Cancel button press
         public static bool CheckCancel()
         {
             return playerIn.GetButtonUp("Return");
         }
-        
+        //Check accept button press
         public static bool CheckAccept()
         {
             return playerIn.GetButtonDown("Action");
         }
-        
+        //Check X movement axis
         public static float CheckMoveLeftRight()
         {
             return playerIn.GetAxis("MoveLeftRight");
         }        
-        
+        //Check Y movement axis
         public static float CheckMoveUpDown()
         {
             return playerIn.GetAxis("MoveUpDown");
