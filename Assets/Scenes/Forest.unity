@@ -5098,9 +5098,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 275273701}
-  - component: {fileID: 275273703}
   - component: {fileID: 275273702}
-  - component: {fileID: 275273704}
+  - component: {fileID: 275273703}
   m_Layer: 2
   m_Name: Field Random Encounter Zone
   m_TagString: Untagged
@@ -5144,360 +5143,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 275273700}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useSceneID: 0
-  sceneID: 16
-  autoDestroy: 0
-  repeatDestroy: 0
-  destroyCheckTime: 1
-  checkObjectVariables: 0
-  variableCondition:
-    needed: 0
-    gameVariable: []
-  setObjectVariables: 0
-  variableSetter:
-    gameVariable: []
-  questCondition:
-    neededQuests: 0
-    questStatus: []
-    neededTasks: 0
-    taskStatus: []
-  startType: 2
-  inBlockedControl: 0
-  customType: 
-  autoStartAfter: 0
-  allowClick: 1
-  overrideClickDistance: 0
-  maxClickDistance: 3
-  useMoveToInteraction: 1
-  destinationObject: {fileID: 0}
-  overrideInteractionRadius: 0
-  interactionRadius: 1
-  overrideStopDistance: 0
-  stopDistance: 1
-  overrideMoveToSpeed: 0
-  moveToSpeed:
-    type: 1
-    speed: 5
-  keyToPress: 0
-  keyPressInTrigger: 0
-  keyPressWhileColliding: 0
-  dropItem:
-    type: 0
-    id: 0
-    level: 1
-    quantity: 1
-    chance: 100
-  consumeDrop: 0
-  startByCollider: 0
-  startByTrigger: 1
-  startByRootObject: 0
-  useOtherObject: 0
-  startObjectCheck:
-    checkName: 0
-    isTag: 0
-    name: 
-    components: []
-  horizontalPlane: 0
-  useFront: 1
-  useBack: 1
-  useLeft: 1
-  useRight: 1
-  battleType: 0
-  canEscape: 1
-  setLooks: 1
-  useAppearingChance: 0
-  appearingChance: 40
-  appearingChanceFailSetID: 0
-  gridUseType: 1
-  gridObject: {fileID: 0}
-  allGroups: 0
-  combatant:
-  - factionID: 1
-    useGroup: 1
-    id: 11
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 12
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 13
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 14
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 15
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 5
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  ownSpots: 0
-  playerSpot: []
-  playerSpotPA: []
-  playerSpotEA: []
-  allySpot: []
-  allySpotPA: []
-  allySpotEA: []
-  enemySpot: []
-  enemySpotPA: []
-  enemySpotEA: []
-  enablePA: 0
-  overridePAChance: 0
-  paChance: 0
-  enableEA: 0
-  overrideEAChance: 0
-  eaChance: 0
-  itemGains: []
-  useDefaultStart: 1
-  startEventAsset: {fileID: 0}
-  useDefaultEnd: 1
-  victoryEventAsset: {fileID: 0}
-  escapeEventAsset: {fileID: 0}
-  defeatEventAsset: {fileID: 0}
-  leaveArenaEventAsset: {fileID: 0}
-  useDefaultAutoJoin: 1
-  autoJoin:
-    autoJoin: 0
-    usePlayer: 0
-    runningBattle: 0
-    range:
-      range: 5
-      threshold: 0
-      ignoreHeightDistance: 1
-      ignoreRadius: 0
---- !u!114 &275273704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 275273700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: -1986983765, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -5518,13 +5163,13 @@ MonoBehaviour:
     questStatus: []
     neededTasks: 0
     taskStatus: []
-  battleComponentObject: {fileID: 275273700}
-  setBCPos: 1
-  setBCRot: 1
+  battleComponentObject: {fileID: 0}
+  setBCPos: 0
+  setBCRot: 0
   useNearestArena: 0
   arenaRange: 20
   battleType: 0
-  battleChance: 20
+  battleChance: 10
   checkInterval: 0.5
   ignoreHeightDistance: 1
   minMoveCheckDistance: 0.1
@@ -5733,6 +5378,46 @@ MonoBehaviour:
       encrypted: 0
   - factionID: 1
     useGroup: 1
+    id: 14
+    member:
+      id: 0
+      useStartInventory: 1
+      useStartEquipment: 1
+      useInitEvent: 1
+      levelInit: 0
+      levelOnlyBattle: 0
+      levelMinOffset: -5
+      levelMaxOffset: 5
+      levelMinRandom: 1
+      levelMaxRandom: 99
+      levelKey: 
+      levelFormulaID: 0
+      levelFormulaInitialValue: 0
+      classInit: 0
+      classOnlyBattle: 0
+      classMinOffset: -5
+      classMaxOffset: 5
+      classMinRandom: 1
+      classMaxRandom: 99
+      classKey: 
+      classFormulaID: 0
+      classFormulaInitialValue: 0
+    serialize_settings:
+      name: settings
+      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
+        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
+      lookUp:
+        textures: []
+        audioClips: []
+        gameObjects: []
+        guiSkins: []
+        materials: []
+        fonts: []
+        eventAssets: []
+        generalAssets: []
+      encrypted: 0
+  - factionID: 1
+    useGroup: 1
     id: 15
     member:
       id: 0
@@ -5772,11 +5457,12 @@ MonoBehaviour:
         generalAssets: []
       encrypted: 0
   chance:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 10
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
   - 10
 --- !u!1001 &287652683
 PrefabInstance:
@@ -22499,9 +22185,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 985214117}
-  - component: {fileID: 985214119}
   - component: {fileID: 985214118}
-  - component: {fileID: 985214120}
+  - component: {fileID: 985214119}
   m_Layer: 2
   m_Name: Merc Camp Random Encounter Zone
   m_TagString: Untagged
@@ -22545,560 +22230,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 985214116}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useSceneID: 0
-  sceneID: 15
-  autoDestroy: 0
-  repeatDestroy: 0
-  destroyCheckTime: 1
-  checkObjectVariables: 0
-  variableCondition:
-    needed: 0
-    gameVariable: []
-  setObjectVariables: 0
-  variableSetter:
-    gameVariable: []
-  questCondition:
-    neededQuests: 0
-    questStatus: []
-    neededTasks: 0
-    taskStatus: []
-  startType: 2
-  inBlockedControl: 0
-  customType: 
-  autoStartAfter: 0
-  allowClick: 1
-  overrideClickDistance: 0
-  maxClickDistance: 3
-  useMoveToInteraction: 1
-  destinationObject: {fileID: 0}
-  overrideInteractionRadius: 0
-  interactionRadius: 1
-  overrideStopDistance: 0
-  stopDistance: 1
-  overrideMoveToSpeed: 0
-  moveToSpeed:
-    type: 1
-    speed: 5
-  keyToPress: 0
-  keyPressInTrigger: 0
-  keyPressWhileColliding: 0
-  dropItem:
-    type: 0
-    id: 0
-    level: 1
-    quantity: 1
-    chance: 100
-  consumeDrop: 0
-  startByCollider: 0
-  startByTrigger: 1
-  startByRootObject: 0
-  useOtherObject: 0
-  startObjectCheck:
-    checkName: 0
-    isTag: 0
-    name: 
-    components: []
-  horizontalPlane: 0
-  useFront: 1
-  useBack: 1
-  useLeft: 1
-  useRight: 1
-  battleType: 0
-  canEscape: 1
-  setLooks: 1
-  useAppearingChance: 0
-  appearingChance: 60
-  appearingChanceFailSetID: 0
-  gridUseType: 1
-  gridObject: {fileID: 0}
-  allGroups: 0
-  combatant:
-  - factionID: 1
-    useGroup: 1
-    id: 0
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 5
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 6
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 7
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 8
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 9
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 11
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 12
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 13
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 14
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 15
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  ownSpots: 0
-  playerSpot: []
-  playerSpotPA: []
-  playerSpotEA: []
-  allySpot: []
-  allySpotPA: []
-  allySpotEA: []
-  enemySpot: []
-  enemySpotPA: []
-  enemySpotEA: []
-  enablePA: 0
-  overridePAChance: 0
-  paChance: 0
-  enableEA: 0
-  overrideEAChance: 0
-  eaChance: 0
-  itemGains: []
-  useDefaultStart: 1
-  startEventAsset: {fileID: 0}
-  useDefaultEnd: 1
-  victoryEventAsset: {fileID: 0}
-  escapeEventAsset: {fileID: 0}
-  defeatEventAsset: {fileID: 0}
-  leaveArenaEventAsset: {fileID: 0}
-  useDefaultAutoJoin: 1
-  autoJoin:
-    autoJoin: 0
-    usePlayer: 0
-    runningBattle: 0
-    range:
-      range: 5
-      threshold: 0
-      ignoreHeightDistance: 1
-      ignoreRadius: 0
---- !u!114 &985214120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 985214116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: -1986983765, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -23119,13 +22250,13 @@ MonoBehaviour:
     questStatus: []
     neededTasks: 0
     taskStatus: []
-  battleComponentObject: {fileID: 985214116}
-  setBCPos: 1
-  setBCRot: 1
+  battleComponentObject: {fileID: 0}
+  setBCPos: 0
+  setBCRot: 0
   useNearestArena: 0
   arenaRange: 20
   battleType: 0
-  battleChance: 30
+  battleChance: 20
   checkInterval: 0.5
   ignoreHeightDistance: 1
   minMoveCheckDistance: 0.1
@@ -23175,6 +22306,46 @@ MonoBehaviour:
   - factionID: 1
     useGroup: 1
     id: 12
+    member:
+      id: 0
+      useStartInventory: 1
+      useStartEquipment: 1
+      useInitEvent: 1
+      levelInit: 0
+      levelOnlyBattle: 0
+      levelMinOffset: -5
+      levelMaxOffset: 5
+      levelMinRandom: 1
+      levelMaxRandom: 99
+      levelKey: 
+      levelFormulaID: 0
+      levelFormulaInitialValue: 0
+      classInit: 0
+      classOnlyBattle: 0
+      classMinOffset: -5
+      classMaxOffset: 5
+      classMinRandom: 1
+      classMaxRandom: 99
+      classKey: 
+      classFormulaID: 0
+      classFormulaInitialValue: 0
+    serialize_settings:
+      name: settings
+      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
+        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
+      lookUp:
+        textures: []
+        audioClips: []
+        gameObjects: []
+        guiSkins: []
+        materials: []
+        fonts: []
+        eventAssets: []
+        generalAssets: []
+      encrypted: 0
+  - factionID: 1
+    useGroup: 1
+    id: 9
     member:
       id: 0
       useStartInventory: 1
@@ -23376,7 +22547,8 @@ MonoBehaviour:
   - 20
   - 20
   - 20
-  - 20
+  - 10
+  - 10
   - 10
   - 10
 --- !u!1001 &989945839
@@ -28155,7 +27327,6 @@ GameObject:
   - component: {fileID: 1265358420}
   - component: {fileID: 1265358418}
   - component: {fileID: 1265358419}
-  - component: {fileID: 1265358421}
   m_Layer: 2
   m_Name: Random Encounter Zone
   m_TagString: Untagged
@@ -28185,374 +27356,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1265358417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useSceneID: 0
-  sceneID: 17
-  autoDestroy: 0
-  repeatDestroy: 0
-  destroyCheckTime: 1
-  checkObjectVariables: 0
-  variableCondition:
-    needed: 0
-    gameVariable: []
-  setObjectVariables: 0
-  variableSetter:
-    gameVariable: []
-  questCondition:
-    neededQuests: 0
-    questStatus: []
-    neededTasks: 0
-    taskStatus: []
-  startType: 2
-  inBlockedControl: 0
-  customType: 
-  autoStartAfter: 0
-  allowClick: 1
-  overrideClickDistance: 0
-  maxClickDistance: 3
-  useMoveToInteraction: 1
-  destinationObject: {fileID: 0}
-  overrideInteractionRadius: 0
-  interactionRadius: 1
-  overrideStopDistance: 0
-  stopDistance: 1
-  overrideMoveToSpeed: 0
-  moveToSpeed:
-    type: 1
-    speed: 5
-  keyToPress: 0
-  keyPressInTrigger: 0
-  keyPressWhileColliding: 0
-  dropItem:
-    type: 0
-    id: 0
-    level: 1
-    quantity: 1
-    chance: 100
-  consumeDrop: 0
-  startByCollider: 0
-  startByTrigger: 1
-  startByRootObject: 0
-  useOtherObject: 0
-  startObjectCheck:
-    checkName: 0
-    isTag: 0
-    name: 
-    components: []
-  horizontalPlane: 0
-  useFront: 1
-  useBack: 1
-  useLeft: 1
-  useRight: 1
-  battleType: 0
-  canEscape: 1
-  setLooks: 1
-  useAppearingChance: 0
-  appearingChance: 40
-  appearingChanceFailSetID: 0
-  gridUseType: 1
-  gridObject: {fileID: 0}
-  allGroups: 0
-  combatant:
-  - factionID: 1
-    useGroup: 1
-    id: 0
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 1
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 2
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 3
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 4
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 5
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  ownSpots: 0
-  playerSpot: []
-  playerSpotPA: []
-  playerSpotEA: []
-  allySpot: []
-  allySpotPA: []
-  allySpotEA: []
-  enemySpot: []
-  enemySpotPA: []
-  enemySpotEA: []
-  enablePA: 0
-  overridePAChance: 0
-  paChance: 0
-  enableEA: 0
-  overrideEAChance: 0
-  eaChance: 0
-  itemGains: []
-  useDefaultStart: 1
-  startEventAsset: {fileID: 0}
-  useDefaultEnd: 1
-  victoryEventAsset: {fileID: 0}
-  escapeEventAsset: {fileID: 0}
-  defeatEventAsset: {fileID: 0}
-  leaveArenaEventAsset: {fileID: 0}
-  useDefaultAutoJoin: 1
-  autoJoin:
-    autoJoin: 0
-    usePlayer: 0
-    runningBattle: 0
-    range:
-      range: 5
-      threshold: 0
-      ignoreHeightDistance: 1
-      ignoreRadius: 0
---- !u!4 &1265358420
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265358417}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8, y: -13.486795, z: -3.7000008}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 145854549}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1265358421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265358417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: -1986983765, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -28573,13 +27376,13 @@ MonoBehaviour:
     questStatus: []
     neededTasks: 0
     taskStatus: []
-  battleComponentObject: {fileID: 1265358417}
-  setBCPos: 1
-  setBCRot: 1
+  battleComponentObject: {fileID: 0}
+  setBCPos: 0
+  setBCRot: 0
   useNearestArena: 0
   arenaRange: 20
   battleType: 0
-  battleChance: 20
+  battleChance: 10
   checkInterval: 0.5
   ignoreHeightDistance: 1
   minMoveCheckDistance: 0.1
@@ -28833,6 +27636,20 @@ MonoBehaviour:
   - 20
   - 10
   - 10
+--- !u!4 &1265358420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265358417}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8, y: -13.486795, z: -3.7000008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 145854549}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1272958020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41610,7 +40427,6 @@ GameObject:
   - component: {fileID: 1934459475}
   - component: {fileID: 1934459476}
   - component: {fileID: 1934459477}
-  - component: {fileID: 1934459478}
   m_Layer: 2
   m_Name: Ruins Random Encounter Zone
   m_TagString: Untagged
@@ -41654,160 +40470,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1934459474}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useSceneID: 0
-  sceneID: 17
-  autoDestroy: 0
-  repeatDestroy: 0
-  destroyCheckTime: 1
-  checkObjectVariables: 0
-  variableCondition:
-    needed: 0
-    gameVariable: []
-  setObjectVariables: 0
-  variableSetter:
-    gameVariable: []
-  questCondition:
-    neededQuests: 0
-    questStatus: []
-    neededTasks: 0
-    taskStatus: []
-  startType: 2
-  inBlockedControl: 0
-  customType: 
-  autoStartAfter: 0
-  allowClick: 1
-  overrideClickDistance: 0
-  maxClickDistance: 3
-  useMoveToInteraction: 1
-  destinationObject: {fileID: 0}
-  overrideInteractionRadius: 0
-  interactionRadius: 1
-  overrideStopDistance: 0
-  stopDistance: 1
-  overrideMoveToSpeed: 0
-  moveToSpeed:
-    type: 1
-    speed: 5
-  keyToPress: 0
-  keyPressInTrigger: 0
-  keyPressWhileColliding: 0
-  dropItem:
-    type: 0
-    id: 0
-    level: 1
-    quantity: 1
-    chance: 100
-  consumeDrop: 0
-  startByCollider: 0
-  startByTrigger: 1
-  startByRootObject: 0
-  useOtherObject: 0
-  startObjectCheck:
-    checkName: 0
-    isTag: 0
-    name: 
-    components: []
-  horizontalPlane: 0
-  useFront: 1
-  useBack: 1
-  useLeft: 1
-  useRight: 1
-  battleType: 0
-  canEscape: 1
-  setLooks: 1
-  useAppearingChance: 0
-  appearingChance: 40
-  appearingChanceFailSetID: 0
-  gridUseType: 1
-  gridObject: {fileID: 0}
-  allGroups: 0
-  combatant:
-  - factionID: 1
-    useGroup: 1
-    id: 19
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  ownSpots: 0
-  playerSpot: []
-  playerSpotPA: []
-  playerSpotEA: []
-  allySpot: []
-  allySpotPA: []
-  allySpotEA: []
-  enemySpot: []
-  enemySpotPA: []
-  enemySpotEA: []
-  enablePA: 0
-  overridePAChance: 0
-  paChance: 0
-  enableEA: 0
-  overrideEAChance: 0
-  eaChance: 0
-  itemGains: []
-  useDefaultStart: 1
-  startEventAsset: {fileID: 0}
-  useDefaultEnd: 1
-  victoryEventAsset: {fileID: 0}
-  escapeEventAsset: {fileID: 0}
-  defeatEventAsset: {fileID: 0}
-  leaveArenaEventAsset: {fileID: 0}
-  useDefaultAutoJoin: 1
-  autoJoin:
-    autoJoin: 0
-    usePlayer: 0
-    runningBattle: 0
-    range:
-      range: 5
-      threshold: 0
-      ignoreHeightDistance: 1
-      ignoreRadius: 0
---- !u!114 &1934459478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934459474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: -1986983765, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -41828,13 +40490,13 @@ MonoBehaviour:
     questStatus: []
     neededTasks: 0
     taskStatus: []
-  battleComponentObject: {fileID: 1934459474}
-  setBCPos: 1
-  setBCRot: 1
+  battleComponentObject: {fileID: 0}
+  setBCPos: 0
+  setBCRot: 0
   useNearestArena: 0
   arenaRange: 20
   battleType: 0
-  battleChance: 30
+  battleChance: 10
   checkInterval: 0.5
   ignoreHeightDistance: 1
   minMoveCheckDistance: 0.1
@@ -41843,47 +40505,7 @@ MonoBehaviour:
   combatant:
   - factionID: 1
     useGroup: 1
-    id: 0
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 1
+    id: 19
     member:
       id: 0
       useStartInventory: 1
@@ -42041,53 +40663,11 @@ MonoBehaviour:
         eventAssets: []
         generalAssets: []
       encrypted: 0
-  - factionID: 1
-    useGroup: 1
-    id: 19
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
   chance:
-  - 20
-  - 20
-  - 20
-  - 20
-  - 10
-  - 10
+  - 25
+  - 25
+  - 25
+  - 25
 --- !u!1 &1935008595
 GameObject:
   m_ObjectHideFlags: 0
@@ -42763,135 +41343,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1957420498}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1957809092
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1957809095}
-  - component: {fileID: 1957809094}
-  - component: {fileID: 1957809093}
-  m_Layer: 2
-  m_Name: Random Battle Area
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1957809093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1957809092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1986983765, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useSceneID: 1
-  sceneID: -1
-  autoDestroy: 1
-  repeatDestroy: 0
-  destroyCheckTime: 1
-  checkObjectVariables: 0
-  variableCondition:
-    needed: 0
-    gameVariable: []
-  setObjectVariables: 0
-  variableSetter:
-    gameVariable: []
-  questCondition:
-    neededQuests: 0
-    questStatus: []
-    neededTasks: 0
-    taskStatus: []
-  battleComponentObject: {fileID: 0}
-  setBCPos: 0
-  setBCRot: 0
-  useNearestArena: 0
-  arenaRange: 20
-  battleType: 0
-  battleChance: 10
-  checkInterval: 0.5
-  ignoreHeightDistance: 1
-  minMoveCheckDistance: 0.1
-  minBattleDistance: 5
-  maxBattleDistance: 15
-  combatant:
-  - factionID: 0
-    useGroup: 1
-    id: 0
-    member:
-      id: 0
-      useStartInventory: 1
-      useStartEquipment: 1
-      useInitEvent: 1
-      levelInit: 0
-      levelOnlyBattle: 0
-      levelMinOffset: -5
-      levelMaxOffset: 5
-      levelMinRandom: 1
-      levelMaxRandom: 99
-      levelKey: 
-      levelFormulaID: 0
-      levelFormulaInitialValue: 0
-      classInit: 0
-      classOnlyBattle: 0
-      classMinOffset: -5
-      classMaxOffset: 5
-      classMinRandom: 1
-      classMaxRandom: 99
-      classKey: 
-      classFormulaID: 0
-      classFormulaInitialValue: 0
-    serialize_settings:
-      name: settings
-      xmlData: "<settings>\n\t<requirement>\n\t\t<_bool checkDifficulty=\"False\"
-        />\n\t\t<variableCondition needed=\"0\" >\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableCondition>\n\t</requirement>\n</settings>\n"
-      lookUp:
-        textures: []
-        audioClips: []
-        gameObjects: []
-        guiSkins: []
-        materials: []
-        fonts: []
-        eventAssets: []
-        generalAssets: []
-      encrypted: 0
-  chance:
-  - 100
---- !u!65 &1957809094
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1957809092}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &1957809095
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1957809092}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 256.79996, y: 1.1499996, z: 213.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1961431920
 GameObject:
   m_ObjectHideFlags: 0

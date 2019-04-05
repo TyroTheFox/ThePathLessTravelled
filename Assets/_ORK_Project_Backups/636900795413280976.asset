@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 636897362081295842
+  m_Name: 636900795413280976
   m_EditorClassIdentifier: 
-  time: 01/04/2019 17:17:17
+  time: 05/04/2019 16:42:54
   version: 2.21.0
   keys:
   - editorSettings
@@ -299,15 +299,15 @@ MonoBehaviour:
       />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Vertical]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[PersonPlayerController]]></customName>\n\t\t\t\t</_string>\n\t\t\t\t<customButton>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<functionName><![CDATA[]]></functionName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<parameter>\n\t\t\t\t\t\t</parameter>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</customButton>\n\t\t\t\t<customAxis>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<functionName><![CDATA[CheckMoveUpDown]]></functionName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<parameter>\n\t\t\t\t\t\t</parameter>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</customAxis>\n\t\t\t</2>\n\t\t\t<3
       type=\"7\" positiveKey=\"13\" negativeKey=\"0\" mouseButton=\"0\" clickCount=\"1\"
       touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"0\" >\n\t\t\t\t<_float
-      axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
+      axisFactor=\"1\" minAxis=\"0\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
       inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
-      limitAxis=\"False\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" consumeFingers=\"True\"
+      limitAxis=\"True\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" consumeFingers=\"True\"
       />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Accept]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[PersonPlayerController]]></customName>\n\t\t\t\t</_string>\n\t\t\t\t<customButton>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<functionName><![CDATA[CheckAccept]]></functionName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<parameter>\n\t\t\t\t\t\t</parameter>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</customButton>\n\t\t\t\t<customAxis>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<functionName><![CDATA[]]></functionName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<parameter>\n\t\t\t\t\t\t</parameter>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</customAxis>\n\t\t\t</3>\n\t\t\t<4
       type=\"7\" positiveKey=\"8\" negativeKey=\"0\" mouseButton=\"0\" clickCount=\"1\"
       touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"0\" >\n\t\t\t\t<_float
-      axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
+      axisFactor=\"1\" minAxis=\"0\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
       inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
-      limitAxis=\"False\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" consumeFingers=\"True\"
+      limitAxis=\"True\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" consumeFingers=\"True\"
       />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Cancel]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[PersonPlayerController]]></customName>\n\t\t\t\t</_string>\n\t\t\t\t<customButton>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<functionName><![CDATA[CheckCancel]]></functionName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<parameter>\n\t\t\t\t\t\t</parameter>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</customButton>\n\t\t\t\t<customAxis>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<functionName><![CDATA[]]></functionName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<parameter>\n\t\t\t\t\t\t</parameter>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</customAxis>\n\t\t\t</4>\n\t\t\t<5
       type=\"7\" positiveKey=\"27\" negativeKey=\"0\" mouseButton=\"0\" clickCount=\"1\"
       touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"0\" >\n\t\t\t\t<_float
@@ -1009,7 +1009,7 @@ MonoBehaviour:
       generalAssets: []
     encrypted: 0
   - name: portraitTypes
-    xmlData: "<portraitTypes>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Normal]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</portraitTypes>\n"
+    xmlData: "<portraitTypes>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Normal]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Detailed]]></name>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</portraitTypes>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -5036,7 +5036,39 @@ MonoBehaviour:
       isCombatantType=\"True\" isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\"
       inInventory=\"True\" isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\"
       isChoosing=\"True\" isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
-      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t<1
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<status
+      statusNeeded=\"5\" selectionID=\"30\" selectionID2=\"0\" attrGetValue=\"0\"
+      svGetValue=\"0\" comparison=\"0\" otherStatusValueID=\"0\" svOtherGetValue=\"0\"
+      setter=\"1\" classLevelID=\"0\" level=\"1\" abilityCheck=\"0\" stackComparison=\"0\"
+      stackedQuantity=\"0\" deadScope=\"0\" equipmentPartID=\"0\" combatantScope=\"0\"
+      groupSizeComparison=\"0\" groupSize=\"0\" turnState=\"2\" researchTreeState=\"0\"
+      researchItem=\"0\" researchCountComparison=\"0\" researchCount=\"0\" researchItemState=\"0\"
+      aiSlotComparison=\"0\" aiSlotCount=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool checkDefAttrVal=\"False\" compareWithOther=\"False\"
+      classLevel=\"False\" checkDefinedClassLevel=\"False\" abilityValid=\"True\"
+      applied=\"False\" checkStacked=\"False\" appliedEffectType=\"False\" isDead=\"True\"
+      isEquipped=\"True\" checkEquipmentPart=\"False\" isClass=\"True\" isCombatantType=\"True\"
+      isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\" inInventory=\"True\"
+      isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\" isChoosing=\"True\"
+      isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t<2
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<status
+      statusNeeded=\"5\" selectionID=\"33\" selectionID2=\"0\" attrGetValue=\"0\"
+      svGetValue=\"0\" comparison=\"0\" otherStatusValueID=\"0\" svOtherGetValue=\"0\"
+      setter=\"1\" classLevelID=\"0\" level=\"1\" abilityCheck=\"0\" stackComparison=\"0\"
+      stackedQuantity=\"0\" deadScope=\"0\" equipmentPartID=\"0\" combatantScope=\"0\"
+      groupSizeComparison=\"0\" groupSize=\"0\" turnState=\"2\" researchTreeState=\"0\"
+      researchItem=\"0\" researchCountComparison=\"0\" researchCount=\"0\" researchItemState=\"0\"
+      aiSlotComparison=\"0\" aiSlotCount=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool checkDefAttrVal=\"False\" compareWithOther=\"False\"
+      classLevel=\"False\" checkDefinedClassLevel=\"False\" abilityValid=\"True\"
+      applied=\"False\" checkStacked=\"False\" appliedEffectType=\"False\" isDead=\"True\"
+      isEquipped=\"True\" checkEquipmentPart=\"False\" isClass=\"True\" isCombatantType=\"True\"
+      isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\" inInventory=\"True\"
+      isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\" isChoosing=\"True\"
+      isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
       cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
       />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
       volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t\t<0
@@ -5171,7 +5203,39 @@ MonoBehaviour:
       isCombatantType=\"True\" isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\"
       inInventory=\"True\" isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\"
       isChoosing=\"True\" isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
-      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t<1
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<status
+      statusNeeded=\"5\" selectionID=\"30\" selectionID2=\"0\" attrGetValue=\"0\"
+      svGetValue=\"0\" comparison=\"0\" otherStatusValueID=\"0\" svOtherGetValue=\"0\"
+      setter=\"1\" classLevelID=\"0\" level=\"1\" abilityCheck=\"0\" stackComparison=\"0\"
+      stackedQuantity=\"0\" deadScope=\"0\" equipmentPartID=\"0\" combatantScope=\"0\"
+      groupSizeComparison=\"0\" groupSize=\"0\" turnState=\"2\" researchTreeState=\"0\"
+      researchItem=\"0\" researchCountComparison=\"0\" researchCount=\"0\" researchItemState=\"0\"
+      aiSlotComparison=\"0\" aiSlotCount=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool checkDefAttrVal=\"False\" compareWithOther=\"False\"
+      classLevel=\"False\" checkDefinedClassLevel=\"False\" abilityValid=\"True\"
+      applied=\"False\" checkStacked=\"False\" appliedEffectType=\"False\" isDead=\"True\"
+      isEquipped=\"True\" checkEquipmentPart=\"False\" isClass=\"True\" isCombatantType=\"True\"
+      isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\" inInventory=\"True\"
+      isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\" isChoosing=\"True\"
+      isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t<2
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<status
+      statusNeeded=\"5\" selectionID=\"33\" selectionID2=\"0\" attrGetValue=\"0\"
+      svGetValue=\"0\" comparison=\"0\" otherStatusValueID=\"0\" svOtherGetValue=\"0\"
+      setter=\"1\" classLevelID=\"0\" level=\"1\" abilityCheck=\"0\" stackComparison=\"0\"
+      stackedQuantity=\"0\" deadScope=\"0\" equipmentPartID=\"0\" combatantScope=\"0\"
+      groupSizeComparison=\"0\" groupSize=\"0\" turnState=\"2\" researchTreeState=\"0\"
+      researchItem=\"0\" researchCountComparison=\"0\" researchCount=\"0\" researchItemState=\"0\"
+      aiSlotComparison=\"0\" aiSlotCount=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool checkDefAttrVal=\"False\" compareWithOther=\"False\"
+      classLevel=\"False\" checkDefinedClassLevel=\"False\" abilityValid=\"True\"
+      applied=\"False\" checkStacked=\"False\" appliedEffectType=\"False\" isDead=\"True\"
+      isEquipped=\"True\" checkEquipmentPart=\"False\" isClass=\"True\" isCombatantType=\"True\"
+      isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\" inInventory=\"True\"
+      isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\" isChoosing=\"True\"
+      isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
       cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
       />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
       volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t\t<0
@@ -5306,7 +5370,39 @@ MonoBehaviour:
       isCombatantType=\"True\" isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\"
       inInventory=\"True\" isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\"
       isChoosing=\"True\" isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
-      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t<1
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<status
+      statusNeeded=\"5\" selectionID=\"30\" selectionID2=\"0\" attrGetValue=\"0\"
+      svGetValue=\"0\" comparison=\"0\" otherStatusValueID=\"0\" svOtherGetValue=\"0\"
+      setter=\"1\" classLevelID=\"0\" level=\"1\" abilityCheck=\"0\" stackComparison=\"0\"
+      stackedQuantity=\"0\" deadScope=\"0\" equipmentPartID=\"0\" combatantScope=\"0\"
+      groupSizeComparison=\"0\" groupSize=\"0\" turnState=\"2\" researchTreeState=\"0\"
+      researchItem=\"0\" researchCountComparison=\"0\" researchCount=\"0\" researchItemState=\"0\"
+      aiSlotComparison=\"0\" aiSlotCount=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool checkDefAttrVal=\"False\" compareWithOther=\"False\"
+      classLevel=\"False\" checkDefinedClassLevel=\"False\" abilityValid=\"True\"
+      applied=\"False\" checkStacked=\"False\" appliedEffectType=\"False\" isDead=\"True\"
+      isEquipped=\"True\" checkEquipmentPart=\"False\" isClass=\"True\" isCombatantType=\"True\"
+      isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\" inInventory=\"True\"
+      isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\" isChoosing=\"True\"
+      isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t<2
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<status
+      statusNeeded=\"5\" selectionID=\"33\" selectionID2=\"0\" attrGetValue=\"0\"
+      svGetValue=\"0\" comparison=\"0\" otherStatusValueID=\"0\" svOtherGetValue=\"0\"
+      setter=\"1\" classLevelID=\"0\" level=\"1\" abilityCheck=\"0\" stackComparison=\"0\"
+      stackedQuantity=\"0\" deadScope=\"0\" equipmentPartID=\"0\" combatantScope=\"0\"
+      groupSizeComparison=\"0\" groupSize=\"0\" turnState=\"2\" researchTreeState=\"0\"
+      researchItem=\"0\" researchCountComparison=\"0\" researchCount=\"0\" researchItemState=\"0\"
+      aiSlotComparison=\"0\" aiSlotCount=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool checkDefAttrVal=\"False\" compareWithOther=\"False\"
+      classLevel=\"False\" checkDefinedClassLevel=\"False\" abilityValid=\"True\"
+      applied=\"False\" checkStacked=\"False\" appliedEffectType=\"False\" isDead=\"True\"
+      isEquipped=\"True\" checkEquipmentPart=\"False\" isClass=\"True\" isCombatantType=\"True\"
+      isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\" inInventory=\"True\"
+      isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\" isChoosing=\"True\"
+      isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
       cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
       />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
       volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t\t<0
@@ -5441,7 +5537,39 @@ MonoBehaviour:
       isCombatantType=\"True\" isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\"
       inInventory=\"True\" isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\"
       isChoosing=\"True\" isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
-      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t<1
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<status
+      statusNeeded=\"5\" selectionID=\"30\" selectionID2=\"0\" attrGetValue=\"0\"
+      svGetValue=\"0\" comparison=\"0\" otherStatusValueID=\"0\" svOtherGetValue=\"0\"
+      setter=\"1\" classLevelID=\"0\" level=\"1\" abilityCheck=\"0\" stackComparison=\"0\"
+      stackedQuantity=\"0\" deadScope=\"0\" equipmentPartID=\"0\" combatantScope=\"0\"
+      groupSizeComparison=\"0\" groupSize=\"0\" turnState=\"2\" researchTreeState=\"0\"
+      researchItem=\"0\" researchCountComparison=\"0\" researchCount=\"0\" researchItemState=\"0\"
+      aiSlotComparison=\"0\" aiSlotCount=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool checkDefAttrVal=\"False\" compareWithOther=\"False\"
+      classLevel=\"False\" checkDefinedClassLevel=\"False\" abilityValid=\"True\"
+      applied=\"False\" checkStacked=\"False\" appliedEffectType=\"False\" isDead=\"True\"
+      isEquipped=\"True\" checkEquipmentPart=\"False\" isClass=\"True\" isCombatantType=\"True\"
+      isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\" inInventory=\"True\"
+      isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\" isChoosing=\"True\"
+      isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t<2
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<status
+      statusNeeded=\"5\" selectionID=\"33\" selectionID2=\"0\" attrGetValue=\"0\"
+      svGetValue=\"0\" comparison=\"0\" otherStatusValueID=\"0\" svOtherGetValue=\"0\"
+      setter=\"1\" classLevelID=\"0\" level=\"1\" abilityCheck=\"0\" stackComparison=\"0\"
+      stackedQuantity=\"0\" deadScope=\"0\" equipmentPartID=\"0\" combatantScope=\"0\"
+      groupSizeComparison=\"0\" groupSize=\"0\" turnState=\"2\" researchTreeState=\"0\"
+      researchItem=\"0\" researchCountComparison=\"0\" researchCount=\"0\" researchItemState=\"0\"
+      aiSlotComparison=\"0\" aiSlotCount=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool checkDefAttrVal=\"False\" compareWithOther=\"False\"
+      classLevel=\"False\" checkDefinedClassLevel=\"False\" abilityValid=\"True\"
+      applied=\"False\" checkStacked=\"False\" appliedEffectType=\"False\" isDead=\"True\"
+      isEquipped=\"True\" checkEquipmentPart=\"False\" isClass=\"True\" isCombatantType=\"True\"
+      isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\" inInventory=\"True\"
+      isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\" isChoosing=\"True\"
+      isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
       cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
       />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
       volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t\t<0
@@ -5576,7 +5704,39 @@ MonoBehaviour:
       isCombatantType=\"True\" isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\"
       inInventory=\"True\" isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\"
       isChoosing=\"True\" isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
-      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t<1
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<status
+      statusNeeded=\"5\" selectionID=\"30\" selectionID2=\"0\" attrGetValue=\"0\"
+      svGetValue=\"0\" comparison=\"0\" otherStatusValueID=\"0\" svOtherGetValue=\"0\"
+      setter=\"1\" classLevelID=\"0\" level=\"1\" abilityCheck=\"0\" stackComparison=\"0\"
+      stackedQuantity=\"0\" deadScope=\"0\" equipmentPartID=\"0\" combatantScope=\"0\"
+      groupSizeComparison=\"0\" groupSize=\"0\" turnState=\"2\" researchTreeState=\"0\"
+      researchItem=\"0\" researchCountComparison=\"0\" researchCount=\"0\" researchItemState=\"0\"
+      aiSlotComparison=\"0\" aiSlotCount=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool checkDefAttrVal=\"False\" compareWithOther=\"False\"
+      classLevel=\"False\" checkDefinedClassLevel=\"False\" abilityValid=\"True\"
+      applied=\"False\" checkStacked=\"False\" appliedEffectType=\"False\" isDead=\"True\"
+      isEquipped=\"True\" checkEquipmentPart=\"False\" isClass=\"True\" isCombatantType=\"True\"
+      isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\" inInventory=\"True\"
+      isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\" isChoosing=\"True\"
+      isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t<2
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<status
+      statusNeeded=\"5\" selectionID=\"33\" selectionID2=\"0\" attrGetValue=\"0\"
+      svGetValue=\"0\" comparison=\"0\" otherStatusValueID=\"0\" svOtherGetValue=\"0\"
+      setter=\"1\" classLevelID=\"0\" level=\"1\" abilityCheck=\"0\" stackComparison=\"0\"
+      stackedQuantity=\"0\" deadScope=\"0\" equipmentPartID=\"0\" combatantScope=\"0\"
+      groupSizeComparison=\"0\" groupSize=\"0\" turnState=\"2\" researchTreeState=\"0\"
+      researchItem=\"0\" researchCountComparison=\"0\" researchCount=\"0\" researchItemState=\"0\"
+      aiSlotComparison=\"0\" aiSlotCount=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool checkDefAttrVal=\"False\" compareWithOther=\"False\"
+      classLevel=\"False\" checkDefinedClassLevel=\"False\" abilityValid=\"True\"
+      applied=\"False\" checkStacked=\"False\" appliedEffectType=\"False\" isDead=\"True\"
+      isEquipped=\"True\" checkEquipmentPart=\"False\" isClass=\"True\" isCombatantType=\"True\"
+      isCombatant=\"True\" isLeader=\"True\" battleGroup=\"True\" inInventory=\"True\"
+      isInBattle=\"True\" isInAction=\"True\" isCasting=\"True\" isChoosing=\"True\"
+      isTurnStateValid=\"True\" maxGridMoveRange=\"False\" usedActionBar=\"False\"
+      checkResearchCount=\"False\" isResearching=\"True\" aiEquipped=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t\t\t<useCost>\n\t\t\t\t\t\t\t\t\t<_bool
       cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
       />\n\t\t\t\t\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float
       volume=\"1\" />\n\t\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t</audioSetting>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t\t<0
@@ -16467,7 +16627,8 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t\t<_bool ignoreBarrier=\"False\" ignoreStatusChangeModifier=\"False\"
       showFlyingText=\"True\" showConsole=\"True\" formulaMinMaxDisplay=\"False\"
       cancelCasts=\"False\" blockable=\"False\" ignoreDefend=\"False\" useAbsorbEffect=\"False\"
-      absorb=\"False\" absorbPositive=\"False\" useAttributeChanges=\"False\" />\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<variableChanges>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variableChanges>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Potion]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      absorb=\"False\" absorbPositive=\"False\" useAttributeChanges=\"False\" />\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<variableChanges>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variableChanges>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Painkillers]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[Restored
+      50% of health. Don't ask what's in it. No, seriously.]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
       itemType=\"0\" damageTypeID=\"0\" quantityLimit=\"99\" stackQuantityLimit=\"99\"
       inventoryAddType=\"0\" useableIn=\"2\" selectionID=\"0\" itemAbility=\"0\" learnAbilityID=\"0\"
       useAbilityID=\"0\" actionType=\"0\" abilityLevel=\"1\" recipeID=\"0\" recipeQuantity=\"1\"
@@ -16526,8 +16687,9 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t\t<_bool ignoreBarrier=\"False\" ignoreStatusChangeModifier=\"False\"
       showFlyingText=\"True\" showConsole=\"True\" formulaMinMaxDisplay=\"False\"
       cancelCasts=\"False\" blockable=\"False\" ignoreDefend=\"False\" useAbsorbEffect=\"False\"
-      absorb=\"False\" absorbPositive=\"False\" useAttributeChanges=\"False\" />\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<variableChanges>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variableChanges>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Magic
-      Potion]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
+      absorb=\"False\" absorbPositive=\"False\" useAttributeChanges=\"False\" />\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<variableChanges>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variableChanges>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Charger
+      Unit]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[Restores 50% of your Energy.
+      Better than coffee.]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
       itemType=\"0\" damageTypeID=\"0\" quantityLimit=\"99\" stackQuantityLimit=\"99\"
       inventoryAddType=\"0\" useableIn=\"2\" selectionID=\"0\" itemAbility=\"0\" learnAbilityID=\"0\"
       useAbilityID=\"0\" actionType=\"0\" abilityLevel=\"1\" recipeID=\"0\" recipeQuantity=\"1\"
@@ -16586,8 +16748,9 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t\t<_bool ignoreBarrier=\"False\" ignoreStatusChangeModifier=\"False\"
       showFlyingText=\"True\" showConsole=\"True\" formulaMinMaxDisplay=\"False\"
       cancelCasts=\"False\" blockable=\"False\" ignoreDefend=\"False\" useAbsorbEffect=\"False\"
-      absorb=\"False\" absorbPositive=\"False\" useAttributeChanges=\"False\" />\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<variableChanges>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variableChanges>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Revive
-      Potion]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
+      absorb=\"False\" absorbPositive=\"False\" useAttributeChanges=\"False\" />\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<variableChanges>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variableChanges>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Smelling
+      Salts]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[Revives a party member.
+      Mostly through unpleasant shock.]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
       itemType=\"0\" damageTypeID=\"0\" quantityLimit=\"99\" stackQuantityLimit=\"99\"
       inventoryAddType=\"0\" useableIn=\"2\" selectionID=\"0\" itemAbility=\"0\" learnAbilityID=\"0\"
       useAbilityID=\"0\" actionType=\"0\" abilityLevel=\"1\" recipeID=\"0\" recipeQuantity=\"1\"
@@ -16662,8 +16825,9 @@ MonoBehaviour:
       removeSingle=\"False\" />\n\t\t\t\t\t\t\t</6>\n\t\t\t\t\t\t\t<7 typeID=\"0\"
       effectID=\"20\" effectCast=\"2\" requirementType=\"0\" >\n\t\t\t\t\t\t\t\t<_bool
       useType=\"False\" ownHitChance=\"False\" useHitChance=\"False\" force=\"False\"
-      removeSingle=\"False\" />\n\t\t\t\t\t\t\t</7>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<variableChanges>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variableChanges>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Cure
-      Potion]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
+      removeSingle=\"False\" />\n\t\t\t\t\t\t\t</7>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<variableChanges>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variableChanges>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Stabliser
+      Serum]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[Cures the target of status
+      ailments, like all types of Poison, Blind and Burns.]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
       itemType=\"2\" damageTypeID=\"0\" quantityLimit=\"99\" stackQuantityLimit=\"99\"
       inventoryAddType=\"0\" useableIn=\"3\" selectionID=\"0\" itemAbility=\"0\" learnAbilityID=\"0\"
       useAbilityID=\"0\" actionType=\"0\" abilityLevel=\"1\" recipeID=\"0\" recipeQuantity=\"1\"
@@ -16819,7 +16983,8 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t</audioSetting>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</userChange>\n\t\t\t\t<targetChange>\n\t\t\t\t\t<_bool
       cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
       />\n\t\t\t\t\t<audioSetting soundTypeID=\"0\" >\n\t\t\t\t\t\t<_float volume=\"1\"
-      />\n\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t</audioSetting>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<variableChanges>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variableChanges>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Ammo]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</6>\n\t\t</data>\n\t</_subarrays>\n</items>\n"
+      />\n\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t</audioSetting>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<variableChanges>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variableChanges>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Ammo]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[Ammunition
+      for firearms. You stick it in a gun to launch it violently at a bad guy.]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</6>\n\t\t</data>\n\t</_subarrays>\n</items>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -20838,7 +21003,12 @@ MonoBehaviour:
       ignoreEquipmentViewerConditions=\"False\" ownCamera=\"False\" ownBackground=\"False\"
       useAlphaMask=\"False\" useMaterial=\"False\" ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      image=\"0\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
+      image=\"0\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 typeID=\"1\" >\n\t\t\t\t\t\t\t<_bool
+      usePrefabView=\"False\" setPrefab=\"False\" ignoreEquipmentViewerConditions=\"False\"
+      ownCamera=\"False\" ownBackground=\"False\" useAlphaMask=\"False\" useMaterial=\"False\"
+      ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
+      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
+      image=\"1\" />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
       id=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t<0
       type=\"0\" id=\"0\" level=\"1\" quantity=\"10\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
       />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 type=\"0\" id=\"1\" level=\"1\" quantity=\"1\"
@@ -20873,7 +21043,7 @@ MonoBehaviour:
       type=\"8\" abilityID=\"0\" abilityLevel=\"1\" itemID=\"0\" >\n\t\t\t\t\t\t\t<_bool
       abilityAllLevels=\"True\" joinLookAt=\"False\" />\n\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t<_bool
       animate=\"False\" />\n\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Toivo]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"1\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</5>\n\t\t\t<6
+      icon=\"2\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</5>\n\t\t\t<6
       typeID=\"2\" startLevel=\"20\" startClassID=\"3\" startClassLevel=\"1\" statusDevelopmentID=\"2\"
       lootOrigin=\"0\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -20951,7 +21121,12 @@ MonoBehaviour:
       ignoreEquipmentViewerConditions=\"False\" ownCamera=\"False\" ownBackground=\"False\"
       useAlphaMask=\"False\" useMaterial=\"False\" ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      image=\"2\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
+      image=\"3\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 typeID=\"1\" >\n\t\t\t\t\t\t\t<_bool
+      usePrefabView=\"False\" setPrefab=\"False\" ignoreEquipmentViewerConditions=\"False\"
+      ownCamera=\"False\" ownBackground=\"False\" useAlphaMask=\"False\" useMaterial=\"False\"
+      ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
+      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
+      image=\"4\" />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
       id=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t<0
       type=\"0\" id=\"6\" level=\"1\" quantity=\"10\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
       />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 type=\"1\" id=\"3\" level=\"1\" quantity=\"1\"
@@ -20984,7 +21159,7 @@ MonoBehaviour:
       type=\"8\" abilityID=\"0\" abilityLevel=\"1\" itemID=\"0\" >\n\t\t\t\t\t\t\t<_bool
       abilityAllLevels=\"True\" joinLookAt=\"False\" />\n\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t<_bool
       animate=\"False\" />\n\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Domanic]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"3\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</6>\n\t\t\t<7
+      icon=\"5\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</6>\n\t\t\t<7
       typeID=\"2\" startLevel=\"20\" startClassID=\"2\" startClassLevel=\"1\" statusDevelopmentID=\"3\"
       lootOrigin=\"0\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -21062,7 +21237,12 @@ MonoBehaviour:
       ignoreEquipmentViewerConditions=\"False\" ownCamera=\"False\" ownBackground=\"False\"
       useAlphaMask=\"False\" useMaterial=\"False\" ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      image=\"4\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
+      image=\"6\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 typeID=\"1\" >\n\t\t\t\t\t\t\t<_bool
+      usePrefabView=\"False\" setPrefab=\"False\" ignoreEquipmentViewerConditions=\"False\"
+      ownCamera=\"False\" ownBackground=\"False\" useAlphaMask=\"False\" useMaterial=\"False\"
+      ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
+      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
+      image=\"7\" />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
       id=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t<0
       type=\"1\" id=\"4\" level=\"1\" quantity=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
       />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 type=\"2\" id=\"1\" level=\"1\" quantity=\"1\"
@@ -21092,7 +21272,7 @@ MonoBehaviour:
       type=\"8\" abilityID=\"0\" abilityLevel=\"1\" itemID=\"0\" >\n\t\t\t\t\t\t\t<_bool
       abilityAllLevels=\"True\" joinLookAt=\"False\" />\n\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t<_bool
       animate=\"False\" />\n\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Lethanyal]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"5\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</7>\n\t\t\t<8
+      icon=\"8\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</7>\n\t\t\t<8
       typeID=\"2\" startLevel=\"20\" startClassID=\"4\" startClassLevel=\"1\" statusDevelopmentID=\"4\"
       lootOrigin=\"0\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -21170,7 +21350,12 @@ MonoBehaviour:
       ignoreEquipmentViewerConditions=\"False\" ownCamera=\"False\" ownBackground=\"False\"
       useAlphaMask=\"False\" useMaterial=\"False\" ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      image=\"6\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
+      image=\"9\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 typeID=\"1\" >\n\t\t\t\t\t\t\t<_bool
+      usePrefabView=\"False\" setPrefab=\"False\" ignoreEquipmentViewerConditions=\"False\"
+      ownCamera=\"False\" ownBackground=\"False\" useAlphaMask=\"False\" useMaterial=\"False\"
+      ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
+      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
+      image=\"10\" />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
       id=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t<0
       type=\"1\" id=\"15\" level=\"1\" quantity=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
       />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 type=\"2\" id=\"3\" level=\"1\" quantity=\"1\"
@@ -21200,7 +21385,7 @@ MonoBehaviour:
       type=\"8\" abilityID=\"0\" abilityLevel=\"1\" itemID=\"0\" >\n\t\t\t\t\t\t\t<_bool
       abilityAllLevels=\"True\" joinLookAt=\"False\" />\n\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t<_bool
       animate=\"False\" />\n\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Jenny]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"7\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</8>\n\t\t\t<9
+      icon=\"11\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</8>\n\t\t\t<9
       typeID=\"2\" startLevel=\"20\" startClassID=\"5\" startClassLevel=\"1\" statusDevelopmentID=\"5\"
       lootOrigin=\"0\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -21278,7 +21463,12 @@ MonoBehaviour:
       ignoreEquipmentViewerConditions=\"False\" ownCamera=\"False\" ownBackground=\"False\"
       useAlphaMask=\"False\" useMaterial=\"False\" ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      image=\"8\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
+      image=\"12\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 typeID=\"1\" >\n\t\t\t\t\t\t\t<_bool
+      usePrefabView=\"False\" setPrefab=\"False\" ignoreEquipmentViewerConditions=\"False\"
+      ownCamera=\"False\" ownBackground=\"False\" useAlphaMask=\"False\" useMaterial=\"False\"
+      ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
+      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
+      image=\"13\" />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
       id=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t<0
       type=\"2\" id=\"4\" level=\"1\" quantity=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
       />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t\t<0
@@ -21310,7 +21500,7 @@ MonoBehaviour:
       type=\"8\" abilityID=\"0\" abilityLevel=\"1\" itemID=\"0\" >\n\t\t\t\t\t\t\t<_bool
       abilityAllLevels=\"True\" joinLookAt=\"False\" />\n\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t<_bool
       animate=\"False\" />\n\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Samantha]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"9\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</9>\n\t\t\t<10
+      icon=\"14\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</9>\n\t\t\t<10
       typeID=\"2\" startLevel=\"20\" startClassID=\"6\" startClassLevel=\"1\" statusDevelopmentID=\"6\"
       lootOrigin=\"0\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -21388,7 +21578,12 @@ MonoBehaviour:
       ignoreEquipmentViewerConditions=\"False\" ownCamera=\"False\" ownBackground=\"False\"
       useAlphaMask=\"False\" useMaterial=\"False\" ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      image=\"10\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
+      image=\"15\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 typeID=\"1\" >\n\t\t\t\t\t\t\t<_bool
+      usePrefabView=\"False\" setPrefab=\"False\" ignoreEquipmentViewerConditions=\"False\"
+      ownCamera=\"False\" ownBackground=\"False\" useAlphaMask=\"False\" useMaterial=\"False\"
+      ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
+      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
+      image=\"16\" />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
       id=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t<0
       type=\"2\" id=\"5\" level=\"1\" quantity=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
       />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t\t<0
@@ -21418,7 +21613,7 @@ MonoBehaviour:
       type=\"8\" abilityID=\"0\" abilityLevel=\"1\" itemID=\"0\" >\n\t\t\t\t\t\t\t<_bool
       abilityAllLevels=\"True\" joinLookAt=\"False\" />\n\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t<_bool
       animate=\"False\" />\n\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Bethany]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"11\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</10>\n\t\t\t<11
+      icon=\"17\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</10>\n\t\t\t<11
       typeID=\"3\" startLevel=\"5\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"7\"
       lootOrigin=\"0\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -21508,7 +21703,7 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Severus]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"12\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</11>\n\t\t\t<12
+      icon=\"18\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</11>\n\t\t\t<12
       typeID=\"3\" startLevel=\"5\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"8\"
       lootOrigin=\"0\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -21601,7 +21796,7 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Asci]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"13\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</12>\n\t\t\t<13
+      icon=\"19\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</12>\n\t\t\t<13
       typeID=\"3\" startLevel=\"5\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"9\"
       lootOrigin=\"0\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -21694,7 +21889,7 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Auto-Shield]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"14\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</13>\n\t\t\t<14
+      icon=\"20\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</13>\n\t\t\t<14
       typeID=\"4\" startLevel=\"15\" startClassID=\"7\" startClassLevel=\"1\" statusDevelopmentID=\"10\"
       lootOrigin=\"1\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -21812,7 +22007,7 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Mercernary]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"15\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</14>\n\t\t\t<15
+      icon=\"21\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</14>\n\t\t\t<15
       typeID=\"4\" startLevel=\"15\" startClassID=\"7\" startClassLevel=\"1\" statusDevelopmentID=\"10\"
       lootOrigin=\"1\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -21930,7 +22125,7 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Mercernary]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"16\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</15>\n\t\t\t<16
+      icon=\"22\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</15>\n\t\t\t<16
       typeID=\"4\" startLevel=\"15\" startClassID=\"8\" startClassLevel=\"1\" statusDevelopmentID=\"10\"
       lootOrigin=\"1\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -22054,7 +22249,7 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Marksman]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"17\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</16>\n\t\t\t<17
+      icon=\"23\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</16>\n\t\t\t<17
       typeID=\"4\" startLevel=\"15\" startClassID=\"9\" startClassLevel=\"1\" statusDevelopmentID=\"10\"
       lootOrigin=\"1\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -22189,7 +22384,7 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Huntsman]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"18\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</17>\n\t\t\t<18
+      icon=\"24\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</17>\n\t\t\t<18
       typeID=\"4\" startLevel=\"15\" startClassID=\"10\" startClassLevel=\"1\" statusDevelopmentID=\"10\"
       lootOrigin=\"1\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -22319,7 +22514,7 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Heavy]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"19\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</18>\n\t\t\t<19
+      icon=\"25\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</18>\n\t\t\t<19
       typeID=\"4\" startLevel=\"18\" startClassID=\"11\" startClassLevel=\"1\" statusDevelopmentID=\"10\"
       lootOrigin=\"1\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -22412,7 +22607,7 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Engineer]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"20\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</19>\n\t\t\t<20
+      icon=\"26\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</19>\n\t\t\t<20
       typeID=\"4\" startLevel=\"18\" startClassID=\"2\" startClassLevel=\"1\" statusDevelopmentID=\"3\"
       lootOrigin=\"1\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -22546,7 +22741,7 @@ MonoBehaviour:
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Reanimated
       Corpse]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"21\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</20>\n\t\t\t<21
+      icon=\"27\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</20>\n\t\t\t<21
       typeID=\"4\" startLevel=\"5\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"7\"
       lootOrigin=\"0\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -22628,7 +22823,7 @@ MonoBehaviour:
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Sentry
       Gun]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"22\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</21>\n\t\t\t<22
+      icon=\"28\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</21>\n\t\t\t<22
       typeID=\"4\" startLevel=\"5\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"8\"
       lootOrigin=\"0\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -22712,7 +22907,7 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Heal-Bot]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"23\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</22>\n\t\t\t<23
+      icon=\"29\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</22>\n\t\t\t<23
       typeID=\"3\" startLevel=\"5\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"9\"
       lootOrigin=\"0\" autoStartBattleRequirementType=\"0\" menuID=\"0\" turnBasedMenuID=\"0\"
       activeTimeMenuID=\"0\" realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\"
@@ -22796,20 +22991,26 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Auto-Shield]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_texture2d
-      icon=\"24\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</23>\n\t\t</data>\n\t</_subarrays>\n</combatants>\n"
+      icon=\"30\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</23>\n\t\t</data>\n\t</_subarrays>\n</combatants>\n"
     lookUp:
       textures:
       - {fileID: 2800000, guid: f0c8ca843054ed94cbe88aa8f230775a, type: 3}
+      - {fileID: 2800000, guid: 7dc74d15721c3024cb670f7b1bc7f903, type: 3}
       - {fileID: 2800000, guid: f0c8ca843054ed94cbe88aa8f230775a, type: 3}
       - {fileID: 2800000, guid: 8048ab486d863bd40940617e422ba23d, type: 3}
+      - {fileID: 2800000, guid: 387fdefc4ec95194d8ccbcbd09b1dbdc, type: 3}
       - {fileID: 2800000, guid: 8048ab486d863bd40940617e422ba23d, type: 3}
       - {fileID: 2800000, guid: ca819b42be51b3540aba0f4f3ba4af44, type: 3}
+      - {fileID: 2800000, guid: ec5a1e3058ac8a1479f9525268667ea4, type: 3}
       - {fileID: 2800000, guid: ca819b42be51b3540aba0f4f3ba4af44, type: 3}
       - {fileID: 2800000, guid: a7434367141fcad42b70ad9ed468a1a4, type: 3}
+      - {fileID: 2800000, guid: b8d2d3a5072b2e84d92cae2458c75ddc, type: 3}
       - {fileID: 2800000, guid: a7434367141fcad42b70ad9ed468a1a4, type: 3}
       - {fileID: 2800000, guid: 8857d7fad2b22984ca41fc7d77b43deb, type: 3}
+      - {fileID: 2800000, guid: d21d41d519d0aae41b360473ef1ae178, type: 3}
       - {fileID: 2800000, guid: 8857d7fad2b22984ca41fc7d77b43deb, type: 3}
       - {fileID: 2800000, guid: f7903ee9e1d52514e8b25544aa7c27b3, type: 3}
+      - {fileID: 2800000, guid: e46f526ac8339734a8eed159880f94ce, type: 3}
       - {fileID: 2800000, guid: f7903ee9e1d52514e8b25544aa7c27b3, type: 3}
       - {fileID: 2800000, guid: 2bfa2695b1781894db71f9862ec82966, type: 3}
       - {fileID: 2800000, guid: 60da853a518b9134c889aa881006397f, type: 3}
@@ -23591,7 +23792,7 @@ MonoBehaviour:
       />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Standard]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<table>\n\t\t\t\t\t\t<0
       minLevel=\"1\" maxLevel=\"99\" varConOrigin=\"0\" varSetOrigin=\"0\" >\n\t\t\t\t\t\t\t<_bool
       isClassLevel=\"False\" useVarCon=\"False\" useVarSet=\"False\" varSetOnlyOnDrop=\"False\"
-      getRandom=\"False\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<money 1
+      getRandom=\"False\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<money 2
       />\n\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t\t\t\t<0
       type=\"0\" id=\"6\" level=\"1\" quantity=\"3\" >\n\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"75\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t<1 type=\"0\" id=\"1\"
@@ -23603,7 +23804,7 @@ MonoBehaviour:
       Engie]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<table>\n\t\t\t\t\t\t<0
       minLevel=\"1\" maxLevel=\"99\" varConOrigin=\"0\" varSetOrigin=\"0\" >\n\t\t\t\t\t\t\t<_bool
       isClassLevel=\"False\" useVarCon=\"False\" useVarSet=\"False\" varSetOnlyOnDrop=\"False\"
-      getRandom=\"False\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<money 0
+      getRandom=\"False\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<money 4
       />\n\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t\t\t\t<0
       type=\"1\" id=\"16\" level=\"1\" quantity=\"1\" >\n\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</itemDrop>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</table>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_bool
@@ -23611,7 +23812,7 @@ MonoBehaviour:
       Corpse]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<table>\n\t\t\t\t\t\t<0
       minLevel=\"1\" maxLevel=\"99\" varConOrigin=\"0\" varSetOrigin=\"0\" >\n\t\t\t\t\t\t\t<_bool
       isClassLevel=\"False\" useVarCon=\"False\" useVarSet=\"False\" varSetOnlyOnDrop=\"False\"
-      getRandom=\"False\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<money 0
+      getRandom=\"False\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<money 4
       />\n\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t\t\t\t<0
       type=\"2\" id=\"10\" level=\"1\" quantity=\"1\" >\n\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</itemDrop>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</table>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t</data>\n\t</_subarrays>\n</loot>\n"
@@ -23874,7 +24075,7 @@ MonoBehaviour:
   - name: battleMenus
     xmlData: "<battleMenus>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 guiBoxID=\"4\" abilityTypeBoxID=\"4\"
       abilityBoxID=\"4\" itemTypeBoxID=\"4\" itemBoxID=\"4\" targetBoxID=\"11\" equipmentPartBoxID=\"4\"
-      equipmentBoxID=\"4\" commandBoxID=\"4\" descBoxID=\"0\" portraitTypeID=\"0\"
+      equipmentBoxID=\"4\" commandBoxID=\"4\" descBoxID=\"0\" portraitTypeID=\"1\"
       itemPortraitTypeID=\"0\" equipPortraitTypeID=\"0\" aiBehaviourPortraitTypeID=\"0\"
       aiRulesetPortraitTypeID=\"0\" abilityPortraitTypeID=\"0\" targetPortraitTypeID=\"0\"
       commandPortraitTypeID=\"0\" changePortraitTypeID=\"0\" >\n\t\t\t\t<_float updateInterval=\"0.5\"
@@ -23882,15 +24083,17 @@ MonoBehaviour:
       setORKScale=\"False\" useSubBoxes=\"True\" showTitle=\"True\" selectLastTarget=\"True\"
       selectSelf=\"False\" rememberSelection=\"True\" resetSelection=\"False\" useGroupTarget=\"False\"
       useIndividualTarget=\"False\" backInBase=\"False\" useDesc=\"False\" descAlways=\"False\"
-      useDescTitle=\"False\" showPortrait=\"False\" ownPortraitPosition=\"False\"
-      showItemPortraits=\"False\" showEquipPortraits=\"False\" showAIBehaviourPortraits=\"False\"
-      showAIRulesetPortraits=\"False\" showAbilityPortraits=\"False\" showTargetPortraits=\"False\"
-      showCommandPortraits=\"False\" showChangePortraits=\"False\" ownCombatantChoice=\"False\"
-      useSubHeaders=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
-      Menu]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<title>\n\t\t\t\t\t\t<0><![CDATA[%n]]></0>\n\t\t\t\t\t</title>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<backButton
-      type=\"0\" >\n\t\t\t\t\t<_bool useCustomButton=\"False\" />\n\t\t\t\t</backButton>\n\t\t\t\t<contentLayout
+      useDescTitle=\"False\" showPortrait=\"True\" ownPortraitPosition=\"True\" showItemPortraits=\"False\"
+      showEquipPortraits=\"False\" showAIBehaviourPortraits=\"False\" showAIRulesetPortraits=\"False\"
+      showAbilityPortraits=\"False\" showTargetPortraits=\"False\" showCommandPortraits=\"False\"
+      showChangePortraits=\"False\" ownCombatantChoice=\"False\" useSubHeaders=\"False\"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle Menu]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<title>\n\t\t\t\t\t\t<0><![CDATA[%n]]></0>\n\t\t\t\t\t</title>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<backButton
+      type=\"2\" >\n\t\t\t\t\t<_bool useCustomButton=\"False\" />\n\t\t\t\t</backButton>\n\t\t\t\t<contentLayout
       type=\"2\" infoType=\"1\" >\n\t\t\t\t\t<_bool hideEmptyInfo=\"False\" />\n\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t<_bool
-      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t</customSkin>\n\t\t\t\t</contentLayout>\n\t\t\t\t<headerTexts>\n\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t</customSkin>\n\t\t\t\t</contentLayout>\n\t\t\t\t<portraitPosition
+      anchor=\"0\" boxPosition=\"0\" relativeTo=\"0\" scaleType=\"1\" >\n\t\t\t\t\t<_bool
+      isRelative=\"True\" setSize=\"True\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<position
+      75 -220 />\n\t\t\t\t\t\t<imageSize 200 220 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</portraitPosition>\n\t\t\t\t<headerTexts>\n\t\t\t\t\t<_bool
       useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t</headerTexts>\n\t\t\t\t<userHighlight>\n\t\t\t\t\t<_bool
       useCursor=\"False\" useBlink=\"False\" blinkChildren=\"True\" useBlinkHUD=\"False\"
       />\n\t\t\t\t\t<cursorMount>\n\t\t\t\t\t\t<_bool localSpace=\"True\" useRotation=\"True\"
@@ -25956,7 +26159,7 @@ MonoBehaviour:
       closeKeyID=\"5\" closeAudioType=\"3\" prevKeyID=\"0\" nextKeyID=\"0\" prevPartKeyID=\"0\"
       nextPartKeyID=\"0\" musicStoreID=\"1\" >\n\t\t\t\t<_float timeScale=\"1\" openVolume=\"1\"
       closeVolume=\"1\" failVolume=\"1\" />\n\t\t\t\t<_bool rememberSelection=\"False\"
-      allClosedResetSelection=\"False\" blockControl=\"False\" blockControlMaps=\"False\"
+      allClosedResetSelection=\"False\" blockControl=\"True\" blockControlMaps=\"False\"
       pauseNotifications=\"False\" singleScreen=\"True\" closeOn2nd=\"True\" close2ndFocused=\"False\"
       closeFocusLost=\"False\" pauseGame=\"True\" pauseTime=\"True\" freezePause=\"False\"
       setTimeScale=\"False\" setORKScale=\"False\" useKey=\"True\" useReq=\"True\"
@@ -26277,9 +26480,9 @@ MonoBehaviour:
       nextKeyID=\"0\" prevPartKeyID=\"0\" nextPartKeyID=\"0\" musicStoreID=\"1\" >\n\t\t\t\t<_float
       timeScale=\"1\" openVolume=\"1\" closeVolume=\"1\" failVolume=\"1\" />\n\t\t\t\t<_bool
       rememberSelection=\"False\" allClosedResetSelection=\"False\" blockControl=\"True\"
-      blockControlMaps=\"True\" pauseNotifications=\"False\" singleScreen=\"True\"
-      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"False\"
-      pauseTime=\"False\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
+      blockControlMaps=\"False\" pauseNotifications=\"False\" singleScreen=\"True\"
+      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"True\"
+      pauseTime=\"True\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
       useKey=\"False\" useReq=\"False\" useCloseKey=\"False\" closeKeyNoReturn=\"False\"
       closeKeyAll=\"False\" aliveUser=\"False\" noHiddenUser=\"False\" battleGroupUser=\"False\"
       allowNonPlayer=\"False\" allowComChange=\"False\" changeOnlyBattle=\"True\"
@@ -26323,9 +26526,9 @@ MonoBehaviour:
       nextKeyID=\"0\" prevPartKeyID=\"0\" nextPartKeyID=\"0\" musicStoreID=\"1\" >\n\t\t\t\t<_float
       timeScale=\"1\" openVolume=\"1\" closeVolume=\"1\" failVolume=\"1\" />\n\t\t\t\t<_bool
       rememberSelection=\"False\" allClosedResetSelection=\"False\" blockControl=\"True\"
-      blockControlMaps=\"True\" pauseNotifications=\"False\" singleScreen=\"True\"
-      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"False\"
-      pauseTime=\"False\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
+      blockControlMaps=\"False\" pauseNotifications=\"False\" singleScreen=\"True\"
+      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"True\"
+      pauseTime=\"True\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
       useKey=\"False\" useReq=\"False\" useCloseKey=\"False\" closeKeyNoReturn=\"False\"
       closeKeyAll=\"False\" aliveUser=\"False\" noHiddenUser=\"False\" battleGroupUser=\"False\"
       allowNonPlayer=\"False\" allowComChange=\"False\" changeOnlyBattle=\"True\"
@@ -26458,9 +26661,9 @@ MonoBehaviour:
       nextKeyID=\"0\" prevPartKeyID=\"0\" nextPartKeyID=\"0\" musicStoreID=\"1\" >\n\t\t\t\t<_float
       timeScale=\"1\" openVolume=\"1\" closeVolume=\"1\" failVolume=\"1\" />\n\t\t\t\t<_bool
       rememberSelection=\"False\" allClosedResetSelection=\"False\" blockControl=\"True\"
-      blockControlMaps=\"True\" pauseNotifications=\"False\" singleScreen=\"True\"
-      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"False\"
-      pauseTime=\"False\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
+      blockControlMaps=\"False\" pauseNotifications=\"False\" singleScreen=\"True\"
+      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"True\"
+      pauseTime=\"True\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
       useKey=\"False\" useReq=\"False\" useCloseKey=\"False\" closeKeyNoReturn=\"False\"
       closeKeyAll=\"False\" aliveUser=\"False\" noHiddenUser=\"False\" battleGroupUser=\"False\"
       allowNonPlayer=\"False\" allowComChange=\"False\" changeOnlyBattle=\"True\"
@@ -26505,17 +26708,16 @@ MonoBehaviour:
       nextKeyID=\"0\" prevPartKeyID=\"0\" nextPartKeyID=\"0\" musicStoreID=\"1\" >\n\t\t\t\t<_float
       timeScale=\"1\" openVolume=\"1\" closeVolume=\"1\" failVolume=\"1\" />\n\t\t\t\t<_bool
       rememberSelection=\"False\" allClosedResetSelection=\"False\" blockControl=\"True\"
-      blockControlMaps=\"True\" pauseNotifications=\"False\" singleScreen=\"True\"
-      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"False\"
-      pauseTime=\"False\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
+      blockControlMaps=\"False\" pauseNotifications=\"False\" singleScreen=\"True\"
+      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"True\"
+      pauseTime=\"True\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
       useKey=\"False\" useReq=\"False\" useCloseKey=\"False\" closeKeyNoReturn=\"False\"
       closeKeyAll=\"False\" aliveUser=\"False\" noHiddenUser=\"False\" battleGroupUser=\"False\"
       allowNonPlayer=\"False\" allowComChange=\"False\" changeOnlyBattle=\"True\"
       allowPartChange=\"False\" noGeneralBG=\"False\" ownBG=\"False\" openWaitForEvent=\"False\"
       closeWaitForEvent=\"False\" closeEventAfterFading=\"True\" eventOnlyWhenClosing=\"False\"
       ownMusic=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Status]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<part>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_bool
-      showOkButton=\"True\" showCancelButton=\"False\" unfocusedControl=\"False\"
-      />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[CombatantMenuPart]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<infoDisplay
+      showOkButton=\"True\" showCancelButton=\"True\" unfocusedControl=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[CombatantMenuPart]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<infoDisplay
       guiBoxID=\"7\" scope=\"0\" >\n\t\t\t\t\t\t\t\t<_bool isButton=\"False\" allowDragSort=\"False\"
       showChoiceIcon=\"False\" />\n\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t<pageKeys
@@ -26561,9 +26763,9 @@ MonoBehaviour:
       nextKeyID=\"0\" prevPartKeyID=\"0\" nextPartKeyID=\"0\" musicStoreID=\"1\" >\n\t\t\t\t<_float
       timeScale=\"1\" openVolume=\"1\" closeVolume=\"1\" failVolume=\"1\" />\n\t\t\t\t<_bool
       rememberSelection=\"False\" allClosedResetSelection=\"False\" blockControl=\"True\"
-      blockControlMaps=\"True\" pauseNotifications=\"False\" singleScreen=\"True\"
-      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"False\"
-      pauseTime=\"False\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
+      blockControlMaps=\"False\" pauseNotifications=\"False\" singleScreen=\"True\"
+      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"True\"
+      pauseTime=\"True\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
       useKey=\"False\" useReq=\"False\" useCloseKey=\"False\" closeKeyNoReturn=\"False\"
       closeKeyAll=\"False\" aliveUser=\"False\" noHiddenUser=\"False\" battleGroupUser=\"False\"
       allowNonPlayer=\"False\" allowComChange=\"False\" changeOnlyBattle=\"True\"
@@ -26603,9 +26805,9 @@ MonoBehaviour:
       nextKeyID=\"0\" prevPartKeyID=\"0\" nextPartKeyID=\"0\" musicStoreID=\"1\" >\n\t\t\t\t<_float
       timeScale=\"1\" openVolume=\"1\" closeVolume=\"1\" failVolume=\"1\" />\n\t\t\t\t<_bool
       rememberSelection=\"False\" allClosedResetSelection=\"False\" blockControl=\"True\"
-      blockControlMaps=\"True\" pauseNotifications=\"False\" singleScreen=\"True\"
-      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"False\"
-      pauseTime=\"False\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
+      blockControlMaps=\"False\" pauseNotifications=\"False\" singleScreen=\"True\"
+      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"True\"
+      pauseTime=\"True\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
       useKey=\"False\" useReq=\"False\" useCloseKey=\"False\" closeKeyNoReturn=\"False\"
       closeKeyAll=\"False\" aliveUser=\"False\" noHiddenUser=\"False\" battleGroupUser=\"False\"
       allowNonPlayer=\"False\" allowComChange=\"False\" changeOnlyBattle=\"True\"
@@ -26660,9 +26862,9 @@ MonoBehaviour:
       nextKeyID=\"0\" prevPartKeyID=\"0\" nextPartKeyID=\"0\" musicStoreID=\"1\" >\n\t\t\t\t<_float
       timeScale=\"1\" openVolume=\"1\" closeVolume=\"1\" failVolume=\"1\" />\n\t\t\t\t<_bool
       rememberSelection=\"False\" allClosedResetSelection=\"False\" blockControl=\"True\"
-      blockControlMaps=\"True\" pauseNotifications=\"False\" singleScreen=\"True\"
-      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"False\"
-      pauseTime=\"False\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
+      blockControlMaps=\"False\" pauseNotifications=\"False\" singleScreen=\"True\"
+      closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\" pauseGame=\"True\"
+      pauseTime=\"True\" freezePause=\"False\" setTimeScale=\"False\" setORKScale=\"False\"
       useKey=\"False\" useReq=\"False\" useCloseKey=\"False\" closeKeyNoReturn=\"False\"
       closeKeyAll=\"False\" aliveUser=\"False\" noHiddenUser=\"False\" battleGroupUser=\"False\"
       allowNonPlayer=\"False\" allowComChange=\"False\" changeOnlyBattle=\"True\"
@@ -27209,8 +27411,8 @@ MonoBehaviour:
       showInfo=\"True\" showComInfo=\"False\" showBuyCombatantInfo=\"False\" showBuyQuestion=\"False\"
       showSellQuestion=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Simple
       Layout]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<buyQuantity type=\"0\" >\n\t\t\t\t</buyQuantity>\n\t\t\t\t<sellQuantity
-      type=\"0\" >\n\t\t\t\t</sellQuantity>\n\t\t\t\t<buySellPart guiBoxID=\"0\" >\n\t\t\t\t\t<_bool
-      showBackgrounds=\"True\" useTitle=\"False\" />\n\t\t\t\t\t<contentLayout type=\"2\"
+      type=\"0\" >\n\t\t\t\t</sellQuantity>\n\t\t\t\t<buySellPart guiBoxID=\"1\" >\n\t\t\t\t\t<_bool
+      showBackgrounds=\"True\" useTitle=\"False\" />\n\t\t\t\t\t<contentLayout type=\"0\"
       infoType=\"0\" >\n\t\t\t\t\t\t<_bool hideEmptyInfo=\"False\" />\n\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t</contentLayout>\n\t\t\t\t\t<headerTexts>\n\t\t\t\t\t\t<_bool
       useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t</headerTexts>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t<0
