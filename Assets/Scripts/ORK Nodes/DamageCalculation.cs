@@ -6,11 +6,13 @@ using System.Collections.Generic;
 
 namespace ORKFramework.Formulas.Steps
 {
+	//The Physical Damage Calculation
+	//Node Tags for the help box and menu placement
 	[ORKEditorHelp("Damage Calculation", "A Custom Damage Calculation Node", "")]
 	[ORKNodeInfo("Combatant")]
     public class DamageCalculation : BaseFormulaStep
     {
-		// operator
+		//Node Options with tags that describe how they work
 			[ORKEditorHelp("Operator", "The operator decides how this formula step is calculated to the current value of the formula:\n" +
 				"- Add: Adds this step's result to the current value of the formula.\n" +
 				"- Sub: Subtracts this step's result from the current value of the formula.\n" +
@@ -48,16 +50,23 @@ namespace ORKFramework.Formulas.Steps
 		
 			public override int Calculate(FormulaCall call)
 			{
+				//Get combatant
 				Combatant c = this.origin.GetCombatant(call);
 				if(c != null)
 				{
+					//Calculate level factor of the damage
 					float leveling = (2 * call.user.Status.Level) / 5 + 2;
+					//Get attack power level from the formula (should be the initial value)
 					float power = call.result;
+					//Get the attack stat of the user
 					float attack = call.user.Status.GetValueAtLevel(4, call.user.Status.Level);
+					//Get the defence stat of the target
 					float defense = call.target.Status.GetValueAtLevel(5, call.target.Status.Level);
+					//Calculate a ratio based on the user's attack and the target's defence that will effect the final outcome
 					float AD = attack / defense;
+					//Calculate the final outcome
 					float value = (leveling * power * AD)/5 + 2;
-					Debug.Log("FINAL PHYSICAL DAMAGE: " + value);
+					//Send value to the formula handler
 					ValueHelper.UseOperator(ref call.result, value, this.formulaOperator);
 				}
 				return this.next;
@@ -65,6 +74,7 @@ namespace ORKFramework.Formulas.Steps
 		
 			public override int CalculatePreview(FormulaCall call)
 			{
+				//Same thing as the normal calculation
 				Combatant c = this.origin.GetCombatant(call);
 				if(c != null)
 				{
@@ -91,6 +101,7 @@ Name functions
 			}
     }
     
+	//The Special Damage Calculation
     [ORKEditorHelp("Special Damage Calculation", "A Custom Special Damage Calculation Node", "")]
 	[ORKNodeInfo("Combatant")]
     public class SpecialDamageCalculation : BaseFormulaStep
@@ -133,16 +144,23 @@ Name functions
 		
 			public override int Calculate(FormulaCall call)
 			{
+				//Get User Combatant
 				Combatant c = this.origin.GetCombatant(call);
 				if(c != null)
 				{
+					//Calculate level factor of the damage
 					float leveling = (2 * call.user.Status.Level) / 5 + 2;
+					//Get attack power level from the formula (should be the initial value)
 					float power = call.result;
+					//Get the user's special attack value
 					float attack = call.user.Status.GetValueAtLevel(7, call.user.Status.Level);
+					//Get the target's special defence value
 					float defense = call.target.Status.GetValueAtLevel(8, call.target.Status.Level);
+					//Calculate a ratio based on the user's special attack and the target's special defence that will effect the final outcome
 					float AD = attack / defense;
+					//Calculate the final outcome
 					float value = (leveling * power * AD)/5 + 2;
-					Debug.Log("FINAL SPECIAL DAMAGE: " + value);
+					//Send value to the formula handler
 					ValueHelper.UseOperator(ref call.result, value, this.formulaOperator);
 				}
 				return this.next;
@@ -150,6 +168,7 @@ Name functions
 		
 			public override int CalculatePreview(FormulaCall call)
 			{
+				//Same as normal calculation
 				Combatant c = this.origin.GetCombatant(call);
 				if(c != null)
 				{
@@ -175,6 +194,7 @@ Name functions
 			}
     }
     
+	//Heal Calculation Node
      [ORKEditorHelp("Heal Calculation", "A Custom Heal Calculation Node", "")]
 	[ORKNodeInfo("Combatant")]
     public class HealCalculation : BaseFormulaStep
@@ -220,6 +240,7 @@ Name functions
 				Combatant c = this.origin.GetCombatant(call);
 				if(c != null)
 				{
+					//Largely the same as a special attack but doesn't take into account the special defence of the target and reduces the damage further
 					float leveling = (2 * call.user.Status.Level) / 5 + 2;
 					float power = call.result;
 					float attack = call.user.Status.GetValueAtLevel(7, call.target.Status.Level);
